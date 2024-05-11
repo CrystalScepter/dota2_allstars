@@ -1,0 +1,186 @@
+"lang"
+{
+	//=================================================================================================================
+	// Language used by the client
+	//=================================================================================================================
+	"Language"		"English"
+	"Tokens"
+	{
+		//=================================================================================================================
+		// Name of the custom game
+		//=================================================================================================================
+		"addon_game_name"							"DotA Allstars v0.96"
+		
+		//=================================================================================================================
+		// Items sold by the Cache of the Quel'thelan, sorted by gold cost
+		//=================================================================================================================
+		"DOTA_Tooltip_Ability_item_branches_096"				"Ironwood Branch"
+		"DOTA_Tooltip_ability_item_branches_096_all_attributes"			"+$all"
+		"DOTA_Tooltip_ability_item_branches_096_Lore"				"Hi! I'm a noob."
+		
+		"DOTA_Tooltip_Ability_item_tome_of_retraining_096"			"Tome of Retraining"
+		"DOTA_Tooltip_ability_item_tome_of_retraining_096_Description"		"<h1>Use: Redistribute</h1> Unlearns all hero abilities, allowing you to reallocate the points."
+		
+		"DOTA_Tooltip_Ability_item_helm_of_iron_will_096"			"Helmet of Iron Will"
+		"DOTA_Tooltip_ability_item_helm_of_iron_will_096_bonus_armor"		"+$armor"
+		"DOTA_Tooltip_ability_item_helm_of_iron_will_096_bonus_health_regen"	"+$hp_regen"
+		"DOTA_Tooltip_ability_item_helm_of_iron_will_096_Lore"			"The helmet of a legendary warrior who fell in battle, or is it just a normal bucket?"
+		
+		"DOTA_Tooltip_Ability_item_cloak_096"					"Magus' Cloak"
+		"DOTA_Tooltip_ability_item_cloak_096_bonus_armor"			"+$armor"
+		"DOTA_Tooltip_ability_item_cloak_096_bonus_mana_regen"			"%+Mana Regen Amplification"
+		"DOTA_Tooltip_ability_item_cloak_096_Lore"				"The cloak of a powerful mage. Made in Taiwan."
+		
+		"DOTA_Tooltip_Ability_item_power_treads_096"				"Power Treads"
+		"DOTA_Tooltip_ability_item_power_treads_096_bonus_attack_speed"		"+$attack"
+		"DOTA_Tooltip_ability_item_power_treads_096_bonus_movement_speed"	"+$move_speed"
+		"DOTA_Tooltip_ability_item_power_treads_096_Lore"			"Name brand sneakers."
+		
+		"DOTA_Tooltip_Ability_item_buckler_096"					"Nethezerim Buckler"
+		"DOTA_Tooltip_ability_item_buckler_096_bonus_strength"			"+$str"
+		"DOTA_Tooltip_ability_item_buckler_096_bonus_health"			"+$health"
+		"DOTA_Tooltip_ability_item_buckler_096_bonus_armor"			"+$armor"
+		"DOTA_Tooltip_ability_item_buckler_096_Lore"				"A demonic buckler from wars fought in hell."
+		
+		"DOTA_Tooltip_Ability_item_claymore_096"				"Lothar's Claymore"
+		"DOTA_Tooltip_ability_item_claymore_096_bonus_damage"			"+$damage"
+		"DOTA_Tooltip_ability_item_claymore_096_bonus_attack_speed"		"+$attack"
+		"DOTA_Tooltip_ability_item_claymore_096_Lore"				"The legendary Lothar's sword that was dropped during the Second War. If you look closely you can still see bits of Lothar too."
+		
+		"DOTA_Tooltip_Ability_item_ultimate_orb_096"				"Ultimate Orb"
+		"DOTA_Tooltip_ability_item_ultimate_orb_096_all_attributes"		"+$all"
+		"DOTA_Tooltip_ability_item_ultimate_orb_096_Lore"			"Collect a set of four to gain the title 'Ultimus!'"
+		
+		"DOTA_Tooltip_Ability_item_sacred_relic_096"				"Sacred Relic"
+		"DOTA_Tooltip_ability_item_sacred_relic_096_bonus_damage"		"+$damage"
+		"DOTA_Tooltip_ability_item_sacred_relic_096_Lore"			"Ouch!"
+		
+		//=================================================================================================================
+		// Items sold by Sena, The Acessorizer, sorted by gold cost
+		//=================================================================================================================
+		"DOTA_Tooltip_Ability_item_gauntlets_096"				"Gauntlets of Ogre Strength"
+		"DOTA_Tooltip_ability_item_gauntlets_096_bonus_strength"		"+$str"
+		
+		"DOTA_Tooltip_Ability_item_slippers_096"				"Slippers of Agility"
+		"DOTA_Tooltip_ability_item_slippers_096_bonus_agility"			"+$agi"
+		
+		"DOTA_Tooltip_Ability_item_mantle_096"					"Mantle of Intelligence"
+		"DOTA_Tooltip_ability_item_mantle_096_bonus_intelligence"		"+$int"
+		
+		"DOTA_Tooltip_Ability_item_ring_of_regen_096"				"Ring of Regeneration"
+		"DOTA_Tooltip_ability_item_ring_of_regen_096_bonus_health_regen"	"+$hp_regen"
+		
+		"DOTA_Tooltip_Ability_item_sobi_mask_096"				"Sobi Mask"
+		"DOTA_Tooltip_ability_item_sobi_mask_096_bonus_mana_regen"		"%+Mana Regen Amplification"
+		
+		"DOTA_Tooltip_Ability_item_boots_of_speed_096"				"Boots of Speed"
+		"DOTA_Tooltip_ability_item_boots_of_speed_096_bonus_movement_speed"	"+$move_speed"
+		"DOTA_Tooltip_ability_item_boots_of_speed_096_Lore"			"Generic sneakers. Maybe the extra money is worth it..."
+		
+		"DOTA_Tooltip_Ability_item_gloves_of_haste_096"				"Gloves of Haste"
+		"DOTA_Tooltip_ability_item_gloves_of_haste_096_bonus_attack_speed"	"+$attack"
+		
+		"DOTA_Tooltip_Ability_item_belt_of_strength_096"			"Belt of Giant Strength"
+		"DOTA_Tooltip_ability_item_belt_of_strength_096_bonus_strength"		"+$str"
+		
+		"DOTA_Tooltip_Ability_item_boots_of_elves_096"				"Boots of Quel'Thalas"
+		"DOTA_Tooltip_ability_item_boots_of_elves_096_bonus_agility"		"+$agi"
+		
+		"DOTA_Tooltip_Ability_item_robe_096"					"Robe of the Magi"
+		"DOTA_Tooltip_ability_item_robe_096_bonus_intelligence"			"+$int"
+		
+		//=================================================================================================================
+		// Items sold by Beazel, The Weapons Dealer, sorted by gold cost
+		//=================================================================================================================
+		"DOTA_Tooltip_Ability_item_blades_of_attack_096"			"Blades of Attack"
+		"DOTA_Tooltip_ability_item_blades_of_attack_096_bonus_damage"		"+$damage"
+		
+		"DOTA_Tooltip_Ability_item_oblivion_staff_096"				"Oblivion Staff"
+		"DOTA_Tooltip_ability_item_oblivion_staff_096_bonus_intelligence"	"+$int"
+		"DOTA_Tooltip_ability_item_oblivion_staff_096_bonus_attack_speed"	"+$attack"
+		"DOTA_Tooltip_ability_item_oblivion_staff_096_bonus_mana"		"+$mana"
+		"DOTA_Tooltip_ability_item_oblivion_staff_096_Lore"			"A deceptively hidden artifact, disguised as an ordinary quarterstaff."
+		
+		"DOTA_Tooltip_Ability_item_ogre_axe_096"				"Ogre Axe"
+		"DOTA_Tooltip_ability_item_ogre_axe_096_bonus_strength"			"+$str"
+		"DOTA_Tooltip_ability_item_ogre_axe_096_Lore"				"You feel tougher just by holding it!"
+		
+		"DOTA_Tooltip_Ability_item_blade_of_alacrity_096"			"Blade of Alacrity"
+		"DOTA_Tooltip_ability_item_blade_of_alacrity_096_bonus_agility"		"+$agi"
+		"DOTA_Tooltip_ability_item_blade_of_alacrity_096_Lore"			"A long blade imbued with time magic."
+		
+		"DOTA_Tooltip_Ability_item_staff_of_wizardry_096"			"Staff of Wizardry"
+		"DOTA_Tooltip_ability_item_staff_of_wizardry_096_bonus_intelligence"	"+$int"
+		"DOTA_Tooltip_ability_item_staff_of_wizardry_096_Lore"			"A powerful staff used by a fallen wizard."
+		
+		"DOTA_Tooltip_Ability_item_broadsword_096"				"Crystalline Sword"
+		"DOTA_Tooltip_ability_item_broadsword_096_bonus_damage"			"+$damage"
+		"DOTA_Tooltip_ability_item_broadsword_096_Lore"				"A sword edged with crystal fibers."
+		
+		"DOTA_Tooltip_Ability_item_mithril_hammer_096"				"Mithril Hammer"
+		"DOTA_Tooltip_ability_item_mithril_hammer_096_bonus_damage"		"+$damage"
+		"DOTA_Tooltip_ability_item_mithril_hammer_096_Lore"			"A hammer forged of pure mithril. It's hammer time!"
+		
+		//=================================================================================================================
+		// Items sold by Leragas, The Vile, sorted by gold cost
+		//=================================================================================================================
+		"DOTA_Tooltip_Ability_item_void_stone_096"				"Void Stone"
+		"DOTA_Tooltip_ability_item_void_stone_096_bonus_mana_regen"		"%+Mana Regen Amplification"
+		"DOTA_Tooltip_ability_item_void_stone_096_Lore"				"A stone of seemingly endless inner power."
+		
+		"DOTA_Tooltip_Ability_item_point_booster_096"				"Point Booster"
+		"DOTA_Tooltip_ability_item_point_booster_096_bonus_health"		"+$health"
+		"DOTA_Tooltip_ability_item_point_booster_096_bonus_mana"		"+$mana"
+		"DOTA_Tooltip_ability_item_point_booster_096_Lore"			"This mystic jewel increases the reservoir of points that a hero has available to it when carried."
+		
+		"DOTA_Tooltip_Ability_item_hyperstone_096"				"Hyperstone"
+		"DOTA_Tooltip_ability_item_hyperstone_096_bonus_attack_speed"		"+$attack"
+		"DOTA_Tooltip_ability_item_hyperstone_096_Lore"				"A glowing jewel, buried under the earth for many years."
+		
+		"DOTA_Tooltip_Ability_item_demon_edge_096"				"Demon Edge"
+		"DOTA_Tooltip_ability_item_demon_edge_096_bonus_damage"			"+$damage"
+		"DOTA_Tooltip_ability_item_demon_edge_096_Lore"				"A sword of a fallen general of a Demon Army, imbued with unholy strength. Turns your skin red too!"
+		
+		//=================================================================================================================
+		// Items sold by the Goblin Merchant, sorted by gold cost
+		//=================================================================================================================
+		"DOTA_Tooltip_Ability_item_healing_potion_096"				"Potion of Healing"
+		"DOTA_Tooltip_ability_item_healing_potion_096_Description"		"<h1>Use: Imbue</h1> Instantly restores %health_restore% health."
+		
+		"DOTA_Tooltip_Ability_item_mana_potion_096"				"Potion of Mana"
+		"DOTA_Tooltip_ability_item_mana_potion_096_Description"			"<h1>Use: Replenish</h1> Instantly restores %mana_restore% mana."
+		
+		"DOTA_Tooltip_Ability_item_useless_096"					"Useless Item"
+		"DOTA_Tooltip_ability_item_useless_096_Lore"				"Is it really useless? You will have to purchase it to find out."
+		
+		//=================================================================================================================
+		// Items sold by the Blue Dreadlord, sorted by gold cost
+		//=================================================================================================================
+		"DOTA_Tooltip_Ability_item_circlet_096"					"Circlet of Nobility"
+		"DOTA_Tooltip_ability_item_circlet_096_all_attributes"			"+$all"
+		
+		"DOTA_Tooltip_Ability_item_cheese_096"					"Furbolg Cheese"
+		"DOTA_Tooltip_ability_item_cheese_096_Description"			"<h1>Use: Fondue</h1> Instantly restores %health_restore% health and %mana_restore% mana."
+		"DOTA_Tooltip_ability_item_cheese_096_Lore"				"A hunk of aged Furbolg Cheese. Doesn't taste quite right, but completely restores you. Nice one cheesedick."
+		
+		"DOTA_Tooltip_Ability_item_null_talisman_096"				"Null Talisman"
+		"DOTA_Tooltip_ability_item_null_talisman_096_all_attributes"		"+$all"
+		"DOTA_Tooltip_ability_item_null_talisman_096_bonus_intelligence"	"+$int"
+		"DOTA_Tooltip_ability_item_null_talisman_096_bonus_armor"		"+$armor"
+		"DOTA_Tooltip_ability_item_null_talisman_096_Lore"			"A small gemstone attached to several chains."
+		
+		"DOTA_Tooltip_Ability_item_energy_booster_096"				"Energy Booster"
+		"DOTA_Tooltip_ability_item_energy_booster_096_bonus_mana"		"+$mana"
+		"DOTA_Tooltip_ability_item_energy_booster_096_Lore"			"This artifact of the Kelani Magi is said to hold the power to make constructs out of pure cocaine."
+		
+		"DOTA_Tooltip_Ability_item_vitality_booster_096"			"Vitality Booster"
+		"DOTA_Tooltip_ability_item_vitality_booster_096_bonus_health"		"+$health"
+		
+		//=================================================================================================================
+		// Custom error messages
+		//=================================================================================================================
+		"dota_hud_error_hero_is_full_health"					"Already at full health"
+		"dota_hud_error_hero_is_full_mana"					"Already at full mana"
+		"dota_hud_error_hero_is_full_health_and_mana"				"Already at full health and mana"
+	}
+}

@@ -1,0 +1,60 @@
+"dota_shops"
+{
+	//=================================================================================================================
+	// The layout for the shops is currently disorganized because they're being used as a placeholder
+	// for testing purposes until a proper system is implemented with custom shops
+	//=================================================================================================================
+	"consumables"
+	{
+		"item"		"item_circlet_096"
+		"item"		"item_null_talisman_096"
+		"item"		"item_energy_booster_096"
+		"item"		"item_vitality_booster_096"
+		"item"		"item_cheese_096"
+		"item"		"item_useless_096"
+		"item"		"item_healing_potion_096"
+		"item"		"item_mana_potion_096"
+		"item"		"item_tome_of_retraining_096"
+	}
+
+	"attributes"
+	{
+		"item"		"item_branches_096"
+		"item"		"item_gauntlets_096"
+		"item"		"item_slippers_096"
+		"item"		"item_mantle_096"
+		"item"		"item_belt_of_strength_096"
+		"item"		"item_boots_of_elves_096"
+		"item"		"item_robe_096"
+		"item"		"item_ogre_axe_096"
+		"item"		"item_blade_of_alacrity_096"
+		"item"		"item_staff_of_wizardry_096"
+		"item"		"item_ultimate_orb_096"
+	}
+
+	"weapons_armor"
+	{
+		"item"		"item_blades_of_attack_096"
+		"item"		"item_gloves_of_haste_096"
+		"item"		"item_oblivion_staff_096"
+		"item"		"item_broadsword_096"
+		"item"		"item_mithril_hammer_096"
+		"item"		"item_claymore_096"
+		"item"		"item_sacred_relic_096"
+		"item"		"item_void_stone_096"
+		"item"		"item_point_booster_096"
+		"item"		"item_hyperstone_096"
+		"item"		"item_demon_edge_096"
+	}
+
+	"misc"
+	{
+		"item"		"item_ring_of_regen_096"
+		"item"		"item_sobi_mask_096"
+		"item"		"item_boots_of_speed_096"
+		"item"		"item_helm_of_iron_will_096"
+		"item"		"item_cloak_096"
+		"item"		"item_power_treads_096"
+		"item"		"item_buckler_096"
+	}
+}
