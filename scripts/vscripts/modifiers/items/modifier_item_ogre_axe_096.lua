@@ -1,12 +1,7 @@
 modifier_item_ogre_axe_096 = class({})
 
 -- Called when the modifier is created
-function modifier_item_ogre_axe_096:OnCreated ( kv )
-	self.bonus_strength = self:GetAbility():GetSpecialValueFor("bonus_strength")
-end
-
--- Called when the modifier is refreshed
-function modifier_item_ogre_axe_096:OnRefresh ( kv )
+function modifier_item_ogre_axe_096:OnCreated( kv )
 	self.bonus_strength = self:GetAbility():GetSpecialValueFor("bonus_strength")
 end
 

@@ -1,12 +1,7 @@
 modifier_item_boots_of_speed_096 = class({})
 
 -- Called when the modifier is created
-function modifier_item_boots_of_speed_096:OnCreated ( kv )
-	self.bonus_movement_speed = self:GetAbility():GetSpecialValueFor("bonus_movement_speed")
-end
-
--- Called when the modifier is refreshed
-function modifier_item_boots_of_speed_096:OnRefresh ( kv )
+function modifier_item_boots_of_speed_096:OnCreated( kv )
 	self.bonus_movement_speed = self:GetAbility():GetSpecialValueFor("bonus_movement_speed")
 end
 

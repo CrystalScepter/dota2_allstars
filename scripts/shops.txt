@@ -15,6 +15,7 @@
 		"item"		"item_healing_potion_096"
 		"item"		"item_mana_potion_096"
 		"item"		"item_tome_of_retraining_096"
+		"item"		"item_bloodfury_096"
 	}
 
 	"attributes"

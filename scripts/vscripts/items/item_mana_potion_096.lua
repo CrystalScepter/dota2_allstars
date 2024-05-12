@@ -4,8 +4,10 @@ item_mana_potion_096 = class({})
 function item_mana_potion_096:CastFilterResult()
 
 	-- Verifies if the hero is full mana and prevents the item from being used
-	if self:GetCaster():GetManaPercent() == 100 then
-		return UF_FAIL_CUSTOM
+	if IsServer() then
+		if self:GetCaster():GetManaPercent() == 100 then
+			return UF_FAIL_CUSTOM
+		end
 	end
 	
 	-- Use the item is the hero is not full mana

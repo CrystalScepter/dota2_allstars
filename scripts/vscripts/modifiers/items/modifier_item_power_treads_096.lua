@@ -1,13 +1,7 @@
 modifier_item_power_treads_096 = class({})
 
 -- Called when the modifier is created
-function modifier_item_power_treads_096:OnCreated ( kv )
-	self.bonus_attack_speed = self:GetAbility():GetSpecialValueFor("bonus_attack_speed")
-	self.bonus_movement_speed = self:GetAbility():GetSpecialValueFor("bonus_movement_speed")
-end
-
--- Called when the modifier is refreshed
-function modifier_item_power_treads_096:OnRefresh ( kv )
+function modifier_item_power_treads_096:OnCreated( kv )
 	self.bonus_attack_speed = self:GetAbility():GetSpecialValueFor("bonus_attack_speed")
 	self.bonus_movement_speed = self:GetAbility():GetSpecialValueFor("bonus_movement_speed")
 end

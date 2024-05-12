@@ -964,6 +964,43 @@
 	}
 	
 	//=================================================================================================================
+	// Bloodfury
+	//=================================================================================================================
+	"item_bloodfury_096"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass" 					"item_lua"
+		"AbilityTextureName"            		"item_bloodthorn"
+		"ScriptFile"                  			"items/item_bloodfury_096.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		// Information
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemCost"					"2500"
+		"ItemStockInitial" 				"0"
+		"ItemStockMax" 					"1"
+		"ItemStockTime" 				"5"
+		
+		// Special Properties
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_damage"			"18"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_lifesteal"		"15"
+			}
+		}
+	}
+	
+	//=================================================================================================================
 	// Point Booster
 	//=================================================================================================================
 	"item_point_booster_096"
@@ -1261,6 +1298,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass" 					"item_lua"
 		"AbilityTextureName"            		"item_elixer"
+		"ScriptFile"                  			"items/item_useless_096.lua"
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information

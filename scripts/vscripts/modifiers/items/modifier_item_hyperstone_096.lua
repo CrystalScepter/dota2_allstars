@@ -1,12 +1,7 @@
 modifier_item_hyperstone_096 = class({})
 
 -- Called when the modifier is created
-function modifier_item_hyperstone_096:OnCreated ( kv )
-	self.bonus_attack_speed = self:GetAbility():GetSpecialValueFor("bonus_attack_speed")
-end
-
--- Called when the modifier is refreshed
-function modifier_item_hyperstone_096:OnRefresh ( kv )
+function modifier_item_hyperstone_096:OnCreated( kv )
 	self.bonus_attack_speed = self:GetAbility():GetSpecialValueFor("bonus_attack_speed")
 end
 

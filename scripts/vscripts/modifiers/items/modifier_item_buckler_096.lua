@@ -1,14 +1,7 @@
 modifier_item_buckler_096 = class({})
 
 -- Called when the modifier is created
-function modifier_item_buckler_096:OnCreated ( kv )
-	self.bonus_strength = self:GetAbility():GetSpecialValueFor("bonus_strength")
-	self.bonus_health = self:GetAbility():GetSpecialValueFor("bonus_health")
-	self.bonus_armor = self:GetAbility():GetSpecialValueFor("bonus_armor")
-end
-
--- Called when the modifier is refreshed
-function modifier_item_buckler_096:OnRefresh ( kv )
+function modifier_item_buckler_096:OnCreated( kv )
 	self.bonus_strength = self:GetAbility():GetSpecialValueFor("bonus_strength")
 	self.bonus_health = self:GetAbility():GetSpecialValueFor("bonus_health")
 	self.bonus_armor = self:GetAbility():GetSpecialValueFor("bonus_armor")

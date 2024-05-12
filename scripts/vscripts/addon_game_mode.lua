@@ -9,6 +9,9 @@ function Activate()
 	GameRules:SetStrategyTime(0)
 	GameRules:SetShowcaseTime(0)
 	
+	-- Allows you to purchase items quickly for testing purposes
+	GameRules:SetStartingGold(75000)
+	
 	-- Enable sandbox commands in DotA for testing purposes
 	SendToConsole ( "sv_cheats 1" )
 end

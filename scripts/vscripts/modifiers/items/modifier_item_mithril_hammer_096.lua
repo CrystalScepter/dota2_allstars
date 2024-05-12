@@ -1,12 +1,7 @@
 modifier_item_mithril_hammer_096 = class({})
 
 -- Called when the modifier is created
-function modifier_item_mithril_hammer_096:OnCreated ( kv )
-	self.bonus_damage = self:GetAbility():GetSpecialValueFor("bonus_damage")
-end
-
--- Called when the modifier is refreshed
-function modifier_item_mithril_hammer_096:OnRefresh ( kv )
+function modifier_item_mithril_hammer_096:OnCreated( kv )
 	self.bonus_damage = self:GetAbility():GetSpecialValueFor("bonus_damage")
 end
 

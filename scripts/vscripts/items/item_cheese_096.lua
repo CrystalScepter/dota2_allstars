@@ -4,8 +4,10 @@ item_cheese_096 = class({})
 function item_cheese_096:CastFilterResult()
 
 	-- Verifies if the hero is full health and mana and prevents the item from being used
-	if self:GetCaster():GetHealthPercent() == 100 and self:GetCaster():GetManaPercent() == 100 then
-		return UF_FAIL_CUSTOM
+	if IsServer() then
+		if self:GetCaster():GetHealthPercent() == 100 and self:GetCaster():GetManaPercent() == 100 then
+			return UF_FAIL_CUSTOM
+		end
 	end
 	
 	-- Use the item is the hero is not full on both health and mana

@@ -1,12 +1,7 @@
 modifier_item_mantle_096 = class({})
 
 -- Called when the modifier is created
-function modifier_item_mantle_096:OnCreated ( kv )
-	self.bonus_intelligence = self:GetAbility():GetSpecialValueFor("bonus_intelligence")
-end
-
--- Called when the modifier is refreshed
-function modifier_item_mantle_096:OnRefresh ( kv )
+function modifier_item_mantle_096:OnCreated( kv )
 	self.bonus_intelligence = self:GetAbility():GetSpecialValueFor("bonus_intelligence")
 end
 

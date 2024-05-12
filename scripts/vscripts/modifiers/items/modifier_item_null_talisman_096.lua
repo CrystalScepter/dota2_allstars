@@ -1,15 +1,7 @@
 modifier_item_null_talisman_096 = class({})
 
 -- Called when the modifier is created
-function modifier_item_null_talisman_096:OnCreated ( kv )
-	self.bonus_strength = self:GetAbility():GetSpecialValueFor("all_attributes")
-	self.bonus_agility = self:GetAbility():GetSpecialValueFor("all_attributes")
-	self.bonus_intelligence = self:GetAbility():GetSpecialValueFor("all_attributes") + self:GetAbility():GetSpecialValueFor("bonus_intelligence")
-	self.bonus_armor = self:GetAbility():GetSpecialValueFor("bonus_armor")
-end
-
--- Called when the modifier is refreshed
-function modifier_item_null_talisman_096:OnRefresh ( kv )
+function modifier_item_null_talisman_096:OnCreated( kv )
 	self.bonus_strength = self:GetAbility():GetSpecialValueFor("all_attributes")
 	self.bonus_agility = self:GetAbility():GetSpecialValueFor("all_attributes")
 	self.bonus_intelligence = self:GetAbility():GetSpecialValueFor("all_attributes") + self:GetAbility():GetSpecialValueFor("bonus_intelligence")

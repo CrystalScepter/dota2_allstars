@@ -133,6 +133,12 @@
 		"DOTA_Tooltip_ability_item_point_booster_096_bonus_mana"		"+$mana"
 		"DOTA_Tooltip_ability_item_point_booster_096_Lore"			"This mystic jewel increases the reservoir of points that a hero has available to it when carried."
 		
+		"DOTA_Tooltip_Ability_item_bloodfury_096"				"Bloodfury"
+		"DOTA_Tooltip_ability_item_bloodfury_096_bonus_damage"			"+$damage"
+		"DOTA_Tooltip_ability_item_bloodfury_096_bonus_lifesteal"		"%+$lifesteal"
+		"DOTA_Tooltip_ability_item_bloodfury_096_Lore"				"An ancient sword that is attracted to the blood of enemies."
+		"DOTA_Tooltip_ability_item_bloodfury_096_Note0"				"Multiple sources of lifesteal do not stack."
+		
 		"DOTA_Tooltip_Ability_item_hyperstone_096"				"Hyperstone"
 		"DOTA_Tooltip_ability_item_hyperstone_096_bonus_attack_speed"		"+$attack"
 		"DOTA_Tooltip_ability_item_hyperstone_096_Lore"				"A glowing jewel, buried under the earth for many years."

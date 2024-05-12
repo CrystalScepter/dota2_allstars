@@ -1,12 +1,7 @@
 modifier_item_vitality_booster_096 = class({})
 
 -- Called when the modifier is created
-function modifier_item_vitality_booster_096:OnCreated ( kv )
-	self.bonus_health = self:GetAbility():GetSpecialValueFor("bonus_health")
-end
-
--- Called when the modifier is refreshed
-function modifier_item_vitality_booster_096:OnRefresh ( kv )
+function modifier_item_vitality_booster_096:OnCreated( kv )
 	self.bonus_health = self:GetAbility():GetSpecialValueFor("bonus_health")
 end
 
