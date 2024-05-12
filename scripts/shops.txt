@@ -57,5 +57,6 @@
 		"item"		"item_cloak_096"
 		"item"		"item_power_treads_096"
 		"item"		"item_buckler_096"
+		"item"		"item_bladeturn_necklace_096"
 	}
 }
