@@ -11,6 +11,19 @@ function modifier_item_tango_096:OnCreated( kv )
 		
 		-- Start the 1 second interval for healing
 		self:StartIntervalThink( self.interval )
+		
+		-- Creates the tango effect particle
+		self.tango_particle = ParticleManager:CreateParticle( "particles/items_fx/healing_tango.vpcf", PATTACH_ABSORIGIN_FOLLOW, self:GetParent() )
+	end
+end
+
+-- Called when the modifier is destroyed
+function modifier_item_tango_096:OnDestroy()
+	if IsServer() then
+		
+		-- Destroys the particle created when the item was used
+		ParticleManager:DestroyParticle( self.tango_particle, false )
+		ParticleManager:ReleaseParticleIndex( self.tango_particle )
 	end
 end
 

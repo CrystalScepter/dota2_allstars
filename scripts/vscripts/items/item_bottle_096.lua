@@ -11,7 +11,7 @@ function item_bottle_096:OnSpellStart()
 	local target = self:GetCursorTarget()
 	
 	-- Plays the corresponding sound
-	self:GetCaster():EmitSound( "DOTA_Item.HealingSalve.Activate" )
+	self:GetCaster():EmitSound( "Bottle.Drink" )
 	
 	-- Creates the modifier on the target
 	target:AddNewModifier( caster, self, "modifier_item_bottle_096", nil )

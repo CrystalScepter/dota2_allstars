@@ -11,6 +11,19 @@ function modifier_item_bottle_096:OnCreated( kv )
 		
 		-- Start the 1 second interval for healing
 		self:StartIntervalThink( self.interval )
+		
+		-- Creates the bottle effect particle
+		self.bottle_particle = ParticleManager:CreateParticle( "particles/items_fx/bottle.vpcf", PATTACH_ABSORIGIN_FOLLOW, self:GetCaster() )
+	end
+end
+
+-- Called when the modifier is destroyed
+function modifier_item_bottle_096:OnDestroy()
+	if IsServer() then
+		
+		-- Destroys the particle created when the item was used
+		ParticleManager:DestroyParticle( self.bottle_particle, false )
+		ParticleManager:ReleaseParticleIndex( self.bottle_particle )
 	end
 end
 
