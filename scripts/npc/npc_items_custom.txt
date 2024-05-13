@@ -1289,6 +1289,58 @@
 	}
 	
 	//=================================================================================================================
+	// Ancient Knowledge Stone
+	//=================================================================================================================
+	"item_tango_096"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass" 					"item_lua"
+		"Model"						"models/props_gameplay/tango.vmdl"
+		"AbilityTextureName"            		"item_tango"
+		"ScriptFile"                  			"items/item_tango_096.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetType"				"DOTA_UNIT_TARGET_TREE"
+		
+		// Information
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemCost"					"600"
+		"ItemStockInitial" 				"0"
+		"ItemStockMax" 					"1"
+		"ItemStockTime" 				"5"
+		"ItemInitialCharges"				"8"
+		"ItemStackable"					"0"
+		"ItemPermanent"					"0"
+		
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"32"
+		"SpellDispellableType"				"SPELL_DISPELLABLE_YES"
+		
+		// Special Properties
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"health_restore"		"500"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"duration"			"15"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"heal_interval"			"1.0"
+			}
+		}
+	}
+	
+	//=================================================================================================================
 	// Mana Potion
 	//=================================================================================================================
 	"item_mana_potion_096"

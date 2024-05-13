@@ -26,7 +26,7 @@ function item_healing_potion_096:OnSpellStart()
 	local health_restore = self:GetSpecialValueFor( "health_restore" )
 	
 	-- Plays the corresponding sound
-	self:GetCaster():EmitSound( "DOTA_Item.ClarityPotion.Activate")
+	self:GetCaster():EmitSound( "DOTA_Item.ClarityPotion.Activate" )
 	
 	-- Increases health according to the value in npc_items_custom
 	self:GetCaster():Heal( health_restore, self )

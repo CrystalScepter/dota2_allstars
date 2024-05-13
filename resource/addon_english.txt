@@ -152,7 +152,7 @@
 		
 		"DOTA_Tooltip_Ability_item_demon_edge_096"				"Demon Edge"
 		"DOTA_Tooltip_ability_item_demon_edge_096_bonus_damage"			"+$damage"
-		"DOTA_Tooltip_ability_item_demon_edge_096_Lore"				"A sword of a fallen general of a Demon Army, imbued with unholy strength. Turns your skin red too!"
+		"DOTA_Tooltip_ability_item_demon_edge_096_Lore"				"A sword of a fallen general of a demon army, imbued with unholy strength. Turns your skin red too!"
 		
 		//=================================================================================================================
 		// Items sold by the Goblin Merchant, sorted by gold cost
@@ -175,6 +175,13 @@
 		"DOTA_Tooltip_Ability_item_cheese_096"					"Furbolg Cheese"
 		"DOTA_Tooltip_ability_item_cheese_096_Description"			"<h1>Use: Fondue</h1> Instantly restores %health_restore% health and %mana_restore% mana."
 		"DOTA_Tooltip_ability_item_cheese_096_Lore"				"A hunk of aged Furbolg Cheese. Doesn't taste quite right, but completely restores you. Nice one cheesedick."
+		
+		"DOTA_Tooltip_Ability_item_tango_096"					"Ancient Knowledge Stone"
+		"DOTA_Tooltip_ability_item_tango_096_Description"			"<h1>Active: Regenerate</h1>Consumes a target tree and restore %health_restore% health over %duration% seconds."
+		"DOTA_Tooltip_ability_item_tango_096_Lore"				"This mystic stone grants the hero holding it with knowledge of the ancient ents."
+		
+		"DOTA_Tooltip_modifier_item_tango_096"					"Ancient Knowledge Stone"
+		"DOTA_Tooltip_modifier_item_tango_096_Description"			"Restoring health."
 		
 		"DOTA_Tooltip_Ability_item_null_talisman_096"				"Null Talisman"
 		"DOTA_Tooltip_ability_item_null_talisman_096_all_attributes"		"+$all"

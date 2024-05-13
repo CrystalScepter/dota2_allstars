@@ -27,7 +27,7 @@ function item_cheese_096:OnSpellStart()
 	local mana_restore = self:GetSpecialValueFor( "mana_restore" )
 	
 	-- Plays the corresponding sound
-	self:GetCaster():EmitSound( "DOTA_Item.Cheese.Activate")
+	self:GetCaster():EmitSound( "DOTA_Item.Cheese.Activate" )
 	
 	-- Increases health and mana according to the values in npc_items_custom
 	self:GetCaster():Heal( health_restore, self )

@@ -59,5 +59,6 @@
 		"item"		"item_buckler_096"
 		"item"		"item_bladeturn_necklace_096"
 		"item"		"item_bottle_096"
+		"item"		"item_tango_096"
 	}
 }

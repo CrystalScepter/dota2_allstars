@@ -26,7 +26,7 @@ function item_mana_potion_096:OnSpellStart()
 	local mana_restore = self:GetSpecialValueFor( "mana_restore" )
 	
 	-- Plays the corresponding sound
-	self:GetCaster():EmitSound( "DOTA_Item.ClarityPotion.Activate")
+	self:GetCaster():EmitSound( "DOTA_Item.ClarityPotion.Activate" )
 	
 	-- Increases mana according to the value in npc_items_custom
 	self:GetCaster():GiveMana( mana_restore )
