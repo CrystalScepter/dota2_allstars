@@ -1235,6 +1235,60 @@
 	}
 	
 	//=================================================================================================================
+	// Flask of Sapphire Water
+	//=================================================================================================================
+	"item_bottle_096"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass" 					"item_lua"
+		"Model"						"models/props_gameplay/bottle_blue.vmdl"
+		"AbilityTextureName"            		"item_bottle"
+		"ScriptFile"                  			"items/item_bottle_096.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"				"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"				"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+		
+		// Information
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemCost"					"300"
+		"ItemStockInitial" 				"0"
+		"ItemStockMax" 					"1"
+		"ItemStockTime" 				"5"
+		"ItemInitialCharges"				"4"
+		"ItemStackable"					"0"
+		"ItemPermanent"					"0"
+		
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"5"
+		"AbilityCastRange"				"400"
+		"SpellDispellableType"				"SPELL_DISPELLABLE_YES"
+		
+		// Special Properties
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"health_restore"		"400"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"duration"			"12"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"heal_interval"			"1.0"
+			}
+		}
+	}
+	
+	//=================================================================================================================
 	// Mana Potion
 	//=================================================================================================================
 	"item_mana_potion_096"
