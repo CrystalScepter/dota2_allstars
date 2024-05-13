@@ -37,7 +37,7 @@ function modifier_item_bloodfury_096:OnAttacked( params )
 	end
 	
 	-- If the target is a building, return
-	if params.target:IsBuilding() == true then
+	if params.target:IsBuilding() then
 		return
 	end
 	

@@ -1149,6 +1149,58 @@
 	}
 	
 	//=================================================================================================================
+	// Spider Queen's Band
+	//=================================================================================================================
+	"item_spider_queen_096"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass" 					"item_lua"
+		"AbilityTextureName"            		"item_ring_of_aquila"
+		"ScriptFile"                  			"items/item_spider_queen_096.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		// Information
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemCost"					"750"
+		"ItemStockInitial" 				"0"
+		"ItemStockMax" 					"1"
+		"ItemStockTime" 				"5"
+		
+		// Special Properties
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"all_attributes"		"3"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"poison_damage"			"2"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"duration_hero"			"10"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"duration_creep"		"20"
+			}
+			"05"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"poison_interval"		"1.0"
+			}
+		}
+	}
+	
+	//=================================================================================================================
 	// Bladeturn Necklace
 	//=================================================================================================================
 	"item_bladeturn_necklace_096"
