@@ -2,8 +2,8 @@ modifier_item_spider_queen_096_poison = class({})
 
 -- Called when the modifier is created
 function modifier_item_spider_queen_096_poison:OnCreated( kv )
-	self.poison_damage = self:GetAbility():GetSpecialValueFor("poison_damage")
-	self.interval = self:GetAbility():GetSpecialValueFor("poison_interval")
+	self.poison_damage = self:GetAbility():GetSpecialValueFor( "poison_damage" )
+	self.interval = self:GetAbility():GetSpecialValueFor( "poison_interval" )
 	
 	if IsServer() then
 		

@@ -2,8 +2,8 @@ modifier_item_claymore_096 = class({})
 
 -- Called when the modifier is created
 function modifier_item_claymore_096:OnCreated( kv )
-	self.bonus_damage = self:GetAbility():GetSpecialValueFor("bonus_damage")
-	self.bonus_attack_speed = self:GetAbility():GetSpecialValueFor("bonus_attack_speed")
+	self.bonus_damage = self:GetAbility():GetSpecialValueFor( "bonus_damage" )
+	self.bonus_attack_speed = self:GetAbility():GetSpecialValueFor( "bonus_attack_speed" )
 end
 
 -- Returns the events and properties our modifier affects

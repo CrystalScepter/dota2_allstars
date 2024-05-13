@@ -2,7 +2,7 @@ modifier_item_bladeturn_necklace_096_aura = class({})
 
 -- Called when the modifier is created
 function modifier_item_bladeturn_necklace_096_aura:OnCreated( kv )
-	self.bonus_armor = self:GetAbility():GetSpecialValueFor("aura_armor")
+	self.bonus_armor = self:GetAbility():GetSpecialValueFor( "aura_armor" )
 end
 
 -- Returns the events and properties our modifier affects

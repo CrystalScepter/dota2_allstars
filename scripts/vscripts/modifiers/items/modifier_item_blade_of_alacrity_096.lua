@@ -2,7 +2,7 @@ modifier_item_blade_of_alacrity_096 = class({})
 
 -- Called when the modifier is created
 function modifier_item_blade_of_alacrity_096:OnCreated( kv )
-	self.bonus_agility = self:GetAbility():GetSpecialValueFor("bonus_agility")
+	self.bonus_agility = self:GetAbility():GetSpecialValueFor( "bonus_agility" )
 end
 
 -- Returns the events and properties our modifier affects

@@ -2,7 +2,7 @@ modifier_item_gloves_of_haste_096 = class({})
 
 -- Called when the modifier is created
 function modifier_item_gloves_of_haste_096:OnCreated( kv )
-	self.bonus_attack_speed = self:GetAbility():GetSpecialValueFor("bonus_attack_speed")
+	self.bonus_attack_speed = self:GetAbility():GetSpecialValueFor( "bonus_attack_speed" )
 end
 
 -- Returns the events and properties our modifier affects

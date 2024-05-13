@@ -2,7 +2,7 @@ modifier_item_blades_of_attack_096 = class({})
 
 -- Called when the modifier is created
 function modifier_item_blades_of_attack_096:OnCreated( kv )
-	self.bonus_damage = self:GetAbility():GetSpecialValueFor("bonus_damage")
+	self.bonus_damage = self:GetAbility():GetSpecialValueFor( "bonus_damage" )
 end
 
 -- Returns the events and properties our modifier affects

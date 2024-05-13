@@ -2,7 +2,7 @@ modifier_item_vitality_booster_096 = class({})
 
 -- Called when the modifier is created
 function modifier_item_vitality_booster_096:OnCreated( kv )
-	self.bonus_health = self:GetAbility():GetSpecialValueFor("bonus_health")
+	self.bonus_health = self:GetAbility():GetSpecialValueFor( "bonus_health" )
 end
 
 -- Returns the events and properties our modifier affects

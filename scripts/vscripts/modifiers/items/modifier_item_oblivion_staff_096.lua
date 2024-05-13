@@ -2,9 +2,9 @@ modifier_item_oblivion_staff_096 = class({})
 
 -- Called when the modifier is created
 function modifier_item_oblivion_staff_096:OnCreated( kv )
-	self.bonus_intelligence = self:GetAbility():GetSpecialValueFor("bonus_intelligence")
-	self.bonus_attack_speed = self:GetAbility():GetSpecialValueFor("bonus_attack_speed")
-	self.bonus_mana = self:GetAbility():GetSpecialValueFor("bonus_mana")
+	self.bonus_intelligence = self:GetAbility():GetSpecialValueFor( "bonus_intelligence" )
+	self.bonus_attack_speed = self:GetAbility():GetSpecialValueFor( "bonus_attack_speed" )
+	self.bonus_mana = self:GetAbility():GetSpecialValueFor( "bonus_mana" )
 end
 
 -- Returns the events and properties our modifier affects

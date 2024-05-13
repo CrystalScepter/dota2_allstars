@@ -2,8 +2,8 @@ modifier_item_bloodfury_096 = class({})
 
 -- Called when the modifier is created
 function modifier_item_bloodfury_096:OnCreated( kv )
-	self.bonus_damage = self:GetAbility():GetSpecialValueFor("bonus_damage")
-	self.bonus_lifesteal = self:GetAbility():GetSpecialValueFor("bonus_lifesteal")
+	self.bonus_damage = self:GetAbility():GetSpecialValueFor( "bonus_damage" )
+	self.bonus_lifesteal = self:GetAbility():GetSpecialValueFor( "bonus_lifesteal" )
 end
 
 -- Returns the events and properties our modifier affects

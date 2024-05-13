@@ -3,11 +3,11 @@ LinkLuaModifier( "modifier_item_spider_queen_096_poison", "modifiers/items/modif
 
 -- Called when the modifier is created
 function modifier_item_spider_queen_096:OnCreated( kv )
-	self.bonus_strength = self:GetAbility():GetSpecialValueFor("all_attributes")
-	self.bonus_agility = self:GetAbility():GetSpecialValueFor("all_attributes")
-	self.bonus_intelligence = self:GetAbility():GetSpecialValueFor("all_attributes")
-	self.duration_hero = self:GetAbility():GetSpecialValueFor("duration_hero")
-	self.duration_creep = self:GetAbility():GetSpecialValueFor("duration_creep")
+	self.bonus_strength = self:GetAbility():GetSpecialValueFor( "all_attributes" )
+	self.bonus_agility = self:GetAbility():GetSpecialValueFor( "all_attributes" )
+	self.bonus_intelligence = self:GetAbility():GetSpecialValueFor( "all_attributes" )
+	self.duration_hero = self:GetAbility():GetSpecialValueFor( "duration_hero" )
+	self.duration_creep = self:GetAbility():GetSpecialValueFor( "duration_creep" )
 end
 
 -- Returns the events and properties our modifier affects

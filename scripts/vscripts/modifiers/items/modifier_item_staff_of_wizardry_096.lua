@@ -2,7 +2,7 @@ modifier_item_staff_of_wizardry_096 = class({})
 
 -- Called when the modifier is created
 function modifier_item_staff_of_wizardry_096:OnCreated( kv )
-	self.bonus_intelligence = self:GetAbility():GetSpecialValueFor("bonus_intelligence")
+	self.bonus_intelligence = self:GetAbility():GetSpecialValueFor( "bonus_intelligence" )
 end
 
 -- Returns the events and properties our modifier affects
