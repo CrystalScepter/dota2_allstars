@@ -148,6 +148,11 @@
 		"DOTA_Tooltip_ability_item_point_booster_096_bonus_mana"		"+$mana"
 		"DOTA_Tooltip_ability_item_point_booster_096_Lore"			"This mystic jewel increases the reservoir of points that a hero has available to it when carried."
 		
+		"DOTA_Tooltip_Ability_item_generator_096"				"Generator"
+		"DOTA_Tooltip_ability_item_generator_096_Description"			"<h1>Passive: True Sight</h1>Grants the ability to see invisible units to any allied vision within %radius% range of its carrier."
+		"DOTA_Tooltip_ability_item_generator_096_bonus_health_regen"		"+$hp_regen"
+		"DOTA_Tooltip_ability_item_generator_096_bonus_mana_regen"		"%+Mana Regen Amplification"
+		
 		"DOTA_Tooltip_Ability_item_bloodfury_096"				"Bloodfury"
 		"DOTA_Tooltip_ability_item_bloodfury_096_bonus_damage"			"+$damage"
 		"DOTA_Tooltip_ability_item_bloodfury_096_bonus_lifesteal"		"%+$lifesteal"

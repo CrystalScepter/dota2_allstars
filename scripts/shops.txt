@@ -33,6 +33,7 @@
 		"item"		"item_blade_of_alacrity_096"
 		"item"		"item_staff_of_wizardry_096"
 		"item"		"item_ultimate_orb_096"
+		"item"		"item_generator_096"
 	}
 
 	"weapons_armor"
