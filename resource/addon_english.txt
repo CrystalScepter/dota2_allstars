@@ -43,6 +43,14 @@
 		"DOTA_Tooltip_ability_item_power_treads_096_bonus_movement_speed"	"+$move_speed"
 		"DOTA_Tooltip_ability_item_power_treads_096_Lore"			"Name brand sneakers."
 		
+		"DOTA_Tooltip_Ability_item_lavabuster_096"				"Lavabuster"
+		"DOTA_Tooltip_ability_item_lavabuster_096_Description"			"<h1>Active: Firebolt</h1>Hurls a fiery bolt that deals magical damage and stuns a target enemy unit.<br><br>Damage: %spell_damage%<br>Stun Duration: %stun_duration%<br>Range: %abilitycastrange%"
+		"DOTA_Tooltip_ability_item_lavabuster_096_bonus_damage"			"+$damage"
+		"DOTA_Tooltip_ability_item_lavabuster_096_Lore"				"A saber that consists of rolling, burning lava. Roasts marshmallows too!"
+		
+		"DOTA_Tooltip_modifier_item_lavabuster_096_stun"			"Lavabuster"
+		"DOTA_Tooltip_modifier_item_lavabuster_096_stun_Description"		"You are stunned by Lavabuster."
+		
 		"DOTA_Tooltip_Ability_item_buckler_096"					"Nethezerim Buckler"
 		"DOTA_Tooltip_ability_item_buckler_096_bonus_strength"			"+$str"
 		"DOTA_Tooltip_ability_item_buckler_096_bonus_health"			"+$health"

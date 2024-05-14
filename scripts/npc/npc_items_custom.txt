@@ -971,7 +971,7 @@
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_bloodthorn"
+		"AbilityTextureName"            		"item_lesser_crit"
 		"ScriptFile"                  			"items/item_bloodfury_096.lua"
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
@@ -1515,6 +1515,66 @@
 			{
 				"var_type"			"FIELD_INTEGER"
 				"mana_restore"			"2000"
+			}
+		}
+	}
+	
+	//=================================================================================================================
+	// Lavabuster
+	//=================================================================================================================
+	"item_lavabuster_096"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass" 					"item_lua"
+		"AbilityTextureName"            		"item_bloodthorn"
+		"ScriptFile"                  			"items/item_lavabuster_096.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"				"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"				"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+		
+		// Information
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemCost"					"2000"
+		"ItemStockInitial" 				"0"
+		"ItemStockMax" 					"1"
+		"ItemStockTime" 				"5"
+		"ItemInitialCharges"				"3"
+		"ItemRequiresCharges"         			"1"
+		"ItemStackable"					"0"
+		"ItemPermanent"					"1"
+		
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"75"
+		"AbilityCooldown"				"8"
+		"AbilityCastRange"				"800"
+		"SpellDispellableType"				"SPELL_DISPELLABLE_YES"
+		
+		// Special Properties
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_damage"			"21"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"spell_damage"			"100"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"stun_duration"			"2"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"projectile_speed"		"1000"
 			}
 		}
 	}

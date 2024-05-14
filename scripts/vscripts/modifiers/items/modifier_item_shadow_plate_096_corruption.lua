@@ -5,7 +5,7 @@ function modifier_item_shadow_plate_096_corruption:OnCreated( kv )
 	self.corruption_armor = 0 - self:GetAbility():GetSpecialValueFor( "corruption_armor" )
 end
 
--- Creates the tooltip modifier for the localization
+-- Returns the events and properties our modifier affects
 function modifier_item_shadow_plate_096_corruption:DeclareFunctions()
 	local funcs = {
 		MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS,
