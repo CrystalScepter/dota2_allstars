@@ -1,3 +1,8 @@
+-- Precaches the assets that are going to be used in the custom game
+function Precache( context )
+	PrecacheResource( "soundfile", "soundevents/game_sounds_heroes/game_sounds_rattletrap.vsndevts", context )
+end
+
 -- Runs the following functions when you open the custom game
 function Activate()
 	

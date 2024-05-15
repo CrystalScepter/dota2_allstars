@@ -46,6 +46,11 @@ function modifier_item_generator_096:GetModifierAura()
 	return "modifier_truesight"
 end
 
+-- Allows the aura to affect heroes with special flags
+function modifier_item_generator_096:GetAuraSearchFlags()
+	return DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES + DOTA_UNIT_TARGET_FLAG_INVULNERABLE
+end
+
 -- Restricts the aura to only allied units
 function modifier_item_generator_096:GetAuraSearchTeam()
 	return DOTA_UNIT_TARGET_TEAM_ENEMY

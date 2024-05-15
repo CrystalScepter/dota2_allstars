@@ -49,6 +49,7 @@
 		"item"		"item_point_booster_096"
 		"item"		"item_hyperstone_096"
 		"item"		"item_demon_edge_096"
+		"item"		"item_crystal_eye_096"
 	}
 
 	"misc"

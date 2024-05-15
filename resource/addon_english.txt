@@ -26,7 +26,7 @@
 		"DOTA_Tooltip_modifier_item_bottle_096_Description"			"Restoring health."
 		
 		"DOTA_Tooltip_Ability_item_tome_of_retraining_096"			"Tome of Retraining"
-		"DOTA_Tooltip_ability_item_tome_of_retraining_096_Description"		"<h1>Use: Redistribute</h1> Unlearns all hero abilities, allowing you to reallocate the points."
+		"DOTA_Tooltip_ability_item_tome_of_retraining_096_Description"		"<h1>Active: Redistribute</h1>Unlearns all hero abilities, allowing you to reallocate the points."
 		
 		"DOTA_Tooltip_Ability_item_helm_of_iron_will_096"			"Helmet of Iron Will"
 		"DOTA_Tooltip_ability_item_helm_of_iron_will_096_bonus_armor"		"+$armor"
@@ -181,13 +181,16 @@
 		// Items sold by the Goblin Merchant, sorted by gold cost
 		//=================================================================================================================
 		"DOTA_Tooltip_Ability_item_healing_potion_096"				"Potion of Healing"
-		"DOTA_Tooltip_ability_item_healing_potion_096_Description"		"<h1>Use: Imbue</h1> Instantly restores %health_restore% health."
+		"DOTA_Tooltip_ability_item_healing_potion_096_Description"		"<h1>Active: Imbue</h1>Instantly restores %health_restore% health."
 		
 		"DOTA_Tooltip_Ability_item_mana_potion_096"				"Potion of Mana"
-		"DOTA_Tooltip_ability_item_mana_potion_096_Description"			"<h1>Use: Replenish</h1> Instantly restores %mana_restore% mana."
+		"DOTA_Tooltip_ability_item_mana_potion_096_Description"			"<h1>Active: Replenish</h1>Instantly restores %mana_restore% mana."
 		
 		"DOTA_Tooltip_Ability_item_useless_096"					"Useless Item"
 		"DOTA_Tooltip_ability_item_useless_096_Lore"				"Is it really useless? You will have to purchase it to find out."
+		
+		"DOTA_Tooltip_Ability_item_crystal_eye_096"				"Crystal Eye"
+		"DOTA_Tooltip_ability_item_crystal_eye_096_Description"			"<h1>Active: Area Detection</h1>Reveals a targeted area. Invisible units are also revealed by the Crystal Eye's effect.<br><br>Duration: %duration%<br>Cooldown: %abilitycooldown%<br>Range: %abilitycastrange%<br>Radius: %radius%"
 		
 		//=================================================================================================================
 		// Items sold by the Blue Dreadlord, sorted by gold cost
@@ -196,7 +199,7 @@
 		"DOTA_Tooltip_ability_item_circlet_096_all_attributes"			"+$all"
 		
 		"DOTA_Tooltip_Ability_item_cheese_096"					"Furbolg Cheese"
-		"DOTA_Tooltip_ability_item_cheese_096_Description"			"<h1>Use: Fondue</h1> Instantly restores %health_restore% health and %mana_restore% mana."
+		"DOTA_Tooltip_ability_item_cheese_096_Description"			"<h1>Active: Fondue</h1>Instantly restores %health_restore% health and %mana_restore% mana."
 		"DOTA_Tooltip_ability_item_cheese_096_Lore"				"A hunk of aged Furbolg Cheese. Doesn't taste quite right, but completely restores you. Nice one cheesedick."
 		
 		"DOTA_Tooltip_Ability_item_tango_096"					"Ancient Knowledge Stone"
