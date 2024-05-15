@@ -65,5 +65,6 @@
 		"item"		"item_bottle_096"
 		"item"		"item_tango_096"
 		"item"		"item_spider_queen_096"
+		"item"		"item_doom_mantle_096"
 	}
 }

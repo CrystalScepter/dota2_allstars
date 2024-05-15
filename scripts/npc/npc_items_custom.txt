@@ -1339,6 +1339,69 @@
 	}
 	
 	//=================================================================================================================
+	// Doom Mantle
+	//=================================================================================================================
+	"item_doom_mantle_096"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass" 					"item_lua"
+		"AbilityTextureName"            		"item_vladmir"
+		"ScriptFile"                  			"items/item_doom_mantle_096.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+		"AbilityUnitTargetTeam"				"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		
+		// Information
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemCost"					"1900"
+		"ItemStockInitial" 				"0"
+		"ItemStockMax" 					"1"
+		"ItemStockTime" 				"5"
+		
+		// Special Properties
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_damage"			"21"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_armor"			"5"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"splash_damage"			"21"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"splash_radius"			"140"
+			}
+			"05"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"aura_damage"			"10"
+			}
+			"06"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"aura_radius"			"160"
+			}
+			"07"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"aura_interval"			"1.0"
+			}
+		}
+	}
+	
+	//=================================================================================================================
 	// Healing Potion
 	//=================================================================================================================
 	"item_healing_potion_096"
