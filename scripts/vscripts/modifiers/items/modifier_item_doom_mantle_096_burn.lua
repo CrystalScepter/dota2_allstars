@@ -21,6 +21,6 @@ function modifier_item_doom_mantle_096_burn:OnIntervalThink()
 	
 	-- Applies damage to the surrounding targets and creates the particle on the target
 	for _,enemy in pairs(enemies) do
-		ApplyDamage({attacker = self:GetCaster(), victim = enemy, ability = self, damage = self.aura_damage, damage_type = DAMAGE_TYPE_MAGICAL})
+		ApplyDamage( { attacker = self:GetCaster(), victim = enemy, ability = self, damage = self.aura_damage, damage_type = DAMAGE_TYPE_MAGICAL } )
 	end
 end

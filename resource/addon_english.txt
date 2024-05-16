@@ -192,6 +192,9 @@
 		"DOTA_Tooltip_Ability_item_mana_potion_096"				"Potion of Mana"
 		"DOTA_Tooltip_ability_item_mana_potion_096_Description"			"<h1>Active: Replenish</h1>Instantly restores %mana_restore% mana."
 		
+		"DOTA_Tooltip_Ability_item_wand_of_negation_096"			"Wand of Negation"
+		"DOTA_Tooltip_ability_item_wand_of_negation_096_Description"		"<h1>Active: Dispel</h1>Dispels all magical effects in a target area. Deals %damage% to summoned units.<br><br>Range: %abilitycastrange%<br>Radius: %radius%"
+		
 		"DOTA_Tooltip_Ability_item_useless_096"					"Useless Item"
 		"DOTA_Tooltip_ability_item_useless_096_Lore"				"Is it really useless? You will have to purchase it to find out."
 		

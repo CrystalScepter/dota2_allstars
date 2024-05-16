@@ -55,7 +55,7 @@ function modifier_item_doom_mantle_096:OnAttacked( params )
 	-- Applies damage to the surrounding targets
 	for _,enemy in pairs(enemies) do
 		if enemy ~= params.target then
-			ApplyDamage({attacker = params.attacker, victim = enemy, ability = self, damage = self.splash_damage / #item_count, damage_type = DAMAGE_TYPE_PURE})
+			ApplyDamage( { attacker = params.attacker, victim = enemy, ability = self, damage = self.splash_damage / #item_count, damage_type = DAMAGE_TYPE_PURE } )
 		end
 	end
 end

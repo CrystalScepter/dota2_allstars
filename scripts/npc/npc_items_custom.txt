@@ -16,7 +16,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"50"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -48,7 +48,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"175"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -80,7 +80,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"3200"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -112,7 +112,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"150"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -144,7 +144,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"575"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -176,7 +176,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"1000"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -208,7 +208,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"150"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -240,7 +240,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"575"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -272,7 +272,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"1000"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -304,7 +304,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"150"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -336,7 +336,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"575"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -368,7 +368,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"1000"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -400,7 +400,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"275"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -432,7 +432,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"1150"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -464,7 +464,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"1700"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -496,7 +496,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"2700"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -528,7 +528,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"3850"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -560,7 +560,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"525"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -592,7 +592,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"2600"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -624,8 +624,8 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"1200"
-		"ItemStockInitial" 				"0"
-		"ItemStockMax" 					"1"
+		"ItemStockInitial" 				"3"
+		"ItemStockMax" 					"3"
 		"ItemStockTime" 				"5"
 		
 		// Special Properties
@@ -656,8 +656,8 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"800"
-		"ItemStockInitial" 				"0"
-		"ItemStockMax" 					"1"
+		"ItemStockInitial" 				"3"
+		"ItemStockMax" 					"3"
 		"ItemStockTime" 				"5"
 		
 		// Special Properties
@@ -688,7 +688,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"300"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -720,7 +720,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"300"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -752,7 +752,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"800"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -784,7 +784,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"500"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -816,7 +816,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"650"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -858,7 +858,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"2750"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -900,7 +900,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"950"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -942,7 +942,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"2800"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -979,7 +979,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"2500"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -1016,7 +1016,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"1100"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -1053,7 +1053,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"1400"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -1090,7 +1090,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"1400"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -1127,7 +1127,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"1500"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -1164,7 +1164,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"750"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -1216,7 +1216,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"2600"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -1264,7 +1264,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"1700"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -1307,7 +1307,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"1000"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -1355,7 +1355,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"1900"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -1458,7 +1458,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"300"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		"ItemInitialCharges"				"4"
@@ -1511,7 +1511,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"600"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		"ItemInitialCharges"				"8"
@@ -1600,7 +1600,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"400"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -1643,7 +1643,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"2000"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		"ItemInitialCharges"				"3"
@@ -1701,7 +1701,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemCost"					"500"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		
@@ -1723,6 +1723,50 @@
 			{
 				"var_type"			"FIELD_INTEGER"
 				"radius"			"600"
+			}
+		}
+	}
+	
+	//=================================================================================================================
+	// Wand of Negation
+	//=================================================================================================================
+	"item_wand_of_negation_096"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass" 					"item_lua"
+		"AbilityTextureName"            		"item_magic_wand"
+		"ScriptFile"                  			"items/item_wand_of_negation_096.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		
+		// Information
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemCost"					"200"
+		"ItemStockInitial" 				"2"
+		"ItemStockMax" 					"2"
+		"ItemStockTime" 				"90"
+		"ItemInitialCharges"				"3"
+		"ItemStackable"					"0"
+		"ItemPermanent"					"0"
+		
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"500"
+		
+		// Special Properties
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"damage"			"200"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"radius"			"200"
 			}
 		}
 	}
@@ -1765,7 +1809,7 @@
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemCost"					"450"
-		"ItemStockInitial" 				"0"
+		"ItemStockInitial" 				"1"
 		"ItemStockMax" 					"1"
 		"ItemStockTime" 				"5"
 		"ItemSellable" 					"0"

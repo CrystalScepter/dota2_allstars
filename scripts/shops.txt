@@ -18,6 +18,7 @@
 		"item"		"item_bloodfury_096"
 		"item"		"item_shadow_plate_096"
 		"item"		"item_lavabuster_096"
+		"item"		"item_wand_of_negation_096"
 	}
 
 	"attributes"
