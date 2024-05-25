@@ -14,6 +14,9 @@ function GameMode:InitGameMode()
 	-- Gives access to game mode functions
 	local GameMode = GameRules:GetGameModeEntity()
 
+	-- Disables loss of gold if no hero is picked during hero selection time
+	GameMode:SetSelectionGoldPenaltyEnabled( false )
+
 	-- Changes the default values for attributes
 	GameMode:SetCustomAttributeDerivedStatValue( DOTA_ATTRIBUTE_STRENGTH_DAMAGE, 1 )
 	GameMode:SetCustomAttributeDerivedStatValue( DOTA_ATTRIBUTE_STRENGTH_HP, 25 )
@@ -24,6 +27,29 @@ function GameMode:InitGameMode()
 	GameMode:SetCustomAttributeDerivedStatValue( DOTA_ATTRIBUTE_INTELLIGENCE_DAMAGE, 1 )
     GameMode:SetCustomAttributeDerivedStatValue( DOTA_ATTRIBUTE_INTELLIGENCE_MANA, 15 )
     GameMode:SetCustomAttributeDerivedStatValue( DOTA_ATTRIBUTE_INTELLIGENCE_MANA_REGEN, 0.05 )
+
+	-- Disables the recommended section for item builds
+	GameMode:SetRecommendedItemsDisabled( true )
+
+	-- Disables sticky items
+	GameMode:SetStickyItemDisabled( true )
+
+	-- Disables purchasing items with the stash
+	GameMode:SetStashPurchasingDisabled( true )
+
+	-- Disables being given a free Teleport Scroll on death
+	GameMode:SetGiveFreeTPOnDeath( false )
+
+	-- Disables neutral items
+	GameMode:SetAllowNeutralItemDrops( false )
+	GameMode:SetNeutralItemHideUndiscoveredEnabled( true )
+	GameMode:SetNeutralStashTeamViewOnlyEnabled( true )
+
+	-- Disables fog of war from automatically being uncovered
+	GameMode:SetUnseenFogOfWarEnabled( true )
+
+	-- Disables backdoor protection
+	GameMode:SetTowerBackdoorProtectionEnabled( false )
 
 	-- Registers when an NPC spawns into the game
 	ListenToGameEvent( 'npc_spawned', Dynamic_Wrap( self, 'OnNPCSpawned' ), self )

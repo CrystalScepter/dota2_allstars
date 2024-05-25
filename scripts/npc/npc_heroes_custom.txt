@@ -5,16 +5,43 @@
 	//=================================================================================================================
 	"npc_dota_hero_drow_ranger_096"
 	{
-		"override_hero"					"npc_dota_hero_drow_ranger"
-		
+		"override_hero"						"npc_dota_hero_drow_ranger"
+
 		// Attributes
 		//-------------------------------------------------------------------------------------------------------------
-		"AttributePrimary"				"DOTA_ATTRIBUTE_AGILITY"
+		"AttributePrimary"					"DOTA_ATTRIBUTE_AGILITY"
 		"AttributeBaseStrength"				"17"
 		"AttributeBaseAgility"				"22"
 		"AttributeBaseIntelligence"			"15"
 		"AttributeStrengthGain"				"1.5"
 		"AttributeAgilityGain"				"2.5"
 		"AttributeIntelligenceGain"			"1.5"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AttackDamageMin"					"10"
+		"AttackDamageMax"					"10"
+		"AttackRate"						"2.13"
+		"AttackAnimationPoint"				"0.3"
+		"AttackAcquisitionRange"			"650"
+		"AttackRange"						"600"
+		"AttackRangeBuffer"					"250"
+		"ProjectileSpeed"					"1250"
+
+		"StatusHealth"						"100"
+		"StatusHealthRegen"					"0.5" // TODO: Only at night
+		"StatusMana"						"0"
+		"StatusManaRegen"					"0.01"
+		"StatusStartingMana"         		"0" // TODO: Doesn't work currently
+		"ArmorPhysical"						"-2"
+
+		"MovementSpeed"						"300"
+		"MovementTurnRate"					"0.4"
+
+		// Miscellaneous
+		//-------------------------------------------------------------------------------------------------------------
+		"VisionDaytimeRange"				"1800"
+		"VisionNighttimeRange"				"1700"
+		// TODO: "BoundsHullName" should be 22 but "DOTA_HULL_SIZE_HERO" equals 24
 	}
 }
