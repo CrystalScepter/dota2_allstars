@@ -48,6 +48,9 @@ function GameMode:InitGameMode()
 	-- Disables fog of war from automatically being uncovered
 	GameMode:SetUnseenFogOfWarEnabled( true )
 
+	-- Enables the day / night cycle
+	GameMode:SetDaynightCycleDisabled( false )
+
 	-- Disables backdoor protection
 	GameMode:SetTowerBackdoorProtectionEnabled( false )
 

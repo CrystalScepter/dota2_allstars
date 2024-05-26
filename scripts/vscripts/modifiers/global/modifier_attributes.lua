@@ -12,7 +12,24 @@ end
 
 -- Returns the value for the property
 function modifier_attributes:GetModifierConstantHealthRegen()
-    return 0 - self:GetParent():GetStrength() / 20
+
+    -- Checks whether it's day time
+    if IsServer() then
+        local daytime = GameRules:IsDaytime()
+    end
+
+    -- Retrieves the hero's name
+    local hero = self:GetParent():GetUnitName()
+
+    -- Sets the default base regen to 0
+    local base_regen = 0
+
+    -- Checks whether the hero is Drow Ranger and it's currently night time
+    if hero == "npc_dota_hero_drow_ranger" and not daytime then
+        base_regen = 0.5
+    end
+    
+    return base_regen - self:GetParent():GetStrength() / 20
 end
 
 -- Returns the value for the property

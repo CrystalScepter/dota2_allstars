@@ -29,7 +29,7 @@
 		"ProjectileSpeed"					"1250"
 
 		"StatusHealth"						"100"
-		"StatusHealthRegen"					"0.5" // TODO: Only at night
+		"StatusHealthRegen"					"0"
 		"StatusMana"						"0"
 		"StatusManaRegen"					"0.01"
 		"StatusStartingMana"         		"0" // TODO: Doesn't work currently
