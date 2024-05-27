@@ -17,8 +17,8 @@ function modifier_item_shadow_plate_096:DeclareFunctions()
 		MODIFIER_PROPERTY_STATS_AGILITY_BONUS,
 		MODIFIER_PROPERTY_STATS_INTELLECT_BONUS,
 		MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS,
-		MODIFIER_EVENT_ON_ATTACKED,
 		MODIFIER_EVENT_ON_ATTACK,
+		MODIFIER_EVENT_ON_ATTACKED,
 	}
 	return funcs
 end
@@ -43,23 +43,6 @@ function modifier_item_shadow_plate_096:GetModifierPhysicalArmorBonus( params )
 	return self.bonus_armor
 end
 
--- Applies the effect upon landing an attack
-function modifier_item_shadow_plate_096:OnAttacked( params )
-
-	-- If the attacker is not the owner of the item, return
-	if params.attacker ~= self:GetCaster() then
-		return
-	end
-	
-	-- If the target is a building, return
-	if params.target:IsBuilding() then
-		return
-	end
-	
-	-- Creates the modifier on the target
-	params.target:AddNewModifier( self:GetParent(), self:GetAbility(), "modifier_item_shadow_plate_096_corruption", { duration = self.corruption_duration } )
-end
-
 -- Applies the effect upon finishing the attack cast point
 function modifier_item_shadow_plate_096:OnAttack( params )
 	
@@ -80,7 +63,7 @@ function modifier_item_shadow_plate_096:OnAttack( params )
 		local desolator_projectile = {
 			Target = params.target,
 			Source = params.attacker,
-			Ability = self:GetAbility(),	
+			Ability = self:GetAbility(),
 			EffectName = "particles/items_fx/desolator_projectile.vpcf",
 			iMoveSpeed = params.attacker:GetProjectileSpeed(),
 			bIsAttack = true,
@@ -91,8 +74,25 @@ function modifier_item_shadow_plate_096:OnAttack( params )
 		ProjectileManager:CreateTrackingProjectile( desolator_projectile )
 		
 		-- Plays the sound for the projectile
-		params.attacker:EmitSound("Item_Desolator.Target")
+		params.attacker:EmitSound( "Item_Desolator.Target" )
 	end
+end
+
+-- Applies the effect upon landing an attack
+function modifier_item_shadow_plate_096:OnAttacked( params )
+
+	-- If the attacker is not the owner of the item, return
+	if params.attacker ~= self:GetCaster() then
+		return
+	end
+	
+	-- If the target is a building, return
+	if params.target:IsBuilding() then
+		return
+	end
+	
+	-- Creates the modifier on the target
+	params.target:AddNewModifier( self:GetParent(), self:GetAbility(), "modifier_item_shadow_plate_096_corruption", { duration = self.corruption_duration } )
 end
 
 -- Allows the modifier to stack

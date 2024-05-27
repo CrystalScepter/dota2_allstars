@@ -6,6 +6,7 @@ function modifier_attributes:DeclareFunctions()
         MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT,
         MODIFIER_PROPERTY_MAGICAL_RESISTANCE_DIRECT_MODIFICATION,
         MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT,
+        MODIFIER_PROPERTY_MOVESPEED_LIMIT,
     }
     return funcs
 end
@@ -40,6 +41,16 @@ end
 -- Returns the value for the property
 function modifier_attributes:GetModifierMoveSpeedBonus_Constant()
     return self:GetParent():GetAgility() / 100
+end
+
+-- Returns the value for the property
+function modifier_attributes:GetModifierMoveSpeed_Limit()
+    return 400
+end
+
+-- Turns the modifier permanent
+function modifier_attributes:GetAttributes()
+	return MODIFIER_ATTRIBUTE_PERMANENT
 end
 
 -- Prevents the modifier from showing up on the buff bar

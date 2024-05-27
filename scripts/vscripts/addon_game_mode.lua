@@ -3,7 +3,8 @@ if dota2_096 == nil then
 	dota2_096 = class({})
 end
 
-require('gamemode') 
+require('libraries/timers')
+require('gamemode')
 
 -- Precaches the assets that are going to be used in the custom game
 function Precache( context )

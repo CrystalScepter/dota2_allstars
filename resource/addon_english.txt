@@ -12,6 +12,38 @@
 		"addon_game_name"							"DotA Allstars v0.96"
 		
 		//=================================================================================================================
+		// Drow Ranger's abilities
+		//=================================================================================================================
+		"DOTA_Tooltip_Ability_drow_ranger_sneak_attack_096"					"Sneak Attack"
+		"DOTA_Tooltip_ability_drow_ranger_sneak_attack_096_Description"		"Drow Ranger becomes invisible and moves faster for a set amount of time. When Drow Ranger attacks a unit to break invisibility, she will deal bonus physical damage."
+		"DOTA_Tooltip_ability_drow_ranger_sneak_attack_096_bonus_damage"	"Damage:"
+		"DOTA_Tooltip_ability_drow_ranger_sneak_attack_096_movement_speed"	"%Movement Speed:"
+		"DOTA_Tooltip_ability_drow_ranger_sneak_attack_096_duration"		"Duration:"
+		"DOTA_Tooltip_ability_drow_ranger_sneak_attack_096_fade_time"		"Fade Time:"
+
+		"DOTA_Tooltip_modifier_drow_ranger_sneak_attack_096"				"Sneak Attack"
+		"DOTA_Tooltip_modifier_drow_ranger_sneak_attack_096_Description"	"Drow Ranger is invisible and her next attack will deal bonus physical damage."
+		
+		"DOTA_Tooltip_Ability_drow_ranger_fury_096"							"Fury"
+		"DOTA_Tooltip_ability_drow_ranger_fury_096_Description"				"Makes this unit attack faster."
+		"DOTA_Tooltip_ability_drow_ranger_fury_096_bonus_attack_speed"		"Attack Speed:"
+		"DOTA_Tooltip_ability_drow_ranger_fury_096_duration"				"Duration:"
+
+		"DOTA_Tooltip_modifier_drow_ranger_fury_096"						"Fury"
+		"DOTA_Tooltip_modifier_drow_ranger_fury_096_Description"			"This unit's attack speed has been increased by %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%."
+
+		"DOTA_Tooltip_Ability_drow_ranger_trueshot_096"						"Trueshot Aura"
+		"DOTA_Tooltip_ability_drow_ranger_trueshot_096_Description"			"An aura that gives friendly nearby units bonus damage to their ranged attacks.<br><br>Radius: %aura_radius%"
+		"DOTA_Tooltip_ability_drow_ranger_trueshot_096_damage_bonus"		"%Damage:"
+
+		"DOTA_Tooltip_modifier_drow_ranger_trueshot_096_aura"				"Trueshot Aura"
+		"DOTA_Tooltip_modifier_drow_ranger_trueshot_096_aura_Description"	"Damage increased by %dMODIFIER_PROPERTY_BASEDAMAGEOUTGOING_PERCENTAGE%%%."
+
+		"DOTA_Tooltip_Ability_drow_ranger_marksmanship_096"					"Marksmanship"
+		"DOTA_Tooltip_ability_drow_ranger_marksmanship_096_Description"		"Drow Ranger's accuracy has increased to the point where she can deal massive amounts of damage to creeps."
+		"DOTA_Tooltip_ability_drow_ranger_marksmanship_096_bonus_damage"	"Damage:"
+
+		//=================================================================================================================
 		// Items sold by the Cache of the Quel'thelan, sorted by gold cost
 		//=================================================================================================================
 		"DOTA_Tooltip_Ability_item_branches_096"				"Ironwood Branch"

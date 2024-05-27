@@ -7,6 +7,33 @@
 	{
 		"override_hero"						"npc_dota_hero_drow_ranger"
 
+		// Abilities
+		//-------------------------------------------------------------------------------------------------------------
+		"Ability1"							"drow_ranger_sneak_attack_096"
+		"Ability2"							"drow_ranger_fury_096"
+		"Ability3"							"drow_ranger_trueshot_096"
+		"Ability4"							"generic_hidden"
+		"Ability5"							"generic_hidden"
+		"Ability6"							"drow_ranger_marksmanship_096"
+		"Ability7"							""
+		"Ability8"							""
+		"Ability9"							""
+		"Ability10"							""
+		"Ability11"							""
+		"Ability12"							""
+		"Ability13"							""
+		"Ability14"							""
+		"Ability15"							""
+		"Ability16"							""
+		"Ability17"							""
+		"Ability25"							""
+
+		"AbilityTalentStart"				""
+
+		"Facets"
+		{
+		}
+
 		// Attributes
 		//-------------------------------------------------------------------------------------------------------------
 		"AttributePrimary"					"DOTA_ATTRIBUTE_AGILITY"
@@ -32,7 +59,6 @@
 		"StatusHealthRegen"					"0"
 		"StatusMana"						"0"
 		"StatusManaRegen"					"0.01"
-		"StatusStartingMana"         		"0" // TODO: Doesn't work currently
 		"ArmorPhysical"						"-2"
 
 		"MovementSpeed"						"300"

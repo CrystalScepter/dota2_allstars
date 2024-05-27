@@ -14,6 +14,8 @@ function GameMode:InitGameMode()
 	-- Gives access to game mode functions
 	local GameMode = GameRules:GetGameModeEntity()
 
+	GameMode:SetCustomGameForceHero( "npc_dota_hero_drow_ranger" )
+
 	-- Disables loss of gold if no hero is picked during hero selection time
 	GameMode:SetSelectionGoldPenaltyEnabled( false )
 
@@ -35,7 +37,7 @@ function GameMode:InitGameMode()
 	GameMode:SetStickyItemDisabled( true )
 
 	-- Disables purchasing items with the stash
-	GameMode:SetStashPurchasingDisabled( true )
+	GameMode:SetStashPurchasingDisabled( false )
 
 	-- Disables being given a free Teleport Scroll on death
 	GameMode:SetGiveFreeTPOnDeath( false )

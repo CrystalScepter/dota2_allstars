@@ -20,6 +20,11 @@ function modifier_passive_gold:OnIntervalThink()
     end
 end
 
+-- Turns the modifier permanent
+function modifier_passive_gold:GetAttributes()
+	return MODIFIER_ATTRIBUTE_PERMANENT
+end
+
 -- Prevents the modifier from showing up on the buff bar
 function modifier_passive_gold:IsHidden()
 	return true

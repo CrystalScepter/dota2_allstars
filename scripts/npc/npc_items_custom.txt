@@ -7,18 +7,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_branches"
-		"ScriptFile"                  			"items/item_branches_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass" 						"item_lua"
+		"AbilityTextureName"            	"item_branches"
+		"ScriptFile"                  		"items/item_branches_096.lua"
+		"AbilityBehavior"					"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"50"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"					"ITEM_FULLY_SHAREABLE"
+		"ItemCost"							"50"
+		"ItemStockInitial" 					"1"
+		"ItemStockMax" 						"1"
+		"ItemStockTime" 					"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1297,19 +1297,19 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
+		"BaseClass" 							"item_lua"
 		"AbilityTextureName"            		"item_revenants_brooch"
 		"ScriptFile"                  			"items/item_bladeturn_necklace_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
-		"AbilityUnitTargetTeam"				"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityBehavior"						"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+		"AbilityUnitTargetTeam"					"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"1000"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"						"ITEM_FULLY_SHAREABLE"
+		"ItemCost"								"1000"
+		"ItemStockInitial" 						"1"
+		"ItemStockMax" 							"1"
+		"ItemStockTime" 						"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1317,23 +1317,23 @@
 		{
 			"01"
 			{
-				"var_type"			"FIELD_INTEGER"
-				"bonus_armor"			"1"
+				"var_type"						"FIELD_INTEGER"
+				"bonus_armor"					"1"
 			}
 			"02"
 			{
-				"var_type"			"FIELD_INTEGER"
-				"bonus_evasion"			"15"
+				"var_type"						"FIELD_INTEGER"
+				"bonus_evasion"					"15"
 			}
 			"03"
 			{
-				"var_type"			"FIELD_INTEGER"
-				"aura_armor"			"2"
+				"var_type"						"FIELD_INTEGER"
+				"aura_armor"					"2"
 			}
 			"04"
 			{
-				"var_type"			"FIELD_INTEGER"
-				"aura_radius"			"900"
+				"var_type"						"FIELD_INTEGER"
+				"aura_radius"					"900"
 			}
 		}
 	}
