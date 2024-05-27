@@ -15,7 +15,7 @@
 		"Ability4"							"generic_hidden"
 		"Ability5"							"generic_hidden"
 		"Ability6"							"drow_ranger_marksmanship_096"
-		"Ability7"							""
+		"Ability7"							"bonus_attributes_096_12"
 		"Ability8"							""
 		"Ability9"							""
 		"Ability10"							""
@@ -68,6 +68,5 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"VisionDaytimeRange"				"1800"
 		"VisionNighttimeRange"				"1700"
-		// TODO: "BoundsHullName" should be 22 but "DOTA_HULL_SIZE_HERO" equals 24
 	}
 }
