@@ -1,0 +1,9 @@
+<root>
+	<scripts>
+		<!-- Runs the following scripts when Panorama starts -->
+		<include src="file://{resources}/scripts/custom_game/main.js" />
+	</scripts>
+
+	<Panel>
+	</Panel>
+</root>
