@@ -1,0 +1,72 @@
+"DOTAHeroes"
+{
+	//=================================================================================================================
+	// HERO: Drow Ranger
+	//=================================================================================================================
+	"npc_dota_hero_drow_ranger_096"
+	{
+		"override_hero"						"npc_dota_hero_drow_ranger"
+
+		// Abilities
+		//-------------------------------------------------------------------------------------------------------------
+		"Ability1"							"drow_ranger_sneak_attack_096"
+		"Ability2"							"drow_ranger_fury_096"
+		"Ability3"							"drow_ranger_trueshot_096"
+		"Ability4"							"generic_hidden"
+		"Ability5"							"generic_hidden"
+		"Ability6"							"drow_ranger_marksmanship_096"
+		"Ability7"							"bonus_attributes_096_12"
+		"Ability8"							""
+		"Ability9"							""
+		"Ability10"							""
+		"Ability11"							""
+		"Ability12"							""
+		"Ability13"							""
+		"Ability14"							""
+		"Ability15"							""
+		"Ability16"							""
+		"Ability17"							""
+		"Ability25"							""
+
+		"AbilityTalentStart"				""
+
+		"Facets"
+		{
+		}
+
+		// Attributes
+		//-------------------------------------------------------------------------------------------------------------
+		"AttributePrimary"					"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength"				"17"
+		"AttributeBaseAgility"				"22"
+		"AttributeBaseIntelligence"			"15"
+		"AttributeStrengthGain"				"1.5"
+		"AttributeAgilityGain"				"2.5"
+		"AttributeIntelligenceGain"			"1.5"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AttackDamageMin"					"10"
+		"AttackDamageMax"					"10"
+		"AttackRate"						"2.13"
+		"AttackAnimationPoint"				"0.3"
+		"AttackAcquisitionRange"			"650"
+		"AttackRange"						"600"
+		"AttackRangeBuffer"					"250"
+		"ProjectileSpeed"					"1250"
+
+		"StatusHealth"						"100"
+		"StatusHealthRegen"					"0"
+		"StatusMana"						"0"
+		"StatusManaRegen"					"0.01"
+		"ArmorPhysical"						"-2"
+
+		"MovementSpeed"						"300"
+		"MovementTurnRate"					"0.4"
+
+		// Miscellaneous
+		//-------------------------------------------------------------------------------------------------------------
+		"VisionDaytimeRange"				"1800"
+		"VisionNighttimeRange"				"1700"
+	}
+}
