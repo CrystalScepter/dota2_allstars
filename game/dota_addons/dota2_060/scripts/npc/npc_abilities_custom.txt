@@ -7,13 +7,13 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass"                     		"ability_lua"
-		"AbilityTextureName"                    "dawnbreaker_luminosity"
-		"ScriptFile"                            "abilities/heroes/generic/bonus_attributes_096_12"
-		"AbilityBehavior"						"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"ability_lua"
+		"AbilityTextureName"			"dawnbreaker_luminosity"
+		"ScriptFile"				"abilities/heroes/generic/bonus_attributes_096_12"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
-		"MaxLevel"								"12"
-		"LevelsBetweenUpgrades"  				"1"
+		"MaxLevel"				"12"
+		"LevelsBetweenUpgrades"			"1"
 		
 		// Special
 		//-------------------------------------------------------------------------------------------------------------
@@ -21,8 +21,8 @@
 		{
 			"01"
 			{
-				"var_type"                      "FIELD_INTEGER"
-				"all_attributes"            	"2 4 6 8 10 12 14 16 18 20 22 24"
+				"var_type"			"FIELD_INTEGER"
+				"all_attributes"		"2 4 6 8 10 12 14 16 18 20 22 24"
 			}
 		}
 	}
@@ -30,155 +30,155 @@
 	//=================================================================================================================
 	// Sneak Attack
 	//=================================================================================================================
-    "drow_ranger_sneak_attack_096"
-    {
-        // General
+	"drow_ranger_sneak_attack_096"
+	{
+		// General
 		//-------------------------------------------------------------------------------------------------------------
-        "BaseClass"                             "ability_lua"
-        "AbilityTextureName"                    "templar_assassin_meld"
-        "ScriptFile"                            "abilities/heroes/drow_ranger/drow_ranger_sneak_attack_096"
-        "AbilityType"                           "DOTA_ABILITY_TYPE_BASIC"
-		"AbilityBehavior"                       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"BaseClass"				"ability_lua"
+		"AbilityTextureName"			"templar_assassin_meld"
+		"ScriptFile"				"abilities/heroes/drow_ranger/drow_ranger_sneak_attack_096"
+		"AbilityType"				"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
 
-        "MaxLevel"                              "3"
+		"MaxLevel"				"3"
 
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"						"75 65 55"
-		"AbilityCooldown"						"5"
+		"AbilityManaCost"			"75 65 55"
+		"AbilityCooldown"			"5"
 
-        // Special
+		// Special
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilitySpecial"
 		{
 			"01"
 			{
-				"var_type"                      "FIELD_INTEGER"
-				"bonus_damage"            		"40 70 100"
+				"var_type"			"FIELD_INTEGER"
+				"bonus_damage"			"40 70 100"
 			}
-            "02"
+			"02"
 			{
-				"var_type"                      "FIELD_INTEGER"
-				"movement_speed"                "10 40 70"
+				"var_type"			"FIELD_INTEGER"
+				"movement_speed"		"10 40 70"
 			}
 			"03"
 			{
-				"var_type"                      "FIELD_INTEGER"
-				"duration"               	 	"20 35 50"
+				"var_type"			"FIELD_INTEGER"
+				"duration"			"20 35 50"
 			}
 			"04"
 			{
-				"var_type"                      "FIELD_FLOAT"
-				"fade_time"               	 	"1.0 0.75 0.5"
+				"var_type"			"FIELD_FLOAT"
+				"fade_time"			"1.0 0.75 0.5"
 			}
 		}
-    }
+	}
 
 	//=================================================================================================================
 	// Fury
 	//=================================================================================================================
-    "drow_ranger_fury_096"
-    {
-        // General
+	"drow_ranger_fury_096"
+	{
+		// General
 		//-------------------------------------------------------------------------------------------------------------
-        "BaseClass"                             "ability_lua"
-        "AbilityTextureName"                    "windrunner_focusfire"
-        "ScriptFile"                            "abilities/heroes/drow_ranger/drow_ranger_fury_096"
-        "AbilityType"                           "DOTA_ABILITY_TYPE_ULTIMATE"
-		"AbilityBehavior"                       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"BaseClass"				"ability_lua"
+		"AbilityTextureName"			"windrunner_focusfire"
+		"ScriptFile"				"abilities/heroes/drow_ranger/drow_ranger_fury_096"
+		"AbilityType"				"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
 
-        "MaxLevel"                              "1"
-		"RequiredLevel"          				"7"
+		"MaxLevel"				"1"
+		"RequiredLevel"				"7"
 
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"						"10"
-		"AbilityCooldown"						"30"
+		"AbilityManaCost"			"10"
+		"AbilityCooldown"			"30"
 
-        // Special
+		// Special
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilitySpecial"
 		{
 			"01"
 			{
-				"var_type"                      "FIELD_INTEGER"
-				"bonus_attack_speed"            "500"
+				"var_type"			"FIELD_INTEGER"
+				"bonus_attack_speed"		"500"
 			}
-            "02"
+			"02"
 			{
-				"var_type"                      "FIELD_INTEGER"
-				"duration"                   	"12"
+				"var_type"			"FIELD_INTEGER"
+				"duration"			"12"
 			}
 		}
-    }
+	}
 
-    //=================================================================================================================
+	//=================================================================================================================
 	// Trueshot Aura
 	//=================================================================================================================
-    "drow_ranger_trueshot_096"
-    {
-        // General
+	"drow_ranger_trueshot_096"
+	{
+		// General
 		//-------------------------------------------------------------------------------------------------------------
-        "BaseClass"                             "ability_lua"
-        "AbilityTextureName"                    "drow_ranger_trueshot"
-        "ScriptFile"                            "abilities/heroes/drow_ranger/drow_ranger_trueshot_096"
-        "AbilityType"                           "DOTA_ABILITY_TYPE_BASIC"
-		"AbilityBehavior"                       "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
-		"AbilityUnitTargetTeam"                 "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"BaseClass"				"ability_lua"
+		"AbilityTextureName"			"drow_ranger_trueshot"
+		"ScriptFile"				"abilities/heroes/drow_ranger/drow_ranger_trueshot_096"
+		"AbilityType"				"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
 
-        "MaxLevel"                              "3"
+		"MaxLevel"				"3"
 
-        // Special
+		// Special
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilitySpecial"
 		{
 			"01"
 			{
-				"var_type"                      "FIELD_INTEGER"
-				"damage_bonus"                  "15 30 45"
+				"var_type"			"FIELD_INTEGER"
+				"damage_bonus"			"15 30 45"
 			}
-            "02"
+			"02"
 			{
-				"var_type"                      "FIELD_INTEGER"
-				"aura_radius"                   "900"
+				"var_type"			"FIELD_INTEGER"
+				"aura_radius"			"900"
 			}
 		}
-    }
+	}
 
 	//=================================================================================================================
 	// Marksmanship
 	//=================================================================================================================
-    "drow_ranger_marksmanship_096"
-    {
-        // General
+	"drow_ranger_marksmanship_096"
+	{
+		// General
 		//-------------------------------------------------------------------------------------------------------------
-        "BaseClass"                             "ability_lua"
-        "AbilityTextureName"                    "drow_ranger_marksmanship"
-        "ScriptFile"                            "abilities/heroes/drow_ranger/drow_ranger_marksmanship_096"
-        "AbilityType"                           "DOTA_ABILITY_TYPE_ULTIMATE"
-		"AbilityBehavior"                       "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST | DOTA_ABILITY_BEHAVIOR_ATTACK"
-		"AbilityUnitTargetTeam"                 "DOTA_UNIT_TARGET_TEAM_BOTH"
-		"AbilityUnitTargetType"					"DOTA_UNIT_TARGET_CREEP"
-		"AbilityUnitDamageType"					"DAMAGE_TYPE_PHYSICAL"	
+		"BaseClass"				"ability_lua"
+		"AbilityTextureName"			"drow_ranger_marksmanship"
+		"ScriptFile"				"abilities/heroes/drow_ranger/drow_ranger_marksmanship_096"
+		"AbilityType"				"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST | DOTA_ABILITY_BEHAVIOR_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_BOTH"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_CREEP"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"	
 
-        "MaxLevel"                              "3"
-		"RequiredLevel"          				"10"
-    	"LevelsBetweenUpgrades"  				"4"
+		"MaxLevel"				"3"
+		"RequiredLevel"          		"10"
+		"LevelsBetweenUpgrades"  		"4"
 
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"						"95 65 35"
-		"AbilityCastRange"						"600"
+		"AbilityManaCost"			"95 65 35"
+		"AbilityCastRange"			"600"
 
-        // Special
+		// Special
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilitySpecial"
 		{
 			"01"
 			{
-				"var_type"                      "FIELD_INTEGER"
-				"bonus_damage"                  "1000"
+				"var_type"			"FIELD_INTEGER"
+				"bonus_damage"			"1000"
 			}
 		}
-    }
+	}
 }

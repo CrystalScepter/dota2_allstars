@@ -7,18 +7,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 						"item_lua"
-		"AbilityTextureName"            	"item_branches"
-		"ScriptFile"                  		"items/item_branches_096.lua"
-		"AbilityBehavior"					"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_branches"
+		"ScriptFile"				"items/item_branches_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"					"ITEM_FULLY_SHAREABLE"
-		"ItemCost"							"50"
-		"ItemStockInitial" 					"1"
-		"ItemStockMax" 						"1"
-		"ItemStockTime" 					"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"50"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -39,18 +39,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_circlet"
-		"ScriptFile"                  			"items/item_circlet_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_circlet"
+		"ScriptFile"				"items/item_circlet_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"175"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"175"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -71,18 +71,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_ultimate_orb"
-		"ScriptFile"                  			"items/item_ultimate_orb_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_ultimate_orb"
+		"ScriptFile"				"items/item_ultimate_orb_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"3200"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"3200"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -103,18 +103,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_gauntlets"
-		"ScriptFile"                  			"items/item_gauntlets_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_gauntlets"
+		"ScriptFile"				"items/item_gauntlets_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"150"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"150"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -135,18 +135,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_belt_of_strength"
-		"ScriptFile"                  			"items/item_belt_of_strength_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_belt_of_strength"
+		"ScriptFile"				"items/item_belt_of_strength_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"575"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"575"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -167,18 +167,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_ogre_axe"
-		"ScriptFile"                  			"items/item_ogre_axe_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_ogre_axe"
+		"ScriptFile"				"items/item_ogre_axe_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"1000"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"1000"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -199,18 +199,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_slippers"
-		"ScriptFile"                  			"items/item_slippers_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_slippers"
+		"ScriptFile"				"items/item_slippers_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"150"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"150"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -231,18 +231,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_boots_of_elves"
-		"ScriptFile"                  			"items/item_boots_of_elves_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_boots_of_elves"
+		"ScriptFile"				"items/item_boots_of_elves_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"575"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"575"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -263,18 +263,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_blade_of_alacrity"
-		"ScriptFile"                  			"items/item_blade_of_alacrity_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_blade_of_alacrity"
+		"ScriptFile"				"items/item_blade_of_alacrity_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"1000"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"1000"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -295,18 +295,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_mantle"
-		"ScriptFile"                  			"items/item_mantle_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_mantle"
+		"ScriptFile"				"items/item_mantle_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"150"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"150"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -327,18 +327,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_robe"
-		"ScriptFile"                  			"items/item_robe_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_robe"
+		"ScriptFile"				"items/item_robe_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"575"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"575"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -359,18 +359,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_staff_of_wizardry"
-		"ScriptFile"                  			"items/item_staff_of_wizardry_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_staff_of_wizardry"
+		"ScriptFile"				"items/item_staff_of_wizardry_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"1000"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"1000"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -391,18 +391,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_blades_of_attack"
-		"ScriptFile"                  			"items/item_blades_of_attack_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_blades_of_attack"
+		"ScriptFile"				"items/item_blades_of_attack_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"275"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"275"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -423,18 +423,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_broadsword"
-		"ScriptFile"                  			"items/item_broadsword_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_broadsword"
+		"ScriptFile"				"items/item_broadsword_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"1150"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"1150"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -455,18 +455,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_mithril_hammer"
-		"ScriptFile"                  			"items/item_mithril_hammer_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_mithril_hammer"
+		"ScriptFile"				"items/item_mithril_hammer_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"1700"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"1700"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -487,18 +487,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_demon_edge"
-		"ScriptFile"                  			"items/item_demon_edge_096.lua"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_demon_edge"
+		"ScriptFile"				"items/item_demon_edge_096.lua"
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"2700"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"2700"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -519,18 +519,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_relic"
-		"ScriptFile"                  			"items/item_sacred_relic_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_relic"
+		"ScriptFile"				"items/item_sacred_relic_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"3850"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"3850"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -551,18 +551,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_gloves_of_haste"
-		"ScriptFile"                  			"items/item_gloves_of_haste_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_gloves_of_haste"
+		"ScriptFile"				"items/item_gloves_of_haste_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"525"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"525"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -583,18 +583,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_hyperstone"
-		"ScriptFile"                  			"items/item_hyperstone_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_hyperstone"
+		"ScriptFile"				"items/item_hyperstone_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"2600"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"2600"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -615,18 +615,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_vitality_booster"
-		"ScriptFile"                  			"items/item_vitality_booster_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_vitality_booster"
+		"ScriptFile"				"items/item_vitality_booster_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"1200"
-		"ItemStockInitial" 				"3"
-		"ItemStockMax" 					"3"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"1200"
+		"ItemStockInitial"			"3"
+		"ItemStockMax"				"3"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -647,18 +647,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_energy_booster"
-		"ScriptFile"                  			"items/item_energy_booster_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_energy_booster"
+		"ScriptFile"				"items/item_energy_booster_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"800"
-		"ItemStockInitial" 				"3"
-		"ItemStockMax" 					"3"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"800"
+		"ItemStockInitial"			"3"
+		"ItemStockMax"				"3"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -679,18 +679,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_ring_of_regen"
-		"ScriptFile"                  			"items/item_ring_of_regen_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_ring_of_regen"
+		"ScriptFile"				"items/item_ring_of_regen_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"300"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"300"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -711,18 +711,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_sobi_mask"
-		"ScriptFile"                  			"items/item_sobi_mask_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_sobi_mask"
+		"ScriptFile"				"items/item_sobi_mask_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"300"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"300"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -743,18 +743,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_void_stone"
-		"ScriptFile"                  			"items/item_void_stone_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_void_stone"
+		"ScriptFile"				"items/item_void_stone_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"800"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"800"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -775,18 +775,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_boots"
-		"ScriptFile"                  			"items/item_boots_of_speed_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_boots"
+		"ScriptFile"				"items/item_boots_of_speed_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"500"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"500"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -807,18 +807,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_null_talisman"
-		"ScriptFile"                  			"items/item_null_talisman_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_null_talisman"
+		"ScriptFile"				"items/item_null_talisman_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"650"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"650"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -849,18 +849,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_buckler"
-		"ScriptFile"                  			"items/item_buckler_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_buckler"
+		"ScriptFile"				"items/item_buckler_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"2750"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"2750"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -891,18 +891,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_oblivion_staff"
-		"ScriptFile"                  			"items/item_oblivion_staff_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_oblivion_staff"
+		"ScriptFile"				"items/item_oblivion_staff_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"950"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"950"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -933,18 +933,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_claymore"
-		"ScriptFile"                  			"items/item_claymore_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_claymore"
+		"ScriptFile"				"items/item_claymore_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"2800"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"2800"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -970,18 +970,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_lesser_crit"
-		"ScriptFile"                  			"items/item_bloodfury_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_lesser_crit"
+		"ScriptFile"				"items/item_bloodfury_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"2500"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"2500"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1007,18 +1007,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_point_booster"
-		"ScriptFile"                  			"items/item_point_booster_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_point_booster"
+		"ScriptFile"				"items/item_point_booster_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"1100"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"1100"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1044,18 +1044,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_helm_of_iron_will"
-		"ScriptFile"                  			"items/item_helm_of_iron_will_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_helm_of_iron_will"
+		"ScriptFile"				"items/item_helm_of_iron_will_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"1400"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"1400"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1081,18 +1081,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_cloak"
-		"ScriptFile"                  			"items/item_cloak_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_cloak"
+		"ScriptFile"				"items/item_cloak_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"1400"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"1400"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1118,18 +1118,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_power_treads"
-		"ScriptFile"                  			"items/item_power_treads_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_power_treads"
+		"ScriptFile"				"items/item_power_treads_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"1500"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"1500"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1155,18 +1155,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_ring_of_aquila"
-		"ScriptFile"                  			"items/item_spider_queen_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_ring_of_aquila"
+		"ScriptFile"				"items/item_spider_queen_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"750"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"750"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1207,18 +1207,18 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_vanguard"
-		"ScriptFile"                  			"items/item_shadow_plate_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_vanguard"
+		"ScriptFile"				"items/item_shadow_plate_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"2600"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"2600"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1254,19 +1254,19 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"Model"						"models/props_gameplay/gem01.vmdl"
-		"AbilityTextureName"            		"item_gem"
-		"ScriptFile"                  			"items/item_generator_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"Model"					"models/props_gameplay/gem01.vmdl"
+		"AbilityTextureName"			"item_gem"
+		"ScriptFile"				"items/item_generator_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"1700"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"1700"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1297,19 +1297,19 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 							"item_lua"
-		"AbilityTextureName"            		"item_revenants_brooch"
-		"ScriptFile"                  			"items/item_bladeturn_necklace_096.lua"
-		"AbilityBehavior"						"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
-		"AbilityUnitTargetTeam"					"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_revenants_brooch"
+		"ScriptFile"				"items/item_bladeturn_necklace_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"						"ITEM_FULLY_SHAREABLE"
-		"ItemCost"								"1000"
-		"ItemStockInitial" 						"1"
-		"ItemStockMax" 							"1"
-		"ItemStockTime" 						"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"1000"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1317,23 +1317,23 @@
 		{
 			"01"
 			{
-				"var_type"						"FIELD_INTEGER"
-				"bonus_armor"					"1"
+				"var_type"			"FIELD_INTEGER"
+				"bonus_armor"			"1"
 			}
 			"02"
 			{
-				"var_type"						"FIELD_INTEGER"
-				"bonus_evasion"					"15"
+				"var_type"			"FIELD_INTEGER"
+				"bonus_evasion"			"15"
 			}
 			"03"
 			{
-				"var_type"						"FIELD_INTEGER"
-				"aura_armor"					"2"
+				"var_type"			"FIELD_INTEGER"
+				"aura_armor"			"2"
 			}
 			"04"
 			{
-				"var_type"						"FIELD_INTEGER"
-				"aura_radius"					"900"
+				"var_type"			"FIELD_INTEGER"
+				"aura_radius"			"900"
 			}
 		}
 	}
@@ -1345,19 +1345,19 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_vladmir"
-		"ScriptFile"                  			"items/item_doom_mantle_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
-		"AbilityUnitTargetTeam"				"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_vladmir"
+		"ScriptFile"				"items/item_doom_mantle_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"1900"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"1900"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1408,24 +1408,24 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"Model"						"models/props_gameplay/salve.vmdl"
-		"AbilityTextureName"            		"item_flask"
-		"ScriptFile"                  			"items/item_healing_potion_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"BaseClass"				"item_lua"
+		"Model"					"models/props_gameplay/salve.vmdl"
+		"AbilityTextureName"			"item_flask"
+		"ScriptFile"				"items/item_healing_potion_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"25"
-		"ItemStockInitial" 				"0"
-		"ItemStockMax" 					"3"
-		"ItemInitialStockTime"           		"440"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"25"
+		"ItemStockInitial"			"0"
+		"ItemStockMax"				"3"
+		"ItemInitialStockTime"			"440"
+		"ItemStockTime"				"5"
 		
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"20"
+		"AbilityCooldown"			"20"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1446,30 +1446,30 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"Model"						"models/props_gameplay/bottle_blue.vmdl"
-		"AbilityTextureName"            		"item_bottle"
-		"ScriptFile"                  			"items/item_bottle_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
-		"AbilityUnitTargetTeam"				"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
-		"AbilityUnitTargetType"				"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+		"BaseClass"				"item_lua"
+		"Model"					"models/props_gameplay/bottle_blue.vmdl"
+		"AbilityTextureName"			"item_bottle"
+		"ScriptFile"				"items/item_bottle_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"300"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
-		"ItemInitialCharges"				"4"
-		"ItemStackable"					"0"
-		"ItemPermanent"					"0"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"300"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
+		"ItemInitialCharges"			"4"
+		"ItemStackable"				"0"
+		"ItemPermanent"				"0"
 		
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"5"
-		"AbilityCastRange"				"400"
-		"SpellDispellableType"				"SPELL_DISPELLABLE_YES"
+		"AbilityCooldown"			"5"
+		"AbilityCastRange"			"400"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1500,28 +1500,28 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"Model"						"models/props_gameplay/tango.vmdl"
-		"AbilityTextureName"            		"item_tango"
-		"ScriptFile"                  			"items/item_tango_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
-		"AbilityUnitTargetType"				"DOTA_UNIT_TARGET_TREE"
+		"BaseClass"				"item_lua"
+		"Model"					"models/props_gameplay/tango.vmdl"
+		"AbilityTextureName"			"item_tango"
+		"ScriptFile"				"items/item_tango_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_TREE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"600"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
-		"ItemInitialCharges"				"8"
-		"ItemStackable"					"0"
-		"ItemPermanent"					"0"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"600"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
+		"ItemInitialCharges"			"8"
+		"ItemStackable"				"0"
+		"ItemPermanent"				"0"
 		
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCastRange"				"32"
-		"SpellDispellableType"				"SPELL_DISPELLABLE_YES"
+		"AbilityCastRange"			"32"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1552,24 +1552,24 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"Model"						"models/props_gameplay/clarity.vmdl"
-		"AbilityTextureName"            		"item_clarity"
-		"ScriptFile"                  			"items/item_mana_potion_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"BaseClass"				"item_lua"
+		"Model"					"models/props_gameplay/clarity.vmdl"
+		"AbilityTextureName"			"item_clarity"
+		"ScriptFile"				"items/item_mana_potion_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"35"
-		"ItemStockInitial" 				"0"
-		"ItemStockMax" 					"2"
-		"ItemInitialStockTime"           		"440"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"35"
+		"ItemStockInitial"			"0"
+		"ItemStockMax"				"2"
+		"ItemInitialStockTime"			"440"
+		"ItemStockTime"				"5"
 		
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"20"
+		"AbilityCooldown"			"20"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1590,23 +1590,23 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"Model"						"models/props_gameplay/cheese.vmdl"
-		"AbilityTextureName"            		"item_cheese"
-		"ScriptFile"                  			"items/item_cheese_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"BaseClass"				"item_lua"
+		"Model"					"models/props_gameplay/cheese.vmdl"
+		"AbilityTextureName"			"item_cheese"
+		"ScriptFile"				"items/item_cheese_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"400"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"400"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"40"
+		"AbilityCooldown"			"40"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1632,31 +1632,31 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_bloodthorn"
-		"ScriptFile"                  			"items/item_lavabuster_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
-		"AbilityUnitTargetTeam"				"DOTA_UNIT_TARGET_TEAM_ENEMY"
-		"AbilityUnitTargetType"				"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_bloodthorn"
+		"ScriptFile"				"items/item_lavabuster_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"2000"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
-		"ItemInitialCharges"				"3"
-		"ItemRequiresCharges"         			"1"
-		"ItemStackable"					"0"
-		"ItemPermanent"					"1"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"2000"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
+		"ItemInitialCharges"			"3"
+		"ItemRequiresCharges"			"1"
+		"ItemStackable"				"0"
+		"ItemPermanent"				"1"
 		
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"				"75"
-		"AbilityCooldown"				"8"
-		"AbilityCastRange"				"800"
-		"SpellDispellableType"				"SPELL_DISPELLABLE_YES"
+		"AbilityManaCost"			"75"
+		"AbilityCooldown"			"8"
+		"AbilityCastRange"			"800"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1692,23 +1692,23 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_safety_bubble"
-		"ScriptFile"                  			"items/item_crystal_eye_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_safety_bubble"
+		"ScriptFile"				"items/item_crystal_eye_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"500"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"500"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
 		
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"60"
-		"AbilityCastRange"				"600"
+		"AbilityCooldown"			"60"
+		"AbilityCastRange"			"600"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1734,25 +1734,25 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_magic_wand"
-		"ScriptFile"                  			"items/item_wand_of_negation_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_magic_wand"
+		"ScriptFile"				"items/item_wand_of_negation_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"200"
-		"ItemStockInitial" 				"2"
-		"ItemStockMax" 					"2"
-		"ItemStockTime" 				"90"
-		"ItemInitialCharges"				"3"
-		"ItemStackable"					"0"
-		"ItemPermanent"					"0"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"200"
+		"ItemStockInitial"			"2"
+		"ItemStockMax"				"2"
+		"ItemStockTime"				"90"
+		"ItemInitialCharges"			"3"
+		"ItemStackable"				"0"
+		"ItemPermanent"				"0"
 		
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCastRange"				"500"
+		"AbilityCastRange"			"500"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1778,20 +1778,20 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"Model"						"models/gameplay/attrib_tome_xp.vmdl"
-		"AbilityTextureName"            		"item_tome_of_knowledge"
-		"ScriptFile"                  			"items/item_tome_of_retraining_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"BaseClass"				"item_lua"
+		"Model"					"models/gameplay/attrib_tome_xp.vmdl"
+		"AbilityTextureName"			"item_tome_of_knowledge"
+		"ScriptFile"				"items/item_tome_of_retraining_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemCost"					"300"
-		"ItemStockInitial" 				"0"
-		"ItemStockMax" 					"1"
-		"ItemInitialStockTime"           		"440"
-		"ItemStockTime" 				"120"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemCost"				"300"
+		"ItemStockInitial"			"0"
+		"ItemStockMax"				"1"
+		"ItemInitialStockTime"			"440"
+		"ItemStockTime"				"120"
 	}
 	
 	//=================================================================================================================
@@ -1801,19 +1801,19 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"BaseClass" 					"item_lua"
-		"AbilityTextureName"            		"item_elixer"
-		"ScriptFile"                  			"items/item_useless_096.lua"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_lua"
+		"AbilityTextureName"			"item_elixer"
+		"ScriptFile"				"items/item_useless_096.lua"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"					"450"
-		"ItemStockInitial" 				"1"
-		"ItemStockMax" 					"1"
-		"ItemStockTime" 				"5"
-		"ItemSellable" 					"0"
-		"ItemDroppable"					"0"
-		"ItemKillable" 					"0"
+		"ItemCost"				"450"
+		"ItemStockInitial"			"1"
+		"ItemStockMax"				"1"
+		"ItemStockTime"				"5"
+		"ItemSellable"				"0"
+		"ItemDroppable"				"0"
+		"ItemKillable"				"0"
 	}
 }
