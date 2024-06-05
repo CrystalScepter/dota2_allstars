@@ -3,13 +3,13 @@
 	//=================================================================================================================
 	// Ironwood Branch
 	//=================================================================================================================
-	"item_branches_096"
+	"item_branches_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_branches"
-		"ScriptFile"				"items/item_branches_096.lua"
+		"ScriptFile"				"items/item_branches_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -35,13 +35,13 @@
 	//=================================================================================================================
 	// Circlet of Nobility
 	//=================================================================================================================
-	"item_circlet_096"
+	"item_circlet_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_circlet"
-		"ScriptFile"				"items/item_circlet_096.lua"
+		"ScriptFile"				"items/item_circlet_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -67,13 +67,13 @@
 	//=================================================================================================================
 	// Ultimate Orb
 	//=================================================================================================================
-	"item_ultimate_orb_096"
+	"item_ultimate_orb_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_ultimate_orb"
-		"ScriptFile"				"items/item_ultimate_orb_096.lua"
+		"ScriptFile"				"items/item_ultimate_orb_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -99,13 +99,13 @@
 	//=================================================================================================================
 	// Gauntlets of Ogre Strength
 	//=================================================================================================================
-	"item_gauntlets_096"
+	"item_gauntlets_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_gauntlets"
-		"ScriptFile"				"items/item_gauntlets_096.lua"
+		"ScriptFile"				"items/item_gauntlets_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -131,13 +131,13 @@
 	//=================================================================================================================
 	// Belt of Giant Strength
 	//=================================================================================================================
-	"item_belt_of_strength_096"
+	"item_belt_of_strength_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_belt_of_strength"
-		"ScriptFile"				"items/item_belt_of_strength_096.lua"
+		"ScriptFile"				"items/item_belt_of_strength_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -163,13 +163,13 @@
 	//=================================================================================================================
 	// Ogre Axe
 	//=================================================================================================================
-	"item_ogre_axe_096"
+	"item_ogre_axe_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_ogre_axe"
-		"ScriptFile"				"items/item_ogre_axe_096.lua"
+		"ScriptFile"				"items/item_ogre_axe_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -195,13 +195,13 @@
 	//=================================================================================================================
 	// Slippers of Agility
 	//=================================================================================================================
-	"item_slippers_096"
+	"item_slippers_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_slippers"
-		"ScriptFile"				"items/item_slippers_096.lua"
+		"ScriptFile"				"items/item_slippers_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -227,13 +227,13 @@
 	//=================================================================================================================
 	// Boots of Quel'Thalas
 	//=================================================================================================================
-	"item_boots_of_elves_096"
+	"item_boots_of_elves_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_boots_of_elves"
-		"ScriptFile"				"items/item_boots_of_elves_096.lua"
+		"ScriptFile"				"items/item_boots_of_elves_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -259,13 +259,13 @@
 	//=================================================================================================================
 	// Blade of Alacrity
 	//=================================================================================================================
-	"item_blade_of_alacrity_096"
+	"item_blade_of_alacrity_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_blade_of_alacrity"
-		"ScriptFile"				"items/item_blade_of_alacrity_096.lua"
+		"ScriptFile"				"items/item_blade_of_alacrity_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -291,13 +291,13 @@
 	//=================================================================================================================
 	// Mantle of Intelligence
 	//=================================================================================================================
-	"item_mantle_096"
+	"item_mantle_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_mantle"
-		"ScriptFile"				"items/item_mantle_096.lua"
+		"ScriptFile"				"items/item_mantle_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -323,13 +323,13 @@
 	//=================================================================================================================
 	// Robe of the Magi
 	//=================================================================================================================
-	"item_robe_096"
+	"item_robe_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_robe"
-		"ScriptFile"				"items/item_robe_096.lua"
+		"ScriptFile"				"items/item_robe_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -355,13 +355,13 @@
 	//=================================================================================================================
 	// Staff of Wizardry
 	//=================================================================================================================
-	"item_staff_of_wizardry_096"
+	"item_staff_of_wizardry_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_staff_of_wizardry"
-		"ScriptFile"				"items/item_staff_of_wizardry_096.lua"
+		"ScriptFile"				"items/item_staff_of_wizardry_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -387,13 +387,13 @@
 	//=================================================================================================================
 	// Blades of Attack
 	//=================================================================================================================
-	"item_blades_of_attack_096"
+	"item_blades_of_attack_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_blades_of_attack"
-		"ScriptFile"				"items/item_blades_of_attack_096.lua"
+		"ScriptFile"				"items/item_blades_of_attack_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -419,13 +419,13 @@
 	//=================================================================================================================
 	// Crystalline Sword
 	//=================================================================================================================
-	"item_broadsword_096"
+	"item_broadsword_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_broadsword"
-		"ScriptFile"				"items/item_broadsword_096.lua"
+		"ScriptFile"				"items/item_broadsword_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -451,13 +451,13 @@
 	//=================================================================================================================
 	// Mithril Hammer
 	//=================================================================================================================
-	"item_mithril_hammer_096"
+	"item_mithril_hammer_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_mithril_hammer"
-		"ScriptFile"				"items/item_mithril_hammer_096.lua"
+		"ScriptFile"				"items/item_mithril_hammer_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -483,13 +483,13 @@
 	//=================================================================================================================
 	// Demon Edge
 	//=================================================================================================================
-	"item_demon_edge_096"
+	"item_demon_edge_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_demon_edge"
-		"ScriptFile"				"items/item_demon_edge_096.lua"
+		"ScriptFile"				"items/item_demon_edge_060.lua"
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -515,13 +515,13 @@
 	//=================================================================================================================
 	// Sacred Relic
 	//=================================================================================================================
-	"item_sacred_relic_096"
+	"item_sacred_relic_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_relic"
-		"ScriptFile"				"items/item_sacred_relic_096.lua"
+		"ScriptFile"				"items/item_sacred_relic_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -547,13 +547,13 @@
 	//=================================================================================================================
 	// Gloves of Haste
 	//=================================================================================================================
-	"item_gloves_of_haste_096"
+	"item_gloves_of_haste_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_gloves_of_haste"
-		"ScriptFile"				"items/item_gloves_of_haste_096.lua"
+		"ScriptFile"				"items/item_gloves_of_haste_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -579,13 +579,13 @@
 	//=================================================================================================================
 	// Hyperstone
 	//=================================================================================================================
-	"item_hyperstone_096"
+	"item_hyperstone_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_hyperstone"
-		"ScriptFile"				"items/item_hyperstone_096.lua"
+		"ScriptFile"				"items/item_hyperstone_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -611,13 +611,13 @@
 	//=================================================================================================================
 	// Vitality Booster
 	//=================================================================================================================
-	"item_vitality_booster_096"
+	"item_vitality_booster_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_vitality_booster"
-		"ScriptFile"				"items/item_vitality_booster_096.lua"
+		"ScriptFile"				"items/item_vitality_booster_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -643,13 +643,13 @@
 	//=================================================================================================================
 	// Energy Booster
 	//=================================================================================================================
-	"item_energy_booster_096"
+	"item_energy_booster_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_energy_booster"
-		"ScriptFile"				"items/item_energy_booster_096.lua"
+		"ScriptFile"				"items/item_energy_booster_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -675,13 +675,13 @@
 	//=================================================================================================================
 	// Ring of Regeneration
 	//=================================================================================================================
-	"item_ring_of_regen_096"
+	"item_ring_of_regen_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_ring_of_regen"
-		"ScriptFile"				"items/item_ring_of_regen_096.lua"
+		"ScriptFile"				"items/item_ring_of_regen_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -707,13 +707,13 @@
 	//=================================================================================================================
 	// Sobi Mask
 	//=================================================================================================================
-	"item_sobi_mask_096"
+	"item_sobi_mask_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_sobi_mask"
-		"ScriptFile"				"items/item_sobi_mask_096.lua"
+		"ScriptFile"				"items/item_sobi_mask_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -739,13 +739,13 @@
 	//=================================================================================================================
 	// Void Stone
 	//=================================================================================================================
-	"item_void_stone_096"
+	"item_void_stone_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_void_stone"
-		"ScriptFile"				"items/item_void_stone_096.lua"
+		"ScriptFile"				"items/item_void_stone_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -771,13 +771,13 @@
 	//=================================================================================================================
 	// Boots of Speed
 	//=================================================================================================================
-	"item_boots_of_speed_096"
+	"item_boots_of_speed_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_boots"
-		"ScriptFile"				"items/item_boots_of_speed_096.lua"
+		"ScriptFile"				"items/item_boots_of_speed_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -803,13 +803,13 @@
 	//=================================================================================================================
 	// Null Talisman
 	//=================================================================================================================
-	"item_null_talisman_096"
+	"item_null_talisman_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_null_talisman"
-		"ScriptFile"				"items/item_null_talisman_096.lua"
+		"ScriptFile"				"items/item_null_talisman_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -845,13 +845,13 @@
 	//=================================================================================================================
 	// Nethezerim Buckler
 	//=================================================================================================================
-	"item_buckler_096"
+	"item_buckler_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_buckler"
-		"ScriptFile"				"items/item_buckler_096.lua"
+		"ScriptFile"				"items/item_buckler_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -887,13 +887,13 @@
 	//=================================================================================================================
 	// Oblivion Staff
 	//=================================================================================================================
-	"item_oblivion_staff_096"
+	"item_oblivion_staff_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_oblivion_staff"
-		"ScriptFile"				"items/item_oblivion_staff_096.lua"
+		"ScriptFile"				"items/item_oblivion_staff_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -929,13 +929,13 @@
 	//=================================================================================================================
 	// Lothar's Claymore
 	//=================================================================================================================
-	"item_claymore_096"
+	"item_claymore_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_claymore"
-		"ScriptFile"				"items/item_claymore_096.lua"
+		"ScriptFile"				"items/item_claymore_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -966,13 +966,13 @@
 	//=================================================================================================================
 	// Bloodfury
 	//=================================================================================================================
-	"item_bloodfury_096"
+	"item_bloodfury_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_lesser_crit"
-		"ScriptFile"				"items/item_bloodfury_096.lua"
+		"ScriptFile"				"items/item_bloodfury_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -1003,13 +1003,13 @@
 	//=================================================================================================================
 	// Point Booster
 	//=================================================================================================================
-	"item_point_booster_096"
+	"item_point_booster_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_point_booster"
-		"ScriptFile"				"items/item_point_booster_096.lua"
+		"ScriptFile"				"items/item_point_booster_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -1040,13 +1040,13 @@
 	//=================================================================================================================
 	// Helmet of Iron Will
 	//=================================================================================================================
-	"item_helm_of_iron_will_096"
+	"item_helm_of_iron_will_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_helm_of_iron_will"
-		"ScriptFile"				"items/item_helm_of_iron_will_096.lua"
+		"ScriptFile"				"items/item_helm_of_iron_will_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -1077,13 +1077,13 @@
 	//=================================================================================================================
 	// Magus' Cloak
 	//=================================================================================================================
-	"item_cloak_096"
+	"item_cloak_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_cloak"
-		"ScriptFile"				"items/item_cloak_096.lua"
+		"ScriptFile"				"items/item_cloak_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -1114,13 +1114,13 @@
 	//=================================================================================================================
 	// Power Treads
 	//=================================================================================================================
-	"item_power_treads_096"
+	"item_power_treads_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_power_treads"
-		"ScriptFile"				"items/item_power_treads_096.lua"
+		"ScriptFile"				"items/item_power_treads_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -1151,13 +1151,13 @@
 	//=================================================================================================================
 	// Spider Queen's Band
 	//=================================================================================================================
-	"item_spider_queen_096"
+	"item_spider_queen_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_ring_of_aquila"
-		"ScriptFile"				"items/item_spider_queen_096.lua"
+		"ScriptFile"				"items/item_spider_queen_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -1203,13 +1203,13 @@
 	//=================================================================================================================
 	// Shadow Plate
 	//=================================================================================================================
-	"item_shadow_plate_096"
+	"item_shadow_plate_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_vanguard"
-		"ScriptFile"				"items/item_shadow_plate_096.lua"
+		"ScriptFile"				"items/item_shadow_plate_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -1250,14 +1250,14 @@
 	//=================================================================================================================
 	// Generator
 	//=================================================================================================================
-	"item_generator_096"
+	"item_generator_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"Model"					"models/props_gameplay/gem01.vmdl"
 		"AbilityTextureName"			"item_gem"
-		"ScriptFile"				"items/item_generator_096.lua"
+		"ScriptFile"				"items/item_generator_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information
@@ -1293,13 +1293,13 @@
 	//=================================================================================================================
 	// Bladeturn Necklace
 	//=================================================================================================================
-	"item_bladeturn_necklace_096"
+	"item_bladeturn_necklace_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_revenants_brooch"
-		"ScriptFile"				"items/item_bladeturn_necklace_096.lua"
+		"ScriptFile"				"items/item_bladeturn_necklace_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
 		
@@ -1341,13 +1341,13 @@
 	//=================================================================================================================
 	// Doom Mantle
 	//=================================================================================================================
-	"item_doom_mantle_096"
+	"item_doom_mantle_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_vladmir"
-		"ScriptFile"				"items/item_doom_mantle_096.lua"
+		"ScriptFile"				"items/item_doom_mantle_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
 		
@@ -1404,14 +1404,14 @@
 	//=================================================================================================================
 	// Healing Potion
 	//=================================================================================================================
-	"item_healing_potion_096"
+	"item_healing_potion_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"Model"					"models/props_gameplay/salve.vmdl"
 		"AbilityTextureName"			"item_flask"
-		"ScriptFile"				"items/item_healing_potion_096.lua"
+		"ScriptFile"				"items/item_healing_potion_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
 		
 		// Information
@@ -1442,14 +1442,14 @@
 	//=================================================================================================================
 	// Flask of Sapphire Water
 	//=================================================================================================================
-	"item_bottle_096"
+	"item_bottle_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"Model"					"models/props_gameplay/bottle_blue.vmdl"
 		"AbilityTextureName"			"item_bottle"
-		"ScriptFile"				"items/item_bottle_096.lua"
+		"ScriptFile"				"items/item_bottle_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
@@ -1496,14 +1496,14 @@
 	//=================================================================================================================
 	// Ancient Knowledge Stone
 	//=================================================================================================================
-	"item_tango_096"
+	"item_tango_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"Model"					"models/props_gameplay/tango.vmdl"
 		"AbilityTextureName"			"item_tango"
-		"ScriptFile"				"items/item_tango_096.lua"
+		"ScriptFile"				"items/item_tango_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_TREE"
 		
@@ -1548,14 +1548,14 @@
 	//=================================================================================================================
 	// Mana Potion
 	//=================================================================================================================
-	"item_mana_potion_096"
+	"item_mana_potion_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"Model"					"models/props_gameplay/clarity.vmdl"
 		"AbilityTextureName"			"item_clarity"
-		"ScriptFile"				"items/item_mana_potion_096.lua"
+		"ScriptFile"				"items/item_mana_potion_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
 		
 		// Information
@@ -1586,14 +1586,14 @@
 	//=================================================================================================================
 	// Furbolg Cheese
 	//=================================================================================================================
-	"item_cheese_096"
+	"item_cheese_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"Model"					"models/props_gameplay/cheese.vmdl"
 		"AbilityTextureName"			"item_cheese"
-		"ScriptFile"				"items/item_cheese_096.lua"
+		"ScriptFile"				"items/item_cheese_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
 		
 		// Information
@@ -1628,13 +1628,13 @@
 	//=================================================================================================================
 	// Lavabuster
 	//=================================================================================================================
-	"item_lavabuster_096"
+	"item_lavabuster_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_bloodthorn"
-		"ScriptFile"				"items/item_lavabuster_096.lua"
+		"ScriptFile"				"items/item_lavabuster_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
@@ -1688,13 +1688,13 @@
 	//=================================================================================================================
 	// Crystal Eye
 	//=================================================================================================================
-	"item_crystal_eye_096"
+	"item_crystal_eye_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_safety_bubble"
-		"ScriptFile"				"items/item_crystal_eye_096.lua"
+		"ScriptFile"				"items/item_crystal_eye_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
 		
 		// Information
@@ -1730,13 +1730,13 @@
 	//=================================================================================================================
 	// Wand of Negation
 	//=================================================================================================================
-	"item_wand_of_negation_096"
+	"item_wand_of_negation_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_magic_wand"
-		"ScriptFile"				"items/item_wand_of_negation_096.lua"
+		"ScriptFile"				"items/item_wand_of_negation_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
 		
 		// Information
@@ -1774,14 +1774,14 @@
 	//=================================================================================================================
 	// Tome of Retraining
 	//=================================================================================================================
-	"item_tome_of_retraining_096"
+	"item_tome_of_retraining_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"Model"					"models/gameplay/attrib_tome_xp.vmdl"
 		"AbilityTextureName"			"item_tome_of_knowledge"
-		"ScriptFile"				"items/item_tome_of_retraining_096.lua"
+		"ScriptFile"				"items/item_tome_of_retraining_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
 		
 		// Information
@@ -1797,13 +1797,13 @@
 	//=================================================================================================================
 	// Useless Item
 	//=================================================================================================================
-	"item_useless_096"
+	"item_useless_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"item_lua"
 		"AbilityTextureName"			"item_elixer"
-		"ScriptFile"				"items/item_useless_096.lua"
+		"ScriptFile"				"items/item_useless_060.lua"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		// Information

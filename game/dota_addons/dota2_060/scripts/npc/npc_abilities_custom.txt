@@ -3,13 +3,13 @@
 	//=================================================================================================================
 	// Attribute Bonus (level 12 maximum)
 	//=================================================================================================================
-	"bonus_attributes_096_12"
+	"bonus_attributes_060_12"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"ability_lua"
 		"AbilityTextureName"			"dawnbreaker_luminosity"
-		"ScriptFile"				"abilities/heroes/generic/bonus_attributes_096_12"
+		"ScriptFile"				"abilities/heroes/generic/bonus_attributes_060_12"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		"MaxLevel"				"12"
@@ -30,13 +30,13 @@
 	//=================================================================================================================
 	// Sneak Attack
 	//=================================================================================================================
-	"drow_ranger_sneak_attack_096"
+	"drow_ranger_sneak_attack_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"ability_lua"
 		"AbilityTextureName"			"templar_assassin_meld"
-		"ScriptFile"				"abilities/heroes/drow_ranger/drow_ranger_sneak_attack_096"
+		"ScriptFile"				"abilities/heroes/drow_ranger/drow_ranger_sneak_attack_060"
 		"AbilityType"				"DOTA_ABILITY_TYPE_BASIC"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
 
@@ -77,13 +77,13 @@
 	//=================================================================================================================
 	// Fury
 	//=================================================================================================================
-	"drow_ranger_fury_096"
+	"drow_ranger_fury_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"ability_lua"
 		"AbilityTextureName"			"windrunner_focusfire"
-		"ScriptFile"				"abilities/heroes/drow_ranger/drow_ranger_fury_096"
+		"ScriptFile"				"abilities/heroes/drow_ranger/drow_ranger_fury_060"
 		"AbilityType"				"DOTA_ABILITY_TYPE_ULTIMATE"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
 
@@ -115,13 +115,13 @@
 	//=================================================================================================================
 	// Trueshot Aura
 	//=================================================================================================================
-	"drow_ranger_trueshot_096"
+	"drow_ranger_trueshot_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"ability_lua"
 		"AbilityTextureName"			"drow_ranger_trueshot"
-		"ScriptFile"				"abilities/heroes/drow_ranger/drow_ranger_trueshot_096"
+		"ScriptFile"				"abilities/heroes/drow_ranger/drow_ranger_trueshot_060"
 		"AbilityType"				"DOTA_ABILITY_TYPE_BASIC"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
@@ -148,13 +148,13 @@
 	//=================================================================================================================
 	// Marksmanship
 	//=================================================================================================================
-	"drow_ranger_marksmanship_096"
+	"drow_ranger_marksmanship_060"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"ability_lua"
 		"AbilityTextureName"			"drow_ranger_marksmanship"
-		"ScriptFile"				"abilities/heroes/drow_ranger/drow_ranger_marksmanship_096"
+		"ScriptFile"				"abilities/heroes/drow_ranger/drow_ranger_marksmanship_060"
 		"AbilityType"				"DOTA_ABILITY_TYPE_ULTIMATE"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST | DOTA_ABILITY_BEHAVIOR_ATTACK"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_BOTH"

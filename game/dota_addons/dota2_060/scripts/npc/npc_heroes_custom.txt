@@ -3,19 +3,19 @@
 	//=================================================================================================================
 	// HERO: Drow Ranger
 	//=================================================================================================================
-	"npc_dota_hero_drow_ranger_096"
+	"npc_dota_hero_drow_ranger_060"
 	{
 		"override_hero"				"npc_dota_hero_drow_ranger"
 
 		// Abilities
 		//-------------------------------------------------------------------------------------------------------------
-		"Ability1"				"drow_ranger_sneak_attack_096"
-		"Ability2"				"drow_ranger_fury_096"
-		"Ability3"				"drow_ranger_trueshot_096"
+		"Ability1"				"drow_ranger_sneak_attack_060"
+		"Ability2"				"drow_ranger_fury_060"
+		"Ability3"				"drow_ranger_trueshot_060"
 		"Ability4"				"generic_hidden"
 		"Ability5"				"generic_hidden"
-		"Ability6"				"drow_ranger_marksmanship_096"
-		"Ability7"				"bonus_attributes_096_12"
+		"Ability6"				"drow_ranger_marksmanship_060"
+		"Ability7"				"bonus_attributes_060_12"
 		"Ability8"				""
 		"Ability9"				""
 		"Ability10"				""
