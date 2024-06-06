@@ -18,6 +18,7 @@ function GameMode:InitGameMode()
 	GameRules:EnableCustomGameSetupAutoLaunch(true)
 	GameRules:SetCustomGameSetupAutoLaunchDelay(0)
 	GameRules:SetHeroSelectionTime(10)
+	GameRules:SetHeroSelectPenaltyTime(0)
 	GameRules:SetStrategyTime(0)
 	GameRules:SetShowcaseTime(0)
 
@@ -46,11 +47,15 @@ function GameMode:InitGameMode()
 	-- Disables sticky items
 	GameMode:SetStickyItemDisabled(true)
 
-	-- Disables purchasing items with the stash
+	-- Disables the stash
 	GameMode:SetStashPurchasingDisabled(false)
+	GameMode:SetSendToStashEnabled(false)
 
 	-- Disables being given a free Teleport Scroll on death
 	GameMode:SetGiveFreeTPOnDeath(false)
+
+	-- Disables buyback
+	GameMode:SetBuybackEnabled(false)
 
 	-- Disables neutral items
 	GameMode:SetAllowNeutralItemDrops(false)
@@ -58,11 +63,42 @@ function GameMode:InitGameMode()
 	-- Disables fog of war from automatically being uncovered
 	GameMode:SetUnseenFogOfWarEnabled(true)
 
-	-- Enables the day / night cycle
-	GameMode:SetDaynightCycleDisabled(false)
+	-- Sets the correct respawn time for trees
+	GameRules:SetTreeRegrowTime(300)
 
 	-- Disables backdoor protection
 	GameMode:SetTowerBackdoorProtectionEnabled(false)
+
+	-- Disables glyph and scan
+	GameMode:SetCustomGlyphCooldown(36000)
+	GameMode:SetCustomScanCooldown(36000)
+
+	-- Disables the pre game time
+	GameRules:SetPreGameTime(0)
+
+	-- Disables first blood
+	GameRules:SetFirstBloodActive(false)
+
+	-- Disables the innate damage block from melee heroes
+	GameMode:SetInnateMeleeDamageBlockAmount(0)
+	GameMode:SetInnateMeleeDamageBlockPercent(0)
+	GameMode:SetInnateMeleeDamageBlockPerLevelAmount(0)
+
+	-- Essentially disables limits on attack speed for heroes
+	GameMode:SetMinimumAttackSpeed(0)
+	GameMode:SetMaximumAttackSpeed(5000)
+
+	-- Illusions remain alive even if the hero ends up dying
+	GameMode:SetRemoveIllusionsOnDeath(false)
+
+	-- Sets the day cycle to start at the beginning of night
+	GameRules:SetTimeOfDay(0.75)
+
+	-- Speeds up the day / night cycle
+	GameMode:SetDaynightCycleAdvanceRate(1.3333)
+
+	-- Increases the initial spawn of neutrals by 30 seconds
+	GameRules:SetNeutralInitialSpawnOffset(30)
 
 	-- Registers when an NPC spawns into the game
 	ListenToGameEvent("npc_spawned", Dynamic_Wrap(self, "OnNPCSpawned"), self)
