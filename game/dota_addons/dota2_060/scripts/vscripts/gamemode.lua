@@ -79,6 +79,11 @@ function GameMode:InitGameMode()
 	-- Disables first blood
 	GameRules:SetFirstBloodActive(false)
 
+	GameMode:SetCustomXPRequiredToReachNextLevel({
+		0, 200, 500, 900, 1400, 2000, 2700, 3500, 4400, 5400, 6500, 7700, 9000, 10400, 11900, 13500, 15200, 17000, 18900, 20900, 23000, 25200, 27500, 29900, 32400
+	});
+	GameMode:SetUseCustomHeroLevels(true)
+
 	-- Disables the innate damage block from melee heroes
 	GameMode:SetInnateMeleeDamageBlockAmount(0)
 	GameMode:SetInnateMeleeDamageBlockPercent(0)
