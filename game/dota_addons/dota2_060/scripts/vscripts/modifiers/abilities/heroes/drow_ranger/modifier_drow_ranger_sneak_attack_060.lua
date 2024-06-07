@@ -3,13 +3,13 @@ modifier_drow_ranger_sneak_attack_060 = class({})
 -- Called when the modifier is created
 function modifier_drow_ranger_sneak_attack_060:OnCreated( kv )
 	self.bonus_damage = self:GetAbility():GetSpecialValueFor( "bonus_damage" )
-	self.movement_speed = self:GetAbility():GetSpecialValueFor( "movement_speed" )
+	self.bonus_movement_speed = self:GetAbility():GetSpecialValueFor( "bonus_movement_speed" )
 end
 
 -- Called when the modifier is refreshed
 function modifier_drow_ranger_sneak_attack_060:OnRefresh( kv )
 	self.bonus_damage = self:GetAbility():GetSpecialValueFor( "bonus_damage" )
-	self.movement_speed = self:GetAbility():GetSpecialValueFor( "movement_speed" )
+	self.bonus_movement_speed = self:GetAbility():GetSpecialValueFor( "bonus_movement_speed" )
 end
 
 -- Returns the events and properties our modifier affects
@@ -34,7 +34,7 @@ end
 
 -- Returns the value for the property
 function modifier_drow_ranger_sneak_attack_060:GetModifierMoveSpeedBonus_Percentage( params )
-	return self.movement_speed
+	return self.bonus_movement_speed
 end
 
 -- Returns the value for the property

@@ -1,7 +1,7 @@
 "DOTAHeroes"
 {
 	//=================================================================================================================
-	// HERO: Drow Ranger
+	// Drow Ranger
 	//=================================================================================================================
 	"npc_dota_hero_drow_ranger_060"
 	{
@@ -15,9 +15,7 @@
 		"Ability4"				"generic_hidden"
 		"Ability5"				"generic_hidden"
 		"Ability6"				"drow_ranger_marksmanship_060"
-		"Ability7"				"bonus_attributes_060_12"
-		"Ability8"				""
-		"Ability9"				""
+		"Ability7"				"bonus_attributes_060"
 		"Ability10"				""
 		"Ability11"				""
 		"Ability12"				""
@@ -63,6 +61,73 @@
 
 		"MovementSpeed"				"300"
 		"MovementTurnRate"			"0.4"
+
+		// Miscellaneous
+		//-------------------------------------------------------------------------------------------------------------
+		"VisionDaytimeRange"			"1800"
+		"VisionNighttimeRange"			"1700"
+	}
+
+	//=================================================================================================================
+	// Pudge
+	//=================================================================================================================
+	"npc_dota_hero_pudge_060"
+	{
+		"override_hero"				"npc_dota_hero_pudge"
+
+		// Abilities
+		//-------------------------------------------------------------------------------------------------------------
+		"Ability1"				"drow_ranger_sneak_attack_060"
+		"Ability2"				"pudge_haste_060"
+		"Ability3"				"drow_ranger_trueshot_060"
+		"Ability4"				"generic_hidden"
+		"Ability5"				"generic_hidden"
+		"Ability6"				"drow_ranger_marksmanship_060"
+		"Ability7"				"bonus_attributes_060"
+		"Ability10"				""
+		"Ability11"				""
+		"Ability12"				""
+		"Ability13"				""
+		"Ability14"				""
+		"Ability15"				""
+		"Ability16"				""
+		"Ability17"				""
+		"Ability25"				""
+
+		"AbilityTalentStart"			""
+
+		"Facets"
+		{
+		}
+
+		// Attributes
+		//-------------------------------------------------------------------------------------------------------------
+		"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"			"22"
+		"AttributeBaseAgility"			"18"
+		"AttributeBaseIntelligence"		"16"
+		"AttributeStrengthGain"			"3"
+		"AttributeAgilityGain"			"2"
+		"AttributeIntelligenceGain"		"1.5"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AttackDamageMin"			"30"
+		"AttackDamageMax"			"30"
+		"AttackRate"				"2.13"
+		"AttackAnimationPoint"			"0.5"
+		"AttackAcquisitionRange"		"650"
+		"AttackRange"				"100"
+		"AttackRangeBuffer"			"250"
+
+		"StatusHealth"				"100"
+		"StatusHealthRegen"			"0"
+		"StatusMana"				"0"
+		"StatusManaRegen"			"0.01"
+		"ArmorPhysical"				"0"
+
+		"MovementSpeed"				"240"
+		"MovementTurnRate"			"0.5"
 
 		// Miscellaneous
 		//-------------------------------------------------------------------------------------------------------------

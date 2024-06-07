@@ -12,12 +12,19 @@
 		"addon_game_name"								"DotA Allstars v0.60 Beta"
 		
 		//=================================================================================================================
+		// Generic Abilities
+		//=================================================================================================================
+		"DOTA_Tooltip_Ability_bonus_attributes_060"					"Bonus Attributes"
+		"DOTA_Tooltip_Ability_bonus_attributes_060_Description"				"Gives your hero Strength, Agility and Intelligence."
+		"DOTA_Tooltip_Ability_bonus_attributes_060_all_attributes"			"Bonus Attributes:"
+		
+		//=================================================================================================================
 		// Drow Ranger's abilities
 		//=================================================================================================================
 		"DOTA_Tooltip_Ability_drow_ranger_sneak_attack_060"				"Sneak Attack"
 		"DOTA_Tooltip_ability_drow_ranger_sneak_attack_060_Description"			"Drow Ranger becomes invisible and moves faster for a set amount of time. When Drow Ranger attacks a unit to break invisibility, she will deal bonus physical damage."
 		"DOTA_Tooltip_ability_drow_ranger_sneak_attack_060_bonus_damage"		"Damage:"
-		"DOTA_Tooltip_ability_drow_ranger_sneak_attack_060_movement_speed"		"%Movement Speed:"
+		"DOTA_Tooltip_ability_drow_ranger_sneak_attack_060_bonus_movement_speed"	"%Movement Speed:"
 		"DOTA_Tooltip_ability_drow_ranger_sneak_attack_060_duration"			"Duration:"
 		"DOTA_Tooltip_ability_drow_ranger_sneak_attack_060_fade_time"			"Fade Time:"
 		
@@ -42,6 +49,17 @@
 		"DOTA_Tooltip_Ability_drow_ranger_marksmanship_060"				"Marksmanship"
 		"DOTA_Tooltip_ability_drow_ranger_marksmanship_060_Description"			"Drow Ranger's accuracy has increased to the point where she can deal massive amounts of damage to creeps."
 		"DOTA_Tooltip_ability_drow_ranger_marksmanship_060_bonus_damage"		"Damage:"
+
+		//=================================================================================================================
+		// Pudge's abilities
+		//=================================================================================================================
+		"DOTA_Tooltip_Ability_pudge_haste_060"						"Haste"
+		"DOTA_Tooltip_Ability_pudge_haste_060_Description"				"Increases this unit's movement speed."
+		"DOTA_Tooltip_Ability_pudge_haste_060_bonus_movement_speed"			"%Movement Speed:"
+		"DOTA_Tooltip_Ability_pudge_haste_060_duration"					"Duration:"
+
+		"DOTA_Tooltip_modifier_pudge_haste_060"						"Haste"
+		"DOTA_Tooltip_modifier_pudge_haste_060_Description"				"Pudge gains movement speed."
 		
 		//=================================================================================================================
 		// Items sold by the Cache of the Quel'thelan, sorted by gold cost

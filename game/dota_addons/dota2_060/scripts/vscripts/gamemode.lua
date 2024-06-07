@@ -23,7 +23,7 @@ function GameMode:InitGameMode()
 	GameRules:SetShowcaseTime(0)
 
 	-- Forces Drow Ranger for testing purposes
-	GameMode:SetCustomGameForceHero("npc_dota_hero_drow_ranger")
+	GameMode:SetCustomGameForceHero("npc_dota_hero_pudge")
 
 	-- Disables loss of gold if no hero is picked during hero selection time
 	GameMode:SetSelectionGoldPenaltyEnabled(false)
