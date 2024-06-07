@@ -22,6 +22,7 @@ function GameMode:InitGameMode()
 	GameRules:SetStrategyTime(0)
 	GameRules:SetShowcaseTime(0)
 
+	-- Forces Drow Ranger for testing purposes
 	GameMode:SetCustomGameForceHero("npc_dota_hero_drow_ranger")
 
 	-- Disables loss of gold if no hero is picked during hero selection time
@@ -79,10 +80,35 @@ function GameMode:InitGameMode()
 	-- Disables first blood
 	GameRules:SetFirstBloodActive(false)
 
-	GameMode:SetCustomXPRequiredToReachNextLevel({
-		0, 200, 500, 900, 1400, 2000, 2700, 3500, 4400, 5400, 6500, 7700, 9000, 10400, 11900, 13500, 15200, 17000, 18900, 20900, 23000, 25200, 27500, 29900, 32400
-	});
+	-- Limits the maximum hero level to 25 and sets a custom experience table
 	GameMode:SetUseCustomHeroLevels(true)
+	GameMode:SetCustomXPRequiredToReachNextLevel({
+		0,
+		200,
+		500,
+		900,
+		1400,
+		2000,
+		2700,
+		3500,
+		4400,
+		5400,
+		6500,
+		7700,
+		9000,
+		10400,
+		11900,
+		13500,
+		15200,
+		17000,
+		18900,
+		20900,
+		23000,
+		25200,
+		27500,
+		29900,
+		32400,
+	})
 
 	-- Disables the innate damage block from melee heroes
 	GameMode:SetInnateMeleeDamageBlockAmount(0)
@@ -109,6 +135,6 @@ function GameMode:InitGameMode()
 	ListenToGameEvent("npc_spawned", Dynamic_Wrap(self, "OnNPCSpawned"), self)
 
 	-- Links the modifiers that are going to be used by our events
-	LinkLuaModifier("modifier_attributes", "modifiers/global/modifier_attributes.lua", LUA_MODIFIER_MOTION_NONE)
-	LinkLuaModifier("modifier_passive_gold", "modifiers/global/modifier_passive_gold.lua", LUA_MODIFIER_MOTION_NONE)
+	LinkLuaModifier("modifier_attributes", "modifiers/generic/modifier_attributes.lua", LUA_MODIFIER_MOTION_NONE)
+	LinkLuaModifier("modifier_passive_gold", "modifiers/generic/modifier_passive_gold.lua", LUA_MODIFIER_MOTION_NONE)
 end
