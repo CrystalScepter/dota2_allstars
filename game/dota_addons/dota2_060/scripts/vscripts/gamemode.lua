@@ -22,8 +22,8 @@ function GameMode:InitGameMode()
 	GameRules:SetStrategyTime(0)
 	GameRules:SetShowcaseTime(0)
 
-	-- Forces Drow Ranger for testing purposes
-	GameMode:SetCustomGameForceHero("npc_dota_hero_pudge")
+	-- Forces a hero for testing purposes
+	GameMode:SetCustomGameForceHero("npc_dota_hero_viper")
 
 	-- Disables loss of gold if no hero is picked during hero selection time
 	GameMode:SetSelectionGoldPenaltyEnabled(false)
@@ -136,5 +136,4 @@ function GameMode:InitGameMode()
 
 	-- Links the modifiers that are going to be used by our events
 	LinkLuaModifier("modifier_attributes", "modifiers/generic/modifier_attributes.lua", LUA_MODIFIER_MOTION_NONE)
-	LinkLuaModifier("modifier_passive_gold", "modifiers/generic/modifier_passive_gold.lua", LUA_MODIFIER_MOTION_NONE)
 end

@@ -14,7 +14,4 @@ end
 function GameMode:OnHeroInGame(hero)
 	-- Adds the attributes modifier to the hero
 	hero:AddNewModifier(hero, nil, "modifier_attributes", {})
-
-	-- Adds the gold generation modifier to the hero
-	hero:AddNewModifier(hero, nil, "modifier_passive_gold", {})
 end

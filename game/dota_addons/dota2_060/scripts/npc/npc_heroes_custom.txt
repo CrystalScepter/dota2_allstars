@@ -134,4 +134,72 @@
 		"VisionDaytimeRange"			"1800"
 		"VisionNighttimeRange"			"1700"
 	}
+
+	//=================================================================================================================
+	// Viper
+	//=================================================================================================================
+	"npc_dota_hero_viper_060"
+	{
+		"override_hero"				"npc_dota_hero_viper"
+
+		// Abilities
+		//-------------------------------------------------------------------------------------------------------------
+		"Ability1"				"viper_frenzy_060"
+		"Ability2"				"viper_healing_wave_060"
+		"Ability3"				"viper_haste_060"
+		"Ability4"				"generic_hidden"
+		"Ability5"				"generic_hidden"
+		"Ability6"				"drow_ranger_trueshot_060"
+		"Ability7"				"bonus_attributes_060"
+		"Ability10"				""
+		"Ability11"				""
+		"Ability12"				""
+		"Ability13"				""
+		"Ability14"				""
+		"Ability15"				""
+		"Ability16"				""
+		"Ability17"				""
+		"Ability25"				""
+
+		"AbilityTalentStart"			""
+
+		"Facets"
+		{
+		}
+
+		// Attributes
+		//-------------------------------------------------------------------------------------------------------------
+		"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength"			"18"
+		"AttributeBaseAgility"			"19"
+		"AttributeBaseIntelligence"		"15"
+		"AttributeStrengthGain"			"1.9"
+		"AttributeAgilityGain"			"2.5"
+		"AttributeIntelligenceGain"		"2"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AttackDamageMin"			"10"
+		"AttackDamageMax"			"10"
+		"AttackRate"				"2.5"
+		"AttackAnimationPoint"			"0.3"
+		"AttackAcquisitionRange"		"650"
+		"AttackRange"				"600"
+		"AttackRangeBuffer"			"250"
+		"ProjectileSpeed"			"900"
+
+		"StatusHealth"				"100"
+		"StatusHealthRegen"			"0.5"
+		"StatusMana"				"0"
+		"StatusManaRegen"			"0.01"
+		"ArmorPhysical"				"-2"
+
+		"MovementSpeed"				"315"
+		"MovementTurnRate"			"0.4"
+
+		// Miscellaneous
+		//-------------------------------------------------------------------------------------------------------------
+		"VisionDaytimeRange"			"1800"
+		"VisionNighttimeRange"			"1700"
+	}
 }

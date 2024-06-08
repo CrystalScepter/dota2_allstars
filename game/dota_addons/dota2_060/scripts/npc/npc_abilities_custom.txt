@@ -232,7 +232,7 @@
 	}
 
 	//=================================================================================================================
-	// Haste
+	// Pudge's Haste
 	//=================================================================================================================
 	"pudge_haste_060"
 	{
@@ -340,6 +340,136 @@
 			{
 				"var_type"			"FIELD_INTEGER"
 				"duration"			"50 55 60"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Frenzy
+	//=================================================================================================================
+	"viper_frenzy_060"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"AbilityTextureName"			"legion_commander_press_the_attack"
+		"ScriptFile"				"abilities/heroes/viper/viper_frenzy_060"
+		"AbilityType"				"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+
+		"MaxLevel"				"3"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"			"50"
+		"AbilityCastPoint"			"0.5"
+		"AbilityCooldown"			"1"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_attack_speed"		"75 150 225"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"duration"			"20 30 40"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Healing Wave
+	//=================================================================================================================
+	"viper_healing_wave_060"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"AbilityTextureName"			"dazzle_shadow_wave"
+		"ScriptFile"				"abilities/heroes/viper/viper_healing_wave_060"
+		"AbilityType"				"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+
+		"MaxLevel"				"3"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"			"90"
+		"AbilityCastRange"			"700"
+		"AbilityCooldown"			"9"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"heal"				"130 215 300"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bounces"			"3 4 5"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bounce_reduction"		"0.25"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bounce_area"			"500"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Viper's Haste
+	//=================================================================================================================
+	"viper_haste_060"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"AbilityTextureName"			"dark_seer_surge"
+		"ScriptFile"				"abilities/heroes/viper/viper_haste_060"
+		"AbilityType"				"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+
+		"MaxLevel"				"3"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"			"30"
+		"AbilityCooldown"			"30"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_attack_speed"		"10 20 30"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_movement_speed"		"15 30 45"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"duration"			"60"
 			}
 		}
 	}
