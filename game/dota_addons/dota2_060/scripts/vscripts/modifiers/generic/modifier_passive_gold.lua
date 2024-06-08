@@ -3,7 +3,7 @@ modifier_passive_gold = class({})
 -- Called when the modifier is created
 function modifier_passive_gold:OnCreated()
 	-- Defines the amount of seconds for each gold tick and how much it gives
-	self.gold_per_tick = 5
+	self.gold_per_tick = 0
 	self.gold_tick_time = 7
 
 	-- Applies the effect periodically
