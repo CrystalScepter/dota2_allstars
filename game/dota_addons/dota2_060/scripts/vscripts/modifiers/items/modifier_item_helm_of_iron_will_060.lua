@@ -1,9 +1,9 @@
 modifier_item_helm_of_iron_will_060 = class({})
 
 -- Called when the modifier is created
-function modifier_item_helm_of_iron_will_060:OnCreated( kv )
-	self.bonus_armor = self:GetAbility():GetSpecialValueFor( "bonus_armor" )
-	self.bonus_health_regen = self:GetAbility():GetSpecialValueFor( "bonus_health_regen" )
+function modifier_item_helm_of_iron_will_060:OnCreated(kv)
+	self.bonus_armor = self:GetAbility():GetSpecialValueFor("bonus_armor")
+	self.bonus_health_regen = self:GetAbility():GetSpecialValueFor("bonus_health_regen")
 end
 
 -- Returns the events and properties our modifier affects
@@ -16,12 +16,12 @@ function modifier_item_helm_of_iron_will_060:DeclareFunctions()
 end
 
 -- Returns the value for the property
-function modifier_item_helm_of_iron_will_060:GetModifierPhysicalArmorBonus( params )
+function modifier_item_helm_of_iron_will_060:GetModifierPhysicalArmorBonus(params)
 	return self.bonus_armor
 end
 
 -- Returns the value for the property
-function modifier_item_helm_of_iron_will_060:GetModifierConstantHealthRegen( params )
+function modifier_item_helm_of_iron_will_060:GetModifierConstantHealthRegen(params)
 	return self.bonus_health_regen
 end
 

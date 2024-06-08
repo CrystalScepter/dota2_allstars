@@ -1,10 +1,10 @@
 modifier_item_buckler_060 = class({})
 
 -- Called when the modifier is created
-function modifier_item_buckler_060:OnCreated( kv )
-	self.bonus_strength = self:GetAbility():GetSpecialValueFor( "bonus_strength" )
-	self.bonus_health = self:GetAbility():GetSpecialValueFor( "bonus_health" )
-	self.bonus_armor = self:GetAbility():GetSpecialValueFor( "bonus_armor" )
+function modifier_item_buckler_060:OnCreated(kv)
+	self.bonus_strength = self:GetAbility():GetSpecialValueFor("bonus_strength")
+	self.bonus_health = self:GetAbility():GetSpecialValueFor("bonus_health")
+	self.bonus_armor = self:GetAbility():GetSpecialValueFor("bonus_armor")
 end
 
 -- Returns the events and properties our modifier affects
@@ -18,17 +18,17 @@ function modifier_item_buckler_060:DeclareFunctions()
 end
 
 -- Returns the value for the property
-function modifier_item_buckler_060:GetModifierBonusStats_Strength( params )
+function modifier_item_buckler_060:GetModifierBonusStats_Strength(params)
 	return self.bonus_strength
 end
 
 -- Returns the value for the property
-function modifier_item_buckler_060:GetModifierHealthBonus( params )
+function modifier_item_buckler_060:GetModifierHealthBonus(params)
 	return self.bonus_health
 end
 
 -- Returns the value for the property
-function modifier_item_buckler_060:GetModifierPhysicalArmorBonus( params )
+function modifier_item_buckler_060:GetModifierPhysicalArmorBonus(params)
 	return self.bonus_armor
 end
 

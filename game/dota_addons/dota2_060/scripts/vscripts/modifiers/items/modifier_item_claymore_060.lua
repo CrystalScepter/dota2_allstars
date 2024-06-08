@@ -1,9 +1,9 @@
 modifier_item_claymore_060 = class({})
 
 -- Called when the modifier is created
-function modifier_item_claymore_060:OnCreated( kv )
-	self.bonus_damage = self:GetAbility():GetSpecialValueFor( "bonus_damage" )
-	self.bonus_attack_speed = self:GetAbility():GetSpecialValueFor( "bonus_attack_speed" )
+function modifier_item_claymore_060:OnCreated(kv)
+	self.bonus_damage = self:GetAbility():GetSpecialValueFor("bonus_damage")
+	self.bonus_attack_speed = self:GetAbility():GetSpecialValueFor("bonus_attack_speed")
 end
 
 -- Returns the events and properties our modifier affects
@@ -16,12 +16,12 @@ function modifier_item_claymore_060:DeclareFunctions()
 end
 
 -- Returns the value for the property
-function modifier_item_claymore_060:GetModifierPreAttack_BonusDamage( params )
+function modifier_item_claymore_060:GetModifierPreAttack_BonusDamage(params)
 	return self.bonus_damage
 end
 
 -- Returns the value for the property
-function modifier_item_claymore_060:GetModifierAttackSpeedBonus_Constant( params )
+function modifier_item_claymore_060:GetModifierAttackSpeedBonus_Constant(params)
 	return self.bonus_attack_speed
 end
 

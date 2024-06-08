@@ -1,10 +1,10 @@
 modifier_item_oblivion_staff_060 = class({})
 
 -- Called when the modifier is created
-function modifier_item_oblivion_staff_060:OnCreated( kv )
-	self.bonus_intelligence = self:GetAbility():GetSpecialValueFor( "bonus_intelligence" )
-	self.bonus_attack_speed = self:GetAbility():GetSpecialValueFor( "bonus_attack_speed" )
-	self.bonus_mana = self:GetAbility():GetSpecialValueFor( "bonus_mana" )
+function modifier_item_oblivion_staff_060:OnCreated(kv)
+	self.bonus_intelligence = self:GetAbility():GetSpecialValueFor("bonus_intelligence")
+	self.bonus_attack_speed = self:GetAbility():GetSpecialValueFor("bonus_attack_speed")
+	self.bonus_mana = self:GetAbility():GetSpecialValueFor("bonus_mana")
 end
 
 -- Returns the events and properties our modifier affects
@@ -18,17 +18,17 @@ function modifier_item_oblivion_staff_060:DeclareFunctions()
 end
 
 -- Returns the value for the property
-function modifier_item_oblivion_staff_060:GetModifierBonusStats_Intellect( params )
+function modifier_item_oblivion_staff_060:GetModifierBonusStats_Intellect(params)
 	return self.bonus_intelligence
 end
 
 -- Returns the value for the property
-function modifier_item_oblivion_staff_060:GetModifierAttackSpeedBonus_Constant( params )
+function modifier_item_oblivion_staff_060:GetModifierAttackSpeedBonus_Constant(params)
 	return self.bonus_attack_speed
 end
 
 -- Returns the value for the property
-function modifier_item_oblivion_staff_060:GetModifierManaBonus( params )
+function modifier_item_oblivion_staff_060:GetModifierManaBonus(params)
 	return self.bonus_mana
 end
 

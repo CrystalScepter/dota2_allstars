@@ -1,10 +1,10 @@
 modifier_item_generator_060 = class({})
 
 -- Called when the modifier is created
-function modifier_item_generator_060:OnCreated( kv )
-	self.bonus_health_regen = self:GetAbility():GetSpecialValueFor( "bonus_health_regen" )
-	self.bonus_mana_regen = self:GetAbility():GetSpecialValueFor( "bonus_mana_regen" )
-	self.radius = self:GetAbility():GetSpecialValueFor( "radius" )
+function modifier_item_generator_060:OnCreated(kv)
+	self.bonus_health_regen = self:GetAbility():GetSpecialValueFor("bonus_health_regen")
+	self.bonus_mana_regen = self:GetAbility():GetSpecialValueFor("bonus_mana_regen")
+	self.radius = self:GetAbility():GetSpecialValueFor("radius")
 end
 
 -- Returns the events and properties our modifier affects
@@ -17,12 +17,12 @@ function modifier_item_generator_060:DeclareFunctions()
 end
 
 -- Returns the value for the property
-function modifier_item_generator_060:GetModifierConstantHealthRegen( params )
+function modifier_item_generator_060:GetModifierConstantHealthRegen(params)
 	return self.bonus_health_regen
 end
 
 -- Returns the value for the property
-function modifier_item_generator_060:GetModifierMPRegenAmplify_Percentage( params )
+function modifier_item_generator_060:GetModifierMPRegenAmplify_Percentage(params)
 	return self.bonus_mana_regen
 end
 

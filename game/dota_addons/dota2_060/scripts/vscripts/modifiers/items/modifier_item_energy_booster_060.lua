@@ -1,8 +1,8 @@
 modifier_item_energy_booster_060 = class({})
 
 -- Called when the modifier is created
-function modifier_item_energy_booster_060:OnCreated( kv )
-	self.bonus_mana = self:GetAbility():GetSpecialValueFor( "bonus_mana" )
+function modifier_item_energy_booster_060:OnCreated(kv)
+	self.bonus_mana = self:GetAbility():GetSpecialValueFor("bonus_mana")
 end
 
 -- Returns the events and properties our modifier affects
@@ -14,7 +14,7 @@ function modifier_item_energy_booster_060:DeclareFunctions()
 end
 
 -- Returns the value for the property
-function modifier_item_energy_booster_060:GetModifierManaBonus( params )
+function modifier_item_energy_booster_060:GetModifierManaBonus(params)
 	return self.bonus_mana
 end
 

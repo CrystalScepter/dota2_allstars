@@ -1,5 +1,9 @@
 item_mithril_hammer_060 = class({})
-LinkLuaModifier( "modifier_item_mithril_hammer_060", "modifiers/items/modifier_item_mithril_hammer_060", LUA_MODIFIER_MOTION_NONE )
+LinkLuaModifier(
+	"modifier_item_mithril_hammer_060",
+	"modifiers/items/modifier_item_mithril_hammer_060",
+	LUA_MODIFIER_MOTION_NONE
+)
 
 -- Returns the name of the modifier
 function item_mithril_hammer_060:GetIntrinsicModifierName()

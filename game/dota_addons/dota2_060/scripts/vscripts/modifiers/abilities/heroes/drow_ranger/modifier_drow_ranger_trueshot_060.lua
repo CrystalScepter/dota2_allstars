@@ -1,13 +1,13 @@
 modifier_drow_ranger_trueshot_060 = class({})
 
 -- Called when the modifier is created
-function modifier_drow_ranger_trueshot_060:OnCreated( kv )
-	self.aura_radius = self:GetAbility():GetSpecialValueFor( "aura_radius" )
+function modifier_drow_ranger_trueshot_060:OnCreated(kv)
+	self.aura_radius = self:GetAbility():GetSpecialValueFor("aura_radius")
 end
 
 -- Called when the modifier is created
-function modifier_drow_ranger_trueshot_060:OnRefresh( kv )
-	self.aura_radius = self:GetAbility():GetSpecialValueFor( "aura_radius" )
+function modifier_drow_ranger_trueshot_060:OnRefresh(kv)
+	self.aura_radius = self:GetAbility():GetSpecialValueFor("aura_radius")
 end
 
 -- Prevents the modifier from showing up on the buff bar

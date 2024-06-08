@@ -25,7 +25,7 @@ function modifier_pudge_giant_growth_060:DeclareFunctions()
 end
 
 -- Returns the modifier states
-function modifier_pudge_giant_growth_060:CheckState() 
+function modifier_pudge_giant_growth_060:CheckState()
 	return {
 		[MODIFIER_STATE_MAGIC_IMMUNE] = true,
 	}

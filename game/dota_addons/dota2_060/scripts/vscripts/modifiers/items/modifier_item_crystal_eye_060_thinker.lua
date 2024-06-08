@@ -1,8 +1,8 @@
 modifier_item_crystal_eye_060_thinker = class({})
 
 -- Called when the modifier is created
-function modifier_item_crystal_eye_060_thinker:OnCreated( kv )
-	self.radius = self:GetAbility():GetSpecialValueFor( "radius" )
+function modifier_item_crystal_eye_060_thinker:OnCreated(kv)
+	self.radius = self:GetAbility():GetSpecialValueFor("radius")
 end
 
 -- Prevents the modifier from showing up on the buff bar

@@ -1,10 +1,10 @@
 modifier_item_lavabuster_060 = class({})
 
 -- Called when the modifier is created
-function modifier_item_lavabuster_060:OnCreated( kv )
-	self.bonus_damage = self:GetAbility():GetSpecialValueFor( "bonus_damage" )
-	self.spell_damage = self:GetAbility():GetSpecialValueFor( "spell_damage" )
-	self.stun_duration = self:GetAbility():GetSpecialValueFor( "stun_duration" )
+function modifier_item_lavabuster_060:OnCreated(kv)
+	self.bonus_damage = self:GetAbility():GetSpecialValueFor("bonus_damage")
+	self.spell_damage = self:GetAbility():GetSpecialValueFor("spell_damage")
+	self.stun_duration = self:GetAbility():GetSpecialValueFor("stun_duration")
 end
 
 -- Returns the events and properties our modifier affects
@@ -16,7 +16,7 @@ function modifier_item_lavabuster_060:DeclareFunctions()
 end
 
 -- Returns the value for the property
-function modifier_item_lavabuster_060:GetModifierPreAttack_BonusDamage( params )
+function modifier_item_lavabuster_060:GetModifierPreAttack_BonusDamage(params)
 	return self.bonus_damage
 end
 

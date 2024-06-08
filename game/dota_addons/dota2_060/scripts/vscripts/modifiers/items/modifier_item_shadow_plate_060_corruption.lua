@@ -1,8 +1,8 @@
 modifier_item_shadow_plate_060_corruption = class({})
 
 -- Called when the modifier is created
-function modifier_item_shadow_plate_060_corruption:OnCreated( kv )
-	self.corruption_armor = 0 - self:GetAbility():GetSpecialValueFor( "corruption_armor" )
+function modifier_item_shadow_plate_060_corruption:OnCreated(kv)
+	self.corruption_armor = 0 - self:GetAbility():GetSpecialValueFor("corruption_armor")
 end
 
 -- Returns the events and properties our modifier affects
@@ -14,7 +14,7 @@ function modifier_item_shadow_plate_060_corruption:DeclareFunctions()
 end
 
 -- Returns the value for the property
-function modifier_item_shadow_plate_060_corruption:GetModifierPhysicalArmorBonus( params )
+function modifier_item_shadow_plate_060_corruption:GetModifierPhysicalArmorBonus(params)
 	return self.corruption_armor
 end
 

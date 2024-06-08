@@ -1,11 +1,11 @@
 modifier_item_doom_mantle_060 = class({})
 
 -- Called when the modifier is created
-function modifier_item_doom_mantle_060:OnCreated( kv )
-	self.bonus_damage = self:GetAbility():GetSpecialValueFor( "bonus_damage" )
-	self.bonus_armor = self:GetAbility():GetSpecialValueFor( "bonus_armor" )
-	self.splash_damage = self:GetAbility():GetSpecialValueFor( "splash_damage" )
-	self.splash_radius = self:GetAbility():GetSpecialValueFor( "splash_radius" )
+function modifier_item_doom_mantle_060:OnCreated(kv)
+	self.bonus_damage = self:GetAbility():GetSpecialValueFor("bonus_damage")
+	self.bonus_armor = self:GetAbility():GetSpecialValueFor("bonus_armor")
+	self.splash_damage = self:GetAbility():GetSpecialValueFor("splash_damage")
+	self.splash_radius = self:GetAbility():GetSpecialValueFor("splash_radius")
 end
 
 -- Returns the events and properties our modifier affects
@@ -19,43 +19,58 @@ function modifier_item_doom_mantle_060:DeclareFunctions()
 end
 
 -- Returns the value for the property
-function modifier_item_doom_mantle_060:GetModifierPreAttack_BonusDamage( params )
+function modifier_item_doom_mantle_060:GetModifierPreAttack_BonusDamage(params)
 	return self.bonus_damage
 end
 
 -- Returns the value for the property
-function modifier_item_doom_mantle_060:GetModifierPhysicalArmorBonus( params )
+function modifier_item_doom_mantle_060:GetModifierPhysicalArmorBonus(params)
 	return self.bonus_armor
 end
 
 -- Applies the effect upon landing an attack
-function modifier_item_doom_mantle_060:OnAttacked( params )
-	
+function modifier_item_doom_mantle_060:OnAttacked(params)
 	-- Retrieves the amount of doom mantles in the hero's inventory
-	local item_count = self:GetCaster():FindAllModifiersByName( "modifier_item_doom_mantle_060" )
-	
+	local item_count = self:GetCaster():FindAllModifiersByName("modifier_item_doom_mantle_060")
+
 	-- Finds the enemy units within the splash radius
-	local enemies = FindUnitsInRadius( self:GetCaster():GetTeamNumber(), params.target:GetAbsOrigin(), nil, self.splash_radius, DOTA_UNIT_TARGET_TEAM_ENEMY, DOTA_UNIT_TARGET_HERO + DOTA_UNIT_TARGET_CREEP, 0, 0, false )
-	
+	local enemies = FindUnitsInRadius(
+		self:GetCaster():GetTeamNumber(),
+		params.target:GetAbsOrigin(),
+		nil,
+		self.splash_radius,
+		DOTA_UNIT_TARGET_TEAM_ENEMY,
+		DOTA_UNIT_TARGET_HERO + DOTA_UNIT_TARGET_CREEP,
+		0,
+		0,
+		false
+	)
+
 	-- If the attacker is not the owner of the item, return
 	if params.attacker ~= self:GetCaster() then
 		return
 	end
-	
+
 	-- If the attacker is in the same team as the target, return
 	if params.target:GetTeamNumber() == self:GetCaster():GetTeamNumber() then
 		return
 	end
-	
+
 	-- If the target is a building, return
 	if params.target:IsBuilding() then
 		return
 	end
-	
+
 	-- Applies damage to the surrounding targets
-	for _,enemy in pairs(enemies) do
+	for _, enemy in pairs(enemies) do
 		if enemy ~= params.target then
-			ApplyDamage( { attacker = params.attacker, victim = enemy, ability = self, damage = self.splash_damage / #item_count, damage_type = DAMAGE_TYPE_PURE } )
+			ApplyDamage({
+				attacker = params.attacker,
+				victim = enemy,
+				ability = self,
+				damage = self.splash_damage / #item_count,
+				damage_type = DAMAGE_TYPE_PURE,
+			})
 		end
 	end
 end

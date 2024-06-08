@@ -1,8 +1,8 @@
 modifier_item_gauntlets_060 = class({})
 
 -- Called when the modifier is created
-function modifier_item_gauntlets_060:OnCreated( kv )
-	self.bonus_strength = self:GetAbility():GetSpecialValueFor( "bonus_strength" )
+function modifier_item_gauntlets_060:OnCreated(kv)
+	self.bonus_strength = self:GetAbility():GetSpecialValueFor("bonus_strength")
 end
 
 -- Returns the events and properties our modifier affects
@@ -14,7 +14,7 @@ function modifier_item_gauntlets_060:DeclareFunctions()
 end
 
 -- Returns the value for the property
-function modifier_item_gauntlets_060:GetModifierBonusStats_Strength( params )
+function modifier_item_gauntlets_060:GetModifierBonusStats_Strength(params)
 	return self.bonus_strength
 end
 

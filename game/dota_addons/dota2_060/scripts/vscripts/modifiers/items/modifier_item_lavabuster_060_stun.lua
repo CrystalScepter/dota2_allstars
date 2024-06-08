@@ -2,7 +2,7 @@ modifier_item_lavabuster_060_stun = class({})
 
 function modifier_item_lavabuster_060_stun:CheckState()
 	local state = {
-	    [MODIFIER_STATE_STUNNED] = true,
+		[MODIFIER_STATE_STUNNED] = true,
 	}
 	return state
 end

@@ -1,8 +1,8 @@
 modifier_item_blade_of_alacrity_060 = class({})
 
 -- Called when the modifier is created
-function modifier_item_blade_of_alacrity_060:OnCreated( kv )
-	self.bonus_agility = self:GetAbility():GetSpecialValueFor( "bonus_agility" )
+function modifier_item_blade_of_alacrity_060:OnCreated(kv)
+	self.bonus_agility = self:GetAbility():GetSpecialValueFor("bonus_agility")
 end
 
 -- Returns the events and properties our modifier affects
@@ -14,7 +14,7 @@ function modifier_item_blade_of_alacrity_060:DeclareFunctions()
 end
 
 -- Returns the value for the property
-function modifier_item_blade_of_alacrity_060:GetModifierBonusStats_Agility( params )
+function modifier_item_blade_of_alacrity_060:GetModifierBonusStats_Agility(params)
 	return self.bonus_agility
 end
 

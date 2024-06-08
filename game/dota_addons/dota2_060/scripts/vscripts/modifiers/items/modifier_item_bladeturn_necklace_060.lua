@@ -1,10 +1,10 @@
 modifier_item_bladeturn_necklace_060 = class({})
 
 -- Called when the modifier is created
-function modifier_item_bladeturn_necklace_060:OnCreated( kv )
-	self.bonus_armor = self:GetAbility():GetSpecialValueFor( "bonus_armor" )
-	self.bonus_evasion = self:GetAbility():GetSpecialValueFor( "bonus_evasion" )
-	self.aura_radius = self:GetAbility():GetSpecialValueFor( "aura_radius" )
+function modifier_item_bladeturn_necklace_060:OnCreated(kv)
+	self.bonus_armor = self:GetAbility():GetSpecialValueFor("bonus_armor")
+	self.bonus_evasion = self:GetAbility():GetSpecialValueFor("bonus_evasion")
+	self.aura_radius = self:GetAbility():GetSpecialValueFor("aura_radius")
 end
 
 -- Returns the events and properties our modifier affects
@@ -17,12 +17,12 @@ function modifier_item_bladeturn_necklace_060:DeclareFunctions()
 end
 
 -- Returns the value for the property
-function modifier_item_bladeturn_necklace_060:GetModifierPhysicalArmorBonus( params )
+function modifier_item_bladeturn_necklace_060:GetModifierPhysicalArmorBonus(params)
 	return self.bonus_armor
 end
 
 -- Returns the value for the property
-function modifier_item_bladeturn_necklace_060:GetModifierEvasion_Constant( params )
+function modifier_item_bladeturn_necklace_060:GetModifierEvasion_Constant(params)
 	return self.bonus_evasion
 end
 
