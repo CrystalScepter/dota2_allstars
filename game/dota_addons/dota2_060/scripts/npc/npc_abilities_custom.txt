@@ -9,7 +9,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"				"ability_lua"
 		"AbilityTextureName"			"dawnbreaker_luminosity"
-		"ScriptFile"				"abilities/heroes/generic/bonus_attributes_060"
+		"ScriptFile"				"abilities/generic/bonus_attributes_060"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
 		"MaxLevel"				"10"
@@ -182,6 +182,56 @@
 	}
 
 	//=================================================================================================================
+	// Cripple
+	//=================================================================================================================
+	"pudge_cripple_060"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"AbilityTextureName"			"bane_enfeeble"
+		"ScriptFile"				"abilities/heroes/pudge/pudge_cripple_060"
+		"AbilityType"				"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+
+		"MaxLevel"				"3"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"			"90"
+		"AbilityCastRange"			"600"
+		"AbilityCooldown"			"30"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"damage_reduction"		"25 50 75"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"attack_speed_reduction"	"50 70 90"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"movement_speed_reduction"	"50 70 90"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"duration"			"15 20 25"
+			}
+		}
+	}
+
+	//=================================================================================================================
 	// Haste
 	//=================================================================================================================
 	"pudge_haste_060"
@@ -214,6 +264,82 @@
 			{
 				"var_type"			"FIELD_INTEGER"
 				"duration"			"60"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Vampirism
+	//=================================================================================================================
+	"pudge_vampirism_060"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"AbilityTextureName"			"life_stealer_feast"
+		"ScriptFile"				"abilities/heroes/pudge/pudge_vampirism_060"
+		"AbilityType"				"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		"MaxLevel"				"3"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_lifesteal"		"10 30 50"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Giant Growth
+	//=================================================================================================================
+	"pudge_giant_growth_060"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"AbilityTextureName"			"life_stealer_rage"
+		"ScriptFile"				"abilities/heroes/pudge/pudge_giant_growth_060"
+		"AbilityType"				"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+
+		"MaxLevel"				"3"
+		"RequiredLevel"          		"2"
+		"LevelsBetweenUpgrades"  		"3"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"			"150"
+		"AbilityCooldown"			"62 68 73"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_damage"			"10 20 30"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_health"			"250 500 750"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_armor"			"5 10 15"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"duration"			"50 55 60"
 			}
 		}
 	}

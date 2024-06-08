@@ -12,11 +12,11 @@
 		"addon_game_name"								"DotA Allstars v0.60 Beta"
 		
 		//=================================================================================================================
-		// Generic Abilities
+		// Generic abilities
 		//=================================================================================================================
 		"DOTA_Tooltip_Ability_bonus_attributes_060"					"Bonus Attributes"
 		"DOTA_Tooltip_Ability_bonus_attributes_060_Description"				"Gives your hero Strength, Agility and Intelligence."
-		"DOTA_Tooltip_Ability_bonus_attributes_060_all_attributes"			"Bonus Attributes:"
+		"DOTA_Tooltip_Ability_bonus_attributes_060_all_attributes"			"Attributes:"
 		
 		//=================================================================================================================
 		// Drow Ranger's abilities
@@ -53,6 +53,16 @@
 		//=================================================================================================================
 		// Pudge's abilities
 		//=================================================================================================================
+		"DOTA_Tooltip_Ability_pudge_cripple_060"					"Cripple"
+		"DOTA_Tooltip_Ability_pudge_cripple_060_Description"				"Decreases a target's damage, attack speed and movement speed."
+		"DOTA_Tooltip_Ability_pudge_cripple_060_damage_reduction"			"%Damage:"
+		"DOTA_Tooltip_Ability_pudge_cripple_060_attack_speed_reduction"			"%Attack Speed:"
+		"DOTA_Tooltip_Ability_pudge_cripple_060_movement_speed_reduction"		"%Movement Speed:"
+		"DOTA_Tooltip_Ability_pudge_cripple_060_duration"				"Duration:"
+
+		"DOTA_Tooltip_modifier_pudge_cripple_060"					"Cripple"
+		"DOTA_Tooltip_modifier_pudge_cripple_060_Description"				"This unit has reduced damage, attack speed and movement speed."
+
 		"DOTA_Tooltip_Ability_pudge_haste_060"						"Haste"
 		"DOTA_Tooltip_Ability_pudge_haste_060_Description"				"Increases this unit's movement speed."
 		"DOTA_Tooltip_Ability_pudge_haste_060_bonus_movement_speed"			"%Movement Speed:"
@@ -60,6 +70,20 @@
 
 		"DOTA_Tooltip_modifier_pudge_haste_060"						"Haste"
 		"DOTA_Tooltip_modifier_pudge_haste_060_Description"				"Pudge gains movement speed."
+
+		"DOTA_Tooltip_Ability_pudge_vampirism_060"					"Vampirism"
+		"DOTA_Tooltip_Ability_pudge_vampirism_060_Description"				"This unit gains life steal."
+		"DOTA_Tooltip_Ability_pudge_vampirism_060_bonus_lifesteal"			"%Movement Speed:"
+
+		"DOTA_Tooltip_Ability_pudge_giant_growth_060"					"Giant Growth"
+		"DOTA_Tooltip_Ability_pudge_giant_growth_060_Description"			"Gives Pudge increased damage, health, armor and spell immunity."
+		"DOTA_Tooltip_Ability_pudge_giant_growth_060_bonus_damage"			"Damage:"
+		"DOTA_Tooltip_Ability_pudge_giant_growth_060_bonus_health"			"Health:"
+		"DOTA_Tooltip_Ability_pudge_giant_growth_060_bonus_armor"			"Armor:"
+		"DOTA_Tooltip_Ability_pudge_giant_growth_060_duration"				"Duration:"
+
+		"DOTA_Tooltip_modifier_pudge_giant_growth_060"					"Giant Growth"
+		"DOTA_Tooltip_modifier_pudge_giant_growth_060_Description"			"This unit is spell immune."
 		
 		//=================================================================================================================
 		// Items sold by the Cache of the Quel'thelan, sorted by gold cost

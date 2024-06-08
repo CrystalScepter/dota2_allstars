@@ -77,12 +77,12 @@
 
 		// Abilities
 		//-------------------------------------------------------------------------------------------------------------
-		"Ability1"				"drow_ranger_sneak_attack_060"
+		"Ability1"				"pudge_cripple_060"
 		"Ability2"				"pudge_haste_060"
-		"Ability3"				"drow_ranger_trueshot_060"
+		"Ability3"				"pudge_vampirism_060"
 		"Ability4"				"generic_hidden"
 		"Ability5"				"generic_hidden"
-		"Ability6"				"drow_ranger_marksmanship_060"
+		"Ability6"				"pudge_giant_growth_060"
 		"Ability7"				"bonus_attributes_060"
 		"Ability10"				""
 		"Ability11"				""

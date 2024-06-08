@@ -1,7 +1,7 @@
 bonus_attributes_060 = class({})
 LinkLuaModifier(
 	"modifier_bonus_attributes_060",
-	"modifiers/abilities/heroes/generic/modifier_bonus_attributes_060",
+	"modifiers/abilities/generic/modifier_bonus_attributes_060",
 	LUA_MODIFIER_MOTION_NONE
 )
 

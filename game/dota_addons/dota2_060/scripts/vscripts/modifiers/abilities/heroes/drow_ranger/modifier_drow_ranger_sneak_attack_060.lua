@@ -1,15 +1,15 @@
 modifier_drow_ranger_sneak_attack_060 = class({})
 
 -- Called when the modifier is created
-function modifier_drow_ranger_sneak_attack_060:OnCreated( kv )
-	self.bonus_damage = self:GetAbility():GetSpecialValueFor( "bonus_damage" )
-	self.bonus_movement_speed = self:GetAbility():GetSpecialValueFor( "bonus_movement_speed" )
+function modifier_drow_ranger_sneak_attack_060:OnCreated(kv)
+	self.bonus_damage = self:GetAbility():GetSpecialValueFor("bonus_damage")
+	self.bonus_movement_speed = self:GetAbility():GetSpecialValueFor("bonus_movement_speed")
 end
 
 -- Called when the modifier is refreshed
-function modifier_drow_ranger_sneak_attack_060:OnRefresh( kv )
-	self.bonus_damage = self:GetAbility():GetSpecialValueFor( "bonus_damage" )
-	self.bonus_movement_speed = self:GetAbility():GetSpecialValueFor( "bonus_movement_speed" )
+function modifier_drow_ranger_sneak_attack_060:OnRefresh(kv)
+	self.bonus_damage = self:GetAbility():GetSpecialValueFor("bonus_damage")
+	self.bonus_movement_speed = self:GetAbility():GetSpecialValueFor("bonus_movement_speed")
 end
 
 -- Returns the events and properties our modifier affects
@@ -24,8 +24,8 @@ function modifier_drow_ranger_sneak_attack_060:DeclareFunctions()
 	return funcs
 end
 
--- Gives phasing and invisibility
-function modifier_drow_ranger_sneak_attack_060:CheckState() 
+-- Returns the modifier states
+function modifier_drow_ranger_sneak_attack_060:CheckState()
 	return {
 		[MODIFIER_STATE_NO_UNIT_COLLISION] = true,
 		[MODIFIER_STATE_INVISIBLE] = true,
@@ -33,12 +33,12 @@ function modifier_drow_ranger_sneak_attack_060:CheckState()
 end
 
 -- Returns the value for the property
-function modifier_drow_ranger_sneak_attack_060:GetModifierMoveSpeedBonus_Percentage( params )
+function modifier_drow_ranger_sneak_attack_060:GetModifierMoveSpeedBonus_Percentage(params)
 	return self.bonus_movement_speed
 end
 
 -- Returns the value for the property
-function modifier_drow_ranger_sneak_attack_060:GetModifierPreAttack_BonusDamagePostCrit( params )
+function modifier_drow_ranger_sneak_attack_060:GetModifierPreAttack_BonusDamagePostCrit(params)
 	if not params.target:IsBuilding() then
 		return self.bonus_damage
 	end
@@ -50,10 +50,9 @@ function modifier_drow_ranger_sneak_attack_060:GetModifierInvisibilityLevel()
 end
 
 -- Applies the effect upon finishing the attack cast point
-function modifier_drow_ranger_sneak_attack_060:OnAttack( params )
+function modifier_drow_ranger_sneak_attack_060:OnAttack(params)
 	if IsServer() then
 		if params.attacker == self:GetParent() then
-
 			-- Remove the invisibility on attack
 			self:Destroy()
 		end
@@ -61,9 +60,9 @@ function modifier_drow_ranger_sneak_attack_060:OnAttack( params )
 end
 
 -- Applies the effect upon ability cast
-function modifier_drow_ranger_sneak_attack_060:OnAbilityExecuted( keys )
+function modifier_drow_ranger_sneak_attack_060:OnAbilityExecuted(keys)
 	if IsServer() then
-		local parent =	self:GetParent()
+		local parent = self:GetParent()
 
 		-- Remove the invisibility on cast
 		if keys.unit == parent then

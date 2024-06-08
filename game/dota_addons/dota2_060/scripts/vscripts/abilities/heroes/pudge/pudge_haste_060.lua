@@ -11,6 +11,9 @@ function pudge_haste_060:OnSpellStart()
 	local caster = self:GetCaster()
 	local duration = self:GetSpecialValueFor("duration")
 
+	-- Plays the corresponding sound
+	EmitSoundOn("DOTA_Item.PhaseBoots.Activate", target)
+
 	-- Creates the modifier on the hero
 	caster:AddNewModifier(caster, self, "modifier_pudge_haste_060", { duration = duration })
 end
