@@ -23,7 +23,7 @@ function GameMode:InitGameMode()
 	GameRules:SetShowcaseTime(0)
 
 	-- Forces a hero for testing purposes
-	GameMode:SetCustomGameForceHero("npc_dota_hero_viper")
+	GameMode:SetCustomGameForceHero("npc_dota_hero_drow_ranger")
 
 	-- Disables loss of gold if no hero is picked during hero selection time
 	GameMode:SetSelectionGoldPenaltyEnabled(false)
@@ -115,9 +115,9 @@ function GameMode:InitGameMode()
 	GameMode:SetInnateMeleeDamageBlockPercent(0)
 	GameMode:SetInnateMeleeDamageBlockPerLevelAmount(0)
 
-	-- Essentially disables limits on attack speed for heroes
+	-- Limits the attack speed attack speed of units
 	GameMode:SetMinimumAttackSpeed(0)
-	GameMode:SetMaximumAttackSpeed(5000)
+	GameMode:SetMaximumAttackSpeed(500)
 
 	-- Illusions remain alive even if the hero ends up dying
 	GameMode:SetRemoveIllusionsOnDeath(false)
