@@ -10,21 +10,19 @@ end
 
 -- Returns the value for the property
 function modifier_night_movement_speed:GetModifierMoveSpeedBonus_Constant(params)
-	-- Checks whether it's day time
-	if IsServer() then
-		local daytime = GameRules:IsDaytime()
-	end
-
 	-- Declares the variables that are going to be used in the formula
 	local night_bonus
 	local hero = self:GetParent():IsHero()
 	local creep_hero = self:GetParent():IsCreepHero()
 	local illusion = self:GetParent():IsIllusion()
 
-	if hero or creep_hero or illusion then
-		night_bonus = 30
-	else
-		night_bonus = 15
+	-- Gives extra movement speed if the parent is a hero
+	if not daytime then
+		if hero or creep_hero or illusion then
+			night_bonus = 30
+		else
+			night_bonus = 15
+		end
 	end
 
 	return night_bonus

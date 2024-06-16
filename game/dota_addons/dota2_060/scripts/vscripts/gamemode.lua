@@ -49,7 +49,7 @@ function GameMode:InitGameMode()
 	GameMode:SetStickyItemDisabled(true)
 
 	-- Disables the stash
-	GameMode:SetStashPurchasingDisabled(false)
+	GameMode:SetStashPurchasingDisabled(true)
 	GameMode:SetSendToStashEnabled(false)
 
 	-- Disables being given a free Teleport Scroll on death
@@ -60,6 +60,7 @@ function GameMode:InitGameMode()
 
 	-- Disables neutral items
 	GameMode:SetAllowNeutralItemDrops(false)
+	GameMode:SetNeutralItemHideUndiscoveredEnabled(true)
 
 	-- Disables fog of war from automatically being uncovered
 	GameMode:SetUnseenFogOfWarEnabled(true)
