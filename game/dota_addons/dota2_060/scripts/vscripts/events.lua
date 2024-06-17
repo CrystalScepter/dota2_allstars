@@ -5,10 +5,17 @@ function GameMode:OnGameRulesStateChange(keys)
 
 	-- Called when the game is in progress
 	if new_state == DOTA_GAMERULES_STATE_GAME_IN_PROGRESS then
+		-- Adds ancients onto the map
 		local point_ancient_radiant = Entities:FindByName(nil, "npc_dota_ancient_radiant"):GetAbsOrigin()
 		local point_ancient_dire = Entities:FindByName(nil, "npc_dota_ancient_dire"):GetAbsOrigin()
 		local ancient_radiant = CreateUnitByName("npc_dota_ancient_radiant_060", point_ancient_radiant, false, nil, nil, DOTA_TEAM_GOODGUYS)
 		local ancient_dire = CreateUnitByName("npc_dota_ancient_dire_060", point_ancient_dire, false, nil, nil, DOTA_TEAM_BADGUYS)
+
+		-- Adds fountains onto the map
+		local point_fountain_radiant = Entities:FindByName(nil, "npc_dota_fountain_radiant"):GetAbsOrigin()
+		local point_fountain_dire = Entities:FindByName(nil, "npc_dota_fountain_dire"):GetAbsOrigin()
+		local fountain_radiant = CreateUnitByName("npc_dota_fountain_radiant_060", point_fountain_radiant, false, nil, nil, DOTA_TEAM_GOODGUYS)
+		local fountain_dire = CreateUnitByName("npc_dota_fountain_dire_060", point_fountain_dire, false, nil, nil, DOTA_TEAM_BADGUYS)
 	end
 end
 

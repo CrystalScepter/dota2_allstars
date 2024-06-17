@@ -15,6 +15,71 @@
 	}
 
 	//=================================================================================================================
+	// Hides the health bar from a unit
+	//=================================================================================================================
+	"hide_health_bar"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/generic/hide_health_bar"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+
+		"MaxLevel" 				"1"
+	}
+
+	//=================================================================================================================
+	// Makes the unit invulnerable
+	//=================================================================================================================
+	"invulnerable"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/generic/invulnerable"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+
+		"MaxLevel" 				"1"
+	}
+
+	//=================================================================================================================
+	// Fountain Regeneration
+	//=================================================================================================================
+	"fountain_regeneration"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"AbilityTextureName"			"forest_troll_high_priest_heal_amp_aura"
+		"ScriptFile"				"abilities/generic/fountain_regeneration"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+
+		"MaxLevel" 				"1"
+
+		// Special Properties
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"health_regen"			"5"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"mana_regen"			"5"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"aura_radius"			"500"
+			}
+		}
+	}
+
+	//=================================================================================================================
 	// Makes the Radiant team win the game if the Ancient is destroyed
 	//=================================================================================================================
 	"game_end_radiant"
