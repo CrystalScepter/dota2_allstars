@@ -12,6 +12,7 @@ end
 
 -- Called by heroes when they spawn
 function GameMode:OnHeroInGame(hero)
-	-- Adds the attributes modifier to the hero
+	-- Adds modifiers to the hero
 	hero:AddNewModifier(hero, nil, "modifier_attributes", {})
+	hero:AddNewModifier(hero, nil, "modifier_health_regen", {})
 end

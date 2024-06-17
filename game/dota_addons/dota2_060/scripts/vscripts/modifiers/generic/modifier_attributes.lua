@@ -9,8 +9,8 @@ LinkLuaModifier(
 function modifier_attributes:DeclareFunctions()
 	local funcs = {
 		MODIFIER_EVENT_ON_ATTACK,
+		MODIFIER_EVENT_ON_ATTACK_LANDED,
 		MODIFIER_EVENT_ON_TAKEDAMAGE,
-		MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT,
 		MODIFIER_PROPERTY_MAGICAL_RESISTANCE_DIRECT_MODIFICATION,
 		MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT,
 		MODIFIER_PROPERTY_MOVESPEED_LIMIT,
@@ -18,15 +18,10 @@ function modifier_attributes:DeclareFunctions()
 	return funcs
 end
 
--- Applies the effect upon landing an attack
+-- Applies the effect upon finishing an attack
 function modifier_attributes:OnAttack(params)
 	-- Returns the owner of the modifier
 	local unit = self:GetParent()
-
-	-- Checks whether it's day time
-	if IsServer() then
-		local daytime = GameRules:IsDaytime()
-	end
 
 	-- If the attacker is not the owner of the modifier, return
 	if params.attacker ~= unit then
@@ -34,9 +29,21 @@ function modifier_attributes:OnAttack(params)
 	end
 
 	-- Adds the modifier to increase our movement speed if it's night time
-	if not daytime then
-		unit:AddNewModifier(unit, self, "modifier_night_movement_speed", { duration = 5 })
+	unit:AddNewModifier(unit, self, "modifier_night_movement_speed", { duration = 5 })
+end
+
+-- Applies the effect upon landing an attack
+function modifier_attributes:OnAttackLanded(params)
+	-- Returns the owner of the modifier
+	local unit = self:GetParent()
+
+	-- If the attacker is not the owner of the modifier, return
+	if params.attacker ~= unit then
+		return
 	end
+
+	-- Adds the modifier to increase our movement speed if it's night time
+	unit:AddNewModifier(unit, self, "modifier_night_movement_speed", { duration = 5 })
 end
 
 -- Applies the effect upon taking damage
@@ -47,43 +54,15 @@ function modifier_attributes:OnTakeDamage(params)
 	local creep_hero = params.attacker:IsCreepHero()
 	local illusion = params.attacker:IsIllusion()
 
-	-- Checks whether it's day time
-	if IsServer() then
-		local daytime = GameRules:IsDaytime()
-	end
-
 	-- If the attacked unit is not the owner of the modifier, return
 	if params.unit ~= unit then
 		return
 	end
 
 	-- Adds the modifier to increase our movement speed if it's night time
-	if not daytime then
-		if hero or creep_hero or illusion then
-			unit:AddNewModifier(unit, self, "modifier_night_movement_speed", { duration = 5 })
-		end
+	if hero or creep_hero or illusion then
+		unit:AddNewModifier(unit, self, "modifier_night_movement_speed", { duration = 5 })
 	end
-end
-
--- Returns the value for the property
-function modifier_attributes:GetModifierConstantHealthRegen()
-	-- Checks whether it's day time
-	if IsServer() then
-		local daytime = GameRules:IsDaytime()
-	end
-
-	-- Retrieves the hero's name
-	local hero = self:GetParent():GetUnitName()
-
-	-- Sets the default base regen to 0
-	local base_regen = 0
-
-	-- Checks whether the hero is Drow Ranger and it's currently night time
-	if hero == "npc_dota_hero_drow_ranger" and not daytime then
-		base_regen = 0.5
-	end
-
-	return base_regen - self:GetParent():GetStrength() / 20
 end
 
 -- Returns the value for the property
@@ -95,27 +74,28 @@ end
 function modifier_attributes:GetModifierMoveSpeedBonus_Constant()
 	-- Checks whether it's day time
 	if IsServer() then
+		-- Declares the variables that are going to be used in the formula
 		local daytime = GameRules:IsDaytime()
-	end
-
-	-- Declares the variables that are going to be used in the formula
-	local night_bonus
-	local agility_bonus = self:GetParent():GetAgility() / 100
-	local hero = self:GetParent():IsHero()
-	local creep_hero = self:GetParent():IsCreepHero()
-	local illusion = self:GetParent():IsIllusion()
-
-	-- Nullifies the night movement speed buff
-	if not daytime then
-		if hero or creep_hero or illusion then
-			night_bonus = 30
+		local night_bonus
+		local hero = self:GetParent():IsHero()
+		local creep_hero = self:GetParent():IsCreepHero()
+		local illusion = self:GetParent():IsIllusion()
+		-- Nullifies the night movement speed buff
+		if not daytime then
+			if hero or creep_hero or illusion then
+				night_bonus = 30
+			else
+				night_bonus = 15
+			end
 		else
-			night_bonus = 15
+			night_bonus = 0
 		end
-	else
-		night_bonus = 0
+		self:SetStackCount(night_bonus)
 	end
-	return agility_bonus - night_bonus
+
+	local agility_bonus = self:GetParent():GetAgility() / 100
+
+	return agility_bonus - self:GetStackCount()
 end
 
 -- Returns the value for the property

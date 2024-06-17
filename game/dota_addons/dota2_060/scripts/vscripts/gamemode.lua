@@ -137,4 +137,5 @@ function GameMode:InitGameMode()
 
 	-- Links the modifiers that are going to be used by our events
 	LinkLuaModifier("modifier_attributes", "modifiers/generic/modifier_attributes.lua", LUA_MODIFIER_MOTION_NONE)
+	LinkLuaModifier("modifier_health_regen", "modifiers/generic/modifier_health_regen.lua", LUA_MODIFIER_MOTION_NONE)
 end
