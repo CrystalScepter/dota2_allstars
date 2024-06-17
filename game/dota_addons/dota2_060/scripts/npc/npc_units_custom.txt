@@ -186,7 +186,7 @@
 		// General
 		//----------------------------------------------------------------
 		"BaseClass"				"npc_dota_creep_neutral"
-		"Model"					"models/props_structures/old_well.vmdl"
+		"Model"					"models/old_well.vmdl"
 		"SoundSet"				"dota_fountain"
 		"MinimapIcon"				"minimap_ward_obs"
 		"MinimapIconSize"			"1"
@@ -275,7 +275,7 @@
 		// General
 		//----------------------------------------------------------------
 		"BaseClass"				"npc_dota_creep_neutral"
-		"Model"					"models/props_structures/old_well.vmdl"
+		"Model"					"models/old_well.vmdl"
 		"SoundSet"				"dota_fountain"
 		"MinimapIcon"				"minimap_ward_obs"
 		"MinimapIconSize"			"1"
@@ -354,5 +354,182 @@
 		//----------------------------------------------------------------
 		"VisionDaytimeRange"			"900"
 		"VisionNighttimeRange"			"800"
+	}
+
+	//=================================================================================================================
+	// Radiant Filler
+	//=================================================================================================================
+	"npc_dota_filler_radiant_060"
+	{
+		// General
+		//----------------------------------------------------------------
+		"BaseClass"				"npc_dota_creep_neutral"
+		"Model"					"models/tent_dk_small.vmdl"
+		"SoundSet"				"Creep_Good_Melee"
+		"MinimapIcon"				"minimap_miscbuilding"
+		"IsAncient"				"1"
+
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"				"deniable"
+		"Ability2"				""
+		"Ability3"				""
+		"Ability4"				""
+		"Ability5"				""
+		"Ability6"				""
+		"Ability7"				""
+		"Ability8"				""
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"5"
+		"MagicalResistance"			"0"
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"			"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackDamageMin"			"0"
+		"AttackDamageMax"			"0"
+		"AttackRate"				"0"
+		"AttackAnimationPoint"			"0"
+		"AttackAcquisitionRange"		"0"
+		"AttackRange"				"0"
+
+		// Attributes
+		//----------------------------------------------------------------
+		"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"			"0"
+		"AttributeStrengthGain"			"0"
+		"AttributeBaseIntelligence"		"0"
+		"AttributeIntelligenceGain"		"0"
+		"AttributeBaseAgility"			"0"
+		"AttributeAgilityGain"			"0"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"				"0"
+		"BountyGoldMin"				"5"
+		"BountyGoldMax"				"5"
+
+		// Bounds
+		//----------------------------------------------------------------
+		"BoundsHullName"			"DOTA_HULL_SIZE_FILLER"
+		"ProjectileCollisionSize"		"96"
+		"RingRadius"				"96"
+		"HealthBarOffset"			"225"
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"			"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"
+		"MovementTurnRate"			"0"
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"600"
+		"StatusHealthRegen"			"0"
+		"StatusMana"				"300"
+		"StatusManaRegen"			"1.25"
+		"StatusStartingMana"			"100"
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"				"DOTA_TEAM_GOODGUYS"
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_HERO"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_STRUCTURE"
+		"UnitRelationshipClass"			"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"			"900"
+		"VisionNighttimeRange"			"600"
+	}
+
+	//=================================================================================================================
+	// Radiant Filler 2
+	//=================================================================================================================
+	"npc_dota_filler_radiant_060_2"
+	{
+		// General
+		//----------------------------------------------------------------
+		"BaseClass"				"npc_dota_creep_neutral"
+		"Model"					"models/props_structures/radiant_statue001.vmdl"
+		"SoundSet"				"Creep_Good_Melee"
+		"MinimapIcon"				"minimap_miscbuilding"
+		"IsAncient"				"1"
+
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"				"deniable"
+		"Ability2"				"hull_size_128"
+		"Ability3"				""
+		"Ability4"				""
+		"Ability5"				""
+		"Ability6"				""
+		"Ability7"				""
+		"Ability8"				""
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"5"
+		"MagicalResistance"			"0"
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"			"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackDamageMin"			"0"
+		"AttackDamageMax"			"0"
+		"AttackRate"				"0"
+		"AttackAnimationPoint"			"0"
+		"AttackAcquisitionRange"		"0"
+		"AttackRange"				"0"
+
+		// Attributes
+		//----------------------------------------------------------------
+		"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"			"0"
+		"AttributeStrengthGain"			"0"
+		"AttributeBaseIntelligence"		"0"
+		"AttributeIntelligenceGain"		"0"
+		"AttributeBaseAgility"			"0"
+		"AttributeAgilityGain"			"0"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"				"0"
+		"BountyGoldMin"				"5"
+		"BountyGoldMax"				"5"
+
+		// Bounds
+		//----------------------------------------------------------------
+		"BoundsHullName"			"DOTA_HULL_SIZE_FILLER"
+		"ProjectileCollisionSize"		"128"
+		"RingRadius"				"128"
+		"HealthBarOffset"			"225"
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"			"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"
+		"MovementTurnRate"			"0"
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"1100"
+		"StatusHealthRegen"			"0"
+		"StatusMana"				"0"
+		"StatusManaRegen"			"0"
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"				"DOTA_TEAM_GOODGUYS"
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_HERO"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_STRUCTURE"
+		"UnitRelationshipClass"			"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"			"900"
+		"VisionNighttimeRange"			"600"
 	}
 }

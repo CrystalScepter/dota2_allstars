@@ -43,6 +43,20 @@
 	}
 
 	//=================================================================================================================
+	// Makes the hull size 128 units
+	//=================================================================================================================
+	"hull_size_128"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/generic/hull_size_128"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+
+		"MaxLevel" 				"1"
+	}
+
+	//=================================================================================================================
 	// Fountain Regeneration
 	//=================================================================================================================
 	"fountain_regeneration"
@@ -52,7 +66,7 @@
 		"BaseClass"				"ability_lua"
 		"AbilityTextureName"			"forest_troll_high_priest_heal_amp_aura"
 		"ScriptFile"				"abilities/generic/fountain_regeneration"
-		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
 
 		"MaxLevel" 				"1"
