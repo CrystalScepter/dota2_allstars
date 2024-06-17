@@ -131,6 +131,9 @@ function GameMode:InitGameMode()
 	-- Increases the initial spawn of neutrals by 30 seconds
 	GameRules:SetNeutralInitialSpawnOffset(30)
 
+	-- Registers when the game state changes
+	ListenToGameEvent("game_rules_state_change", Dynamic_Wrap(self, "OnGameRulesStateChange"), self)
+
 	-- Registers when an NPC spawns into the game
 	ListenToGameEvent("npc_spawned", Dynamic_Wrap(self, "OnNPCSpawned"), self)
 

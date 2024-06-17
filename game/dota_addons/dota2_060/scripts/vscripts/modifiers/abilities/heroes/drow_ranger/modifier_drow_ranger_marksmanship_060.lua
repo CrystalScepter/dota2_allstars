@@ -47,7 +47,7 @@ function modifier_drow_ranger_marksmanship_060:OnAttackStart(keys)
 
 			-- Returns if the target is not a creep
 			if
-				target:IsBuilding()
+				target:IsAncient()
 				or target:IsClone()
 				or target:IsCreepHero()
 				or target:IsHero()

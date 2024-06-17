@@ -55,7 +55,7 @@ function modifier_item_shadow_plate_060:OnAttack(params)
 	end
 
 	-- If the target is a building, return
-	if params.target:IsBuilding() then
+	if params.target:IsAncient() then
 		return
 	end
 
@@ -88,7 +88,7 @@ function modifier_item_shadow_plate_060:OnAttacked(params)
 	end
 
 	-- If the target is a building, return
-	if params.target:IsBuilding() then
+	if params.target:IsAncient() then
 		return
 	end
 

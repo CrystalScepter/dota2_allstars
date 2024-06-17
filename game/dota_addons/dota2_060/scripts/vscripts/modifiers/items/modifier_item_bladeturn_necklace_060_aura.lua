@@ -3,6 +3,9 @@ modifier_item_bladeturn_necklace_060_aura = class({})
 -- Called when the modifier is created
 function modifier_item_bladeturn_necklace_060_aura:OnCreated(kv)
 	self.bonus_armor = self:GetAbility():GetSpecialValueFor("aura_armor")
+	if self:GetParent():IsAncient() then
+		self:Destroy()
+	end
 end
 
 -- Returns the events and properties our modifier affects

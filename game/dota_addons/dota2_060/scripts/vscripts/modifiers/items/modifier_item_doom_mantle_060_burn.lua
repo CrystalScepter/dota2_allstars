@@ -22,7 +22,7 @@ function modifier_item_doom_mantle_060_burn:OnIntervalThink()
 		self.aura_radius,
 		DOTA_UNIT_TARGET_TEAM_ENEMY,
 		DOTA_UNIT_TARGET_HERO + DOTA_UNIT_TARGET_CREEP,
-		0,
+		DOTA_UNIT_TARGET_FLAG_NOT_ANCIENTS,
 		0,
 		false
 	)

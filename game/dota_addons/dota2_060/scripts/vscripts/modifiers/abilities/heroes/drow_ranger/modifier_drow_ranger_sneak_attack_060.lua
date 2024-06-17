@@ -39,7 +39,7 @@ end
 
 -- Returns the value for the property
 function modifier_drow_ranger_sneak_attack_060:GetModifierPreAttack_BonusDamagePostCrit(params)
-	if not params.target:IsBuilding() then
+	if not params.target:IsAncient() then
 		return self.bonus_damage
 	end
 end

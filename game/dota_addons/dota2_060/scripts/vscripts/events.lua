@@ -1,3 +1,17 @@
+-- Called when the game state has changed
+function GameMode:OnGameRulesStateChange(keys)
+	-- Catches the current game state
+	local new_state = GameRules:State_Get()
+
+	-- Called when the game is in progress
+	if new_state == DOTA_GAMERULES_STATE_GAME_IN_PROGRESS then
+		local point_ancient_radiant = Entities:FindByName(nil, "npc_dota_ancient_radiant"):GetAbsOrigin()
+		local point_ancient_dire = Entities:FindByName(nil, "npc_dota_ancient_dire"):GetAbsOrigin()
+		local ancient_radiant = CreateUnitByName("npc_dota_ancient_radiant_060", point_ancient_radiant, false, nil, nil, DOTA_TEAM_GOODGUYS)
+		local ancient_dire = CreateUnitByName("npc_dota_ancient_dire_060", point_ancient_dire, false, nil, nil, DOTA_TEAM_BADGUYS)
+	end
+end
+
 -- Called when an NPC spawns into the game
 function GameMode:OnNPCSpawned(keys)
 	-- Lists the NPCs that spawned

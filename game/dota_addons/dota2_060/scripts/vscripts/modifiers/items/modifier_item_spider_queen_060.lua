@@ -51,7 +51,7 @@ function modifier_item_spider_queen_060:OnAttacked(params)
 	end
 
 	-- If the target is a building, return
-	if params.target:IsBuilding() then
+	if params.target:IsAncient() then
 		return
 	end
 
