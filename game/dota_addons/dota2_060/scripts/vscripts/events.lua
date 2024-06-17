@@ -15,4 +15,7 @@ function GameMode:OnHeroInGame(hero)
 	-- Adds modifiers to the hero
 	hero:AddNewModifier(hero, nil, "modifier_attributes", {})
 	hero:AddNewModifier(hero, nil, "modifier_health_regen", {})
+
+	-- Disables the stash
+	hero:SetStashEnabled(false)
 end

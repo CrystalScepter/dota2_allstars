@@ -19,6 +19,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -51,6 +52,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -83,6 +85,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -115,6 +118,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -147,6 +151,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -179,6 +184,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -211,6 +217,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -243,6 +250,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -275,6 +283,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -307,6 +316,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -339,6 +349,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -371,6 +382,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -403,6 +415,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -435,6 +448,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -467,6 +481,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -499,6 +514,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -531,6 +547,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -563,6 +580,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -595,6 +613,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -627,6 +646,7 @@
 		"ItemStockInitial"			"3"
 		"ItemStockMax"				"3"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -659,6 +679,7 @@
 		"ItemStockInitial"			"3"
 		"ItemStockMax"				"3"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -691,6 +712,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -723,6 +745,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -755,6 +778,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -787,6 +811,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -819,6 +844,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -861,6 +887,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -903,6 +930,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -945,6 +973,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -982,6 +1011,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1019,6 +1049,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1056,6 +1087,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1093,6 +1125,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1130,7 +1163,8 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
-		
+		"AllowedInBackpack"			"0"
+
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilitySpecial"
@@ -1167,6 +1201,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1219,6 +1254,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1267,6 +1303,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1310,6 +1347,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1358,6 +1396,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Special Properties
 		//-------------------------------------------------------------------------------------------------------------
@@ -1422,6 +1461,7 @@
 		"ItemStockMax"				"3"
 		"ItemInitialStockTime"			"440"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
@@ -1464,6 +1504,7 @@
 		"ItemInitialCharges"			"4"
 		"ItemStackable"				"0"
 		"ItemPermanent"				"0"
+		"AllowedInBackpack"			"0"
 		
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
@@ -1517,6 +1558,7 @@
 		"ItemInitialCharges"			"8"
 		"ItemStackable"				"0"
 		"ItemPermanent"				"0"
+		"AllowedInBackpack"			"0"
 		
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
@@ -1566,6 +1608,7 @@
 		"ItemStockMax"				"2"
 		"ItemInitialStockTime"			"440"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
@@ -1603,6 +1646,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
@@ -1650,6 +1694,7 @@
 		"ItemRequiresCharges"			"1"
 		"ItemStackable"				"0"
 		"ItemPermanent"				"1"
+		"AllowedInBackpack"			"0"
 		
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
@@ -1704,6 +1749,7 @@
 		"ItemStockInitial"			"1"
 		"ItemStockMax"				"1"
 		"ItemStockTime"				"5"
+		"AllowedInBackpack"			"0"
 		
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
@@ -1749,6 +1795,7 @@
 		"ItemInitialCharges"			"3"
 		"ItemStackable"				"0"
 		"ItemPermanent"				"0"
+		"AllowedInBackpack"			"0"
 		
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
@@ -1792,6 +1839,7 @@
 		"ItemStockMax"				"1"
 		"ItemInitialStockTime"			"440"
 		"ItemStockTime"				"120"
+		"AllowedInBackpack"			"0"
 	}
 	
 	//=================================================================================================================
@@ -1815,5 +1863,6 @@
 		"ItemSellable"				"0"
 		"ItemDroppable"				"0"
 		"ItemKillable"				"0"
+		"AllowedInBackpack"			"0"
 	}
 }

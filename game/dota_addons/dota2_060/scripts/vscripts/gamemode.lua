@@ -48,8 +48,7 @@ function GameMode:InitGameMode()
 	-- Disables sticky items
 	GameMode:SetStickyItemDisabled(true)
 
-	-- Disables the stash
-	GameMode:SetStashPurchasingDisabled(true)
+	-- Disables buying items outside of shops
 	GameMode:SetSendToStashEnabled(false)
 
 	-- Disables being given a free Teleport Scroll on death
