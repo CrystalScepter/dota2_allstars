@@ -20,6 +20,8 @@
 		"npc_dota_fountain_dire_060"							"Defiled Fountain of Life"
 		"npc_dota_filler_radiant_060"							"Moon Well"
 		"npc_dota_filler_radiant_060_2"							"Hunter's Hall"
+		"npc_dota_filler_dire_060"							"Ziggurat"
+		"npc_dota_filler_dire_060_2"							"Graveyard"
 		"DOTA_Tooltip_Ability_fountain_regeneration"					"Rejuvenation Aura"
 		"DOTA_Tooltip_ability_fountain_regeneration_Description"			"Restores health and mana of nearby units. <br><br>Radius: %aura_radius%\n"
 		"DOTA_Tooltip_ability_fountain_regeneration_health_regen"			"%Health Regeneration:"
