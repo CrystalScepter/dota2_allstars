@@ -43,6 +43,46 @@
 	}
 
 	//=================================================================================================================
+	// Grants true sight
+	//=================================================================================================================
+	"true_sight"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/generic/true_sight"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+
+		"MaxLevel" 				"1"
+
+		// Special Properties
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"aura_radius"			"900"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Grants AOE on attacks
+	//=================================================================================================================
+	"aoe_attack"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"abilities/generic/aoe_attack"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+
+		"MaxLevel" 				"1"
+	}
+
+	//=================================================================================================================
 	// Makes the hull size 128 units
 	//=================================================================================================================
 	"hull_size_128"

@@ -5,19 +5,35 @@ function GameMode:OnGameRulesStateChange(keys)
 
 	-- Called when the game is in progress
 	if new_state == DOTA_GAMERULES_STATE_GAME_IN_PROGRESS then
-		-- Adds ancients onto the map
+		-- Adds ancients to the map
 		local point_ancient_radiant = Entities:FindByName(nil, "npc_dota_ancient_radiant"):GetAbsOrigin()
 		local point_ancient_dire = Entities:FindByName(nil, "npc_dota_ancient_dire"):GetAbsOrigin()
 		CreateUnitByName("npc_dota_ancient_radiant_060", point_ancient_radiant, false, nil, nil, DOTA_TEAM_GOODGUYS)
 		CreateUnitByName("npc_dota_ancient_dire_060", point_ancient_dire, false, nil, nil, DOTA_TEAM_BADGUYS)
 
-		-- Adds fountains onto the map
+		-- Adds fountains to the map
 		local point_fountain_radiant = Entities:FindByName(nil, "npc_dota_fountain_radiant"):GetAbsOrigin()
 		local point_fountain_dire = Entities:FindByName(nil, "npc_dota_fountain_dire"):GetAbsOrigin()
 		CreateUnitByName("npc_dota_fountain_radiant_060", point_fountain_radiant, false, nil, nil, DOTA_TEAM_GOODGUYS)
 		CreateUnitByName("npc_dota_fountain_dire_060", point_fountain_dire, false, nil, nil, DOTA_TEAM_BADGUYS)
 
-		-- Adds Radiant's filler buildings onto the map
+		-- Adds towers to the map
+		local point_tower_radiant_1 = Entities:FindByName(nil, "npc_dota_tower_radiant_1"):GetAbsOrigin()
+		local point_tower_radiant_2 = Entities:FindByName(nil, "npc_dota_tower_radiant_2"):GetAbsOrigin()
+		local point_tower_radiant_3 = Entities:FindByName(nil, "npc_dota_tower_radiant_3"):GetAbsOrigin()
+		local point_tower_radiant_4 = Entities:FindByName(nil, "npc_dota_tower_radiant_4"):GetAbsOrigin()
+		local point_tower_radiant_5 = Entities:FindByName(nil, "npc_dota_tower_radiant_5"):GetAbsOrigin()
+		local point_tower_radiant_6 = Entities:FindByName(nil, "npc_dota_tower_radiant_6"):GetAbsOrigin()
+		local point_tower_radiant_7 = Entities:FindByName(nil, "npc_dota_tower_radiant_7"):GetAbsOrigin()
+		CreateUnitByName("npc_dota_tower_radiant_060", point_tower_radiant_1, false, nil, nil, DOTA_TEAM_GOODGUYS)
+		CreateUnitByName("npc_dota_tower_radiant_060", point_tower_radiant_2, false, nil, nil, DOTA_TEAM_GOODGUYS)
+		CreateUnitByName("npc_dota_tower_radiant_060", point_tower_radiant_3, false, nil, nil, DOTA_TEAM_GOODGUYS)
+		CreateUnitByName("npc_dota_tower_radiant_060", point_tower_radiant_4, false, nil, nil, DOTA_TEAM_GOODGUYS)
+		CreateUnitByName("npc_dota_tower_radiant_060", point_tower_radiant_5, false, nil, nil, DOTA_TEAM_GOODGUYS)
+		CreateUnitByName("npc_dota_tower_radiant_060", point_tower_radiant_6, false, nil, nil, DOTA_TEAM_GOODGUYS)
+		CreateUnitByName("npc_dota_tower_radiant_060", point_tower_radiant_7, false, nil, nil, DOTA_TEAM_GOODGUYS)
+
+		-- Adds Radiant's filler buildings to the map
 		local point_filler_radiant_1 = Entities:FindByName(nil, "npc_dota_filler_radiant_1"):GetAbsOrigin()
 		local point_filler_radiant_2 = Entities:FindByName(nil, "npc_dota_filler_radiant_2"):GetAbsOrigin()
 		local point_filler_radiant_3 = Entities:FindByName(nil, "npc_dota_filler_radiant_3"):GetAbsOrigin()
@@ -29,6 +45,7 @@ function GameMode:OnGameRulesStateChange(keys)
 		local point_filler_radiant_9 = Entities:FindByName(nil, "npc_dota_filler_radiant_9"):GetAbsOrigin()
 		local point_filler_radiant_10 = Entities:FindByName(nil, "npc_dota_filler_radiant_10"):GetAbsOrigin()
 		local point_filler_radiant_11 = Entities:FindByName(nil, "npc_dota_filler_radiant_11"):GetAbsOrigin()
+		local point_filler_radiant_12 = Entities:FindByName(nil, "npc_dota_filler_radiant_12"):GetAbsOrigin()
 		CreateUnitByName("npc_dota_filler_radiant_060", point_filler_radiant_1, false, nil, nil, DOTA_TEAM_GOODGUYS)
 		CreateUnitByName("npc_dota_filler_radiant_060", point_filler_radiant_2, false, nil, nil, DOTA_TEAM_GOODGUYS)
 		CreateUnitByName("npc_dota_filler_radiant_060", point_filler_radiant_3, false, nil, nil, DOTA_TEAM_GOODGUYS)
@@ -40,8 +57,9 @@ function GameMode:OnGameRulesStateChange(keys)
 		CreateUnitByName("npc_dota_filler_radiant_060", point_filler_radiant_9, false, nil, nil, DOTA_TEAM_GOODGUYS)
 		CreateUnitByName("npc_dota_filler_radiant_060_2", point_filler_radiant_10, false, nil, nil, DOTA_TEAM_GOODGUYS)
 		CreateUnitByName("npc_dota_filler_radiant_060_2", point_filler_radiant_11, false, nil, nil, DOTA_TEAM_GOODGUYS)
+		CreateUnitByName("npc_dota_filler_radiant_060_2", point_filler_radiant_12, false, nil, nil, DOTA_TEAM_GOODGUYS)
 
-		-- Adds Dire's filler buildings onto the map
+		-- Adds Dire's filler buildings to the map
 		local point_filler_dire_1 = Entities:FindByName(nil, "npc_dota_filler_dire_1"):GetAbsOrigin()
 		local point_filler_dire_2 = Entities:FindByName(nil, "npc_dota_filler_dire_2"):GetAbsOrigin()
 		local point_filler_dire_3 = Entities:FindByName(nil, "npc_dota_filler_dire_3"):GetAbsOrigin()

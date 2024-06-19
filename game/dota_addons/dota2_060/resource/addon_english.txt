@@ -18,6 +18,7 @@
 		"npc_dota_ancient_dire_060"							"The Frozen Throne"
 		"npc_dota_fountain_radiant_060"							"Well of Life"
 		"npc_dota_fountain_dire_060"							"Defiled Fountain of Life"
+		"npc_dota_tower_radiant_060"							"Ancient Protector"
 		"npc_dota_filler_radiant_060"							"Moon Well"
 		"npc_dota_filler_radiant_060_2"							"Hunter's Hall"
 		"npc_dota_filler_dire_060"							"Ziggurat"

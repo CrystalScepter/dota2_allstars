@@ -3,6 +3,11 @@ modifier_drow_ranger_trueshot_060_aura = class({})
 -- Called when the modifier is created
 function modifier_drow_ranger_trueshot_060_aura:OnCreated(kv)
 	self.damage_bonus = self:GetAbility():GetSpecialValueFor("damage_bonus")
+
+	-- Returns if the parent is a building
+	if self:GetParent():IsAncient() then
+		self:Destroy()
+	end
 end
 
 -- Called when the modifier is refreshed

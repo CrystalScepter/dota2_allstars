@@ -10,13 +10,6 @@ LinkLuaModifier(
 	LUA_MODIFIER_MOTION_NONE
 )
 
--- Sets the ability level to 1 when it's created
-function fountain_regeneration:Spawn()
-	if IsServer() then
-		self:SetLevel(1)
-	end
-end
-
 -- Returns the name of the modifier
 function fountain_regeneration:GetIntrinsicModifierName()
 	return "modifier_fountain_regeneration"
