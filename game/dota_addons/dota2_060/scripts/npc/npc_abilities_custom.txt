@@ -83,6 +83,43 @@
 	}
 
 	//=================================================================================================================
+	// Slows on every attack
+	//=================================================================================================================
+	"frost_attack"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"				"ability_lua"
+		"AbilityTextureName"			"drow_ranger_frost_arrows"
+		"ScriptFile"				"abilities/generic/frost_attack"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+
+		"MaxLevel" 				"1"
+
+		// Special Properties
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"attack_speed_slow"		"25"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"movement_speed_slow"		"40"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"duration"			"5"
+			}
+		}
+	}
+
+	//=================================================================================================================
 	// Makes the hull size 128 units
 	//=================================================================================================================
 	"hull_size_128"

@@ -274,6 +274,99 @@
 	}
 
 	//=================================================================================================================
+	// Radiant Tower 2
+	//=================================================================================================================
+	"npc_dota_tower_radiant_060_2"
+	{
+		// General
+		//----------------------------------------------------------------
+		"BaseClass"				"npc_dota_creep"
+		"Model"					"models/props_structures/tower_good.vmdl"
+		"SoundSet"				"Tower.Water"
+		"MinimapIcon"				"minimap_tower90"
+		"MinimapIconSize"			"320"
+		"Level"					"1"
+		"IsAncient"				"1"
+
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"				"deniable"
+		"Ability2"				"true_sight"
+		"Ability3"				"aoe_attack"
+		"Ability4"				"frost_attack"
+		"Ability5"				""
+		"Ability6"				""
+		"Ability7"				""
+		"Ability8"				""
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"30"
+		"MagicalResistance"			"0"
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"			"DOTA_UNIT_CAP_RANGED_ATTACK"
+		"AttackDamageMin"			"100"
+		"AttackDamageMax"			"100"
+		"AttackRate"				"1.1"
+		"AttackAnimationPoint"			"0.4"
+		"AttackAcquisitionRange"		"700"
+		"AttackRange"				"700"
+		"ProjectileModel"			"particles/base_attacks/ranged_tower_good.vpcf"
+		"ProjectileSpeed"			"750"
+
+		// Attributes
+		//----------------------------------------------------------------
+		"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"			"0"
+		"AttributeStrengthGain"			"0"
+		"AttributeBaseIntelligence"		"0"
+		"AttributeIntelligenceGain"		"0"
+		"AttributeBaseAgility"			"0"
+		"AttributeAgilityGain"			"0"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"				"0"
+		"BountyGoldMin"				"505"
+		"BountyGoldMax"				"505"
+
+		// Bounds
+		//----------------------------------------------------------------
+		"BoundsHullName"			"DOTA_HULL_SIZE_FILLER"
+		"ProjectileCollisionSize"		"96"
+		"RingRadius"				"96"
+		"HealthBarOffset"			"350"
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"			"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"
+		"MovementTurnRate"			"0.4"
+		"HasAggressiveStance"			"1"
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"1500"
+		"StatusHealthRegen"			"0"
+		"StatusMana"				"0"
+		"StatusManaRegen"			"0"
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"				"DOTA_TEAM_GOODGUYS"
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_HERO"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_STRUCTURE"
+		"UnitRelationshipClass"			"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"			"1900"
+		"VisionNighttimeRange"			"800"
+	}
+
+	//=================================================================================================================
 	// Dire Tower
 	//=================================================================================================================
 	"npc_dota_tower_dire_060"
@@ -349,6 +442,99 @@
 		// Status
 		//----------------------------------------------------------------
 		"StatusHealth"				"1200"
+		"StatusHealthRegen"			"0"
+		"StatusMana"				"0"
+		"StatusManaRegen"			"0"
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"				"DOTA_TEAM_BADGUYS"
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_HERO"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_STRUCTURE"
+		"UnitRelationshipClass"			"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"			"1600"
+		"VisionNighttimeRange"			"800"
+	}
+
+	//=================================================================================================================
+	// Dire Tower 2
+	//=================================================================================================================
+	"npc_dota_tower_dire_060_2"
+	{
+		// General
+		//----------------------------------------------------------------
+		"BaseClass"				"npc_dota_creep"
+		"Model"					"models/props_structures/dire_tower002.vmdl"
+		"SoundSet"				"Tower.Fire"
+		"MinimapIcon"				"minimap_tower90"
+		"MinimapIconSize"			"320"
+		"Level"					"1"
+		"IsAncient"				"1"
+
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"				"deniable"
+		"Ability2"				"true_sight"
+		"Ability3"				"aoe_attack"
+		"Ability4"				"frost_attack"
+		"Ability5"				""
+		"Ability6"				""
+		"Ability7"				""
+		"Ability8"				""
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"30"
+		"MagicalResistance"			"0"
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"			"DOTA_UNIT_CAP_RANGED_ATTACK"
+		"AttackDamageMin"			"100"
+		"AttackDamageMax"			"100"
+		"AttackRate"				"1"
+		"AttackAnimationPoint"			"0.5"
+		"AttackAcquisitionRange"		"900"
+		"AttackRange"				"700"
+		"ProjectileModel"			"particles/base_attacks/ranged_tower_bad.vpcf"
+		"ProjectileSpeed"			"1200"
+
+		// Attributes
+		//----------------------------------------------------------------
+		"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"			"0"
+		"AttributeStrengthGain"			"0"
+		"AttributeBaseIntelligence"		"0"
+		"AttributeIntelligenceGain"		"0"
+		"AttributeBaseAgility"			"0"
+		"AttributeAgilityGain"			"0"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"				"0"
+		"BountyGoldMin"				"505"
+		"BountyGoldMax"				"505"
+
+		// Bounds
+		//----------------------------------------------------------------
+		"BoundsHullName"			"DOTA_HULL_SIZE_FILLER"
+		"ProjectileCollisionSize"		"96"
+		"RingRadius"				"96"
+		"HealthBarOffset"			"350"
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"			"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"
+		"MovementTurnRate"			"1"
+		"HasAggressiveStance"			"1"
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"1500"
 		"StatusHealthRegen"			"0"
 		"StatusMana"				"0"
 		"StatusManaRegen"			"0"
