@@ -731,6 +731,192 @@
 	}
 
 	//=================================================================================================================
+	// Radiant Fire Bush
+	//=================================================================================================================
+	"npc_dota_fire_bush_radiant_060"
+	{
+		// General
+		//----------------------------------------------------------------
+		"BaseClass"				"npc_dota_creep"
+		"Model"					"models/props_tree/frostivus_tree.vmdl"
+		"SoundSet"				"dota_fountain"
+		"MinimapIcon"				"minimap_ward_obs"
+		"MinimapIconSize"			"1"
+		"Level"					"1"
+		"IsAncient"				"1"
+
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"				"hide_health_bar"
+		"Ability2"				"true_sight"
+		"Ability3"				"invulnerable"
+		"Ability4"				""
+		"Ability5"				""
+		"Ability6"				""
+		"Ability7"				""
+		"Ability8"				""
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"5"
+		"MagicalResistance"			"0"
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"			"DOTA_UNIT_CAP_RANGED_ATTACK"
+		"AttackDamageMin"			"205"
+		"AttackDamageMax"			"250"
+		"AttackRate"				"0.2"
+		"AttackAnimationPoint"			"0.3"
+		"AttackAcquisitionRange"		"2000"
+		"AttackRange"				"900"
+		"ProjectileModel"			"particles/base_attacks/fountain_attack.vpcf"
+		"ProjectileSpeed"			"900"
+
+		// Attributes
+		//----------------------------------------------------------------
+		"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"			"0"
+		"AttributeStrengthGain"			"0"
+		"AttributeBaseIntelligence"		"0"
+		"AttributeIntelligenceGain"		"0"
+		"AttributeBaseAgility"			"0"
+		"AttributeAgilityGain"			"0"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"				"0"
+		"BountyGoldMin"				"0"
+		"BountyGoldMax"				"0"
+
+		// Bounds
+		//----------------------------------------------------------------
+		"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+		"ProjectileCollisionSize"		"64"
+		"RingRadius"				"64"
+		"HealthBarOffset"			"350"
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"			"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"
+		"MovementTurnRate"			"1"
+		"HasAggressiveStance"			"1"
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"500"
+		"StatusHealthRegen"			"0"
+		"StatusMana"				"0"
+		"StatusManaRegen"			"0"
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"				"DOTA_TEAM_GOODGUYS"
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_HERO"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_STRUCTURE"
+		"UnitRelationshipClass"			"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"			"1900"
+		"VisionNighttimeRange"			"800"
+	}
+
+	//=================================================================================================================
+	// Dire Fire Bush
+	//=================================================================================================================
+	"npc_dota_fire_bush_dire_060"
+	{
+		// General
+		//----------------------------------------------------------------
+		"BaseClass"				"npc_dota_creep"
+		"Model"					"models/props_tree/frostivus_tree.vmdl"
+		"SoundSet"				"dota_fountain"
+		"MinimapIcon"				"minimap_ward_obs"
+		"MinimapIconSize"			"1"
+		"Level"					"1"
+		"IsAncient"				"1"
+
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"				"hide_health_bar"
+		"Ability2"				"true_sight"
+		"Ability3"				"invulnerable"
+		"Ability4"				""
+		"Ability5"				""
+		"Ability6"				""
+		"Ability7"				""
+		"Ability8"				""
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"5"
+		"MagicalResistance"			"0"
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"			"DOTA_UNIT_CAP_RANGED_ATTACK"
+		"AttackDamageMin"			"205"
+		"AttackDamageMax"			"250"
+		"AttackRate"				"0.2"
+		"AttackAnimationPoint"			"0.3"
+		"AttackAcquisitionRange"		"2000"
+		"AttackRange"				"900"
+		"ProjectileModel"			"particles/base_attacks/fountain_attack.vpcf"
+		"ProjectileSpeed"			"900"
+
+		// Attributes
+		//----------------------------------------------------------------
+		"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"			"0"
+		"AttributeStrengthGain"			"0"
+		"AttributeBaseIntelligence"		"0"
+		"AttributeIntelligenceGain"		"0"
+		"AttributeBaseAgility"			"0"
+		"AttributeAgilityGain"			"0"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"				"0"
+		"BountyGoldMin"				"0"
+		"BountyGoldMax"				"0"
+
+		// Bounds
+		//----------------------------------------------------------------
+		"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+		"ProjectileCollisionSize"		"64"
+		"RingRadius"				"64"
+		"HealthBarOffset"			"350"
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"			"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"
+		"MovementTurnRate"			"1"
+		"HasAggressiveStance"			"1"
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"500"
+		"StatusHealthRegen"			"0"
+		"StatusMana"				"0"
+		"StatusManaRegen"			"0"
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"				"DOTA_TEAM_BADGUYS"
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_HERO"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_STRUCTURE"
+		"UnitRelationshipClass"			"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_BUILDING"
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"			"1900"
+		"VisionNighttimeRange"			"800"
+	}
+
+	//=================================================================================================================
 	// Radiant Filler
 	//=================================================================================================================
 	"npc_dota_filler_radiant_060"

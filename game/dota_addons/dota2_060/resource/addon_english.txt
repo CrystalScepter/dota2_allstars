@@ -18,6 +18,8 @@
 		"npc_dota_ancient_dire_060"							"The Frozen Throne"
 		"npc_dota_fountain_radiant_060"							"Well of Life"
 		"npc_dota_fountain_dire_060"							"Defiled Fountain of Life"
+		"npc_dota_fire_bush_radiant_060"						"Fire Bush"
+		"npc_dota_fire_bush_dire_060"							"Fire Bush"
 		"npc_dota_tower_radiant_060"							"Ancient Protector"
 		"npc_dota_tower_radiant_060_2"							"Ancient Destroyer"
 		"npc_dota_tower_dire_060"							"Spirit Tower"

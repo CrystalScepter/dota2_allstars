@@ -17,6 +17,12 @@ function GameMode:OnGameRulesStateChange(keys)
 		CreateUnitByName("npc_dota_fountain_radiant_060", point_fountain_radiant, false, nil, nil, DOTA_TEAM_GOODGUYS)
 		CreateUnitByName("npc_dota_fountain_dire_060", point_fountain_dire, false, nil, nil, DOTA_TEAM_BADGUYS)
 
+		-- Adds fire bushes to the map
+		local point_fire_bush_radiant = Entities:FindByName(nil, "npc_dota_fire_bush_radiant"):GetAbsOrigin()
+		local point_fire_bush_dire = Entities:FindByName(nil, "npc_dota_fire_bush_dire"):GetAbsOrigin()
+		CreateUnitByName("npc_dota_fire_bush_radiant_060", point_fire_bush_radiant, false, nil, nil, DOTA_TEAM_GOODGUYS)
+		CreateUnitByName("npc_dota_fire_bush_dire_060", point_fire_bush_dire, false, nil, nil, DOTA_TEAM_BADGUYS)
+
 		-- Adds Radiant towers to the map
 		local point_tower_radiant_1 = Entities:FindByName(nil, "npc_dota_tower_radiant_1"):GetAbsOrigin()
 		local point_tower_radiant_2 = Entities:FindByName(nil, "npc_dota_tower_radiant_2"):GetAbsOrigin()
